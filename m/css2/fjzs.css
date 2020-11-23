@@ -1,0 +1,47 @@
+.center{text-align: center;}
+a:hover{text-decoration: none;}
+.lp-section .labTit1{border-bottom: 1px solid #ddd;padding: .2rem .2rem; position:relative; }
+.lp-section .labTit span{float: left;color: #333;font-size: .9rem;position:relative;}
+.lp-section .labTit .sublab{color: #999;margin-left: .5rem;font-size: .6rem;}
+.lp-section .labTit .more{float: right;font-size: .75rem;margin-top: .125rem;padding-right: .625rem;background: url(/public/static/phone/image/icons/lp_ico_11.png) 1.675rem center no-repeat;background-size: .35rem .625rem;}
+.lp-section .labTit .labtab{ position:absolute; top:.7rem; right:.5rem;}
+.lp-section .labTit .labtab a{ display:inline-block; font-size:.75rem; margin-left:.75rem; color:#666;}
+.lp-section .labTit .labtab a.curr{ color:#4ba634;}
+
+.lp-section .fjxx-price{ width:100%;overflow:hidden;padding:.3rem .3rem; text-align:center;}
+.lp-section .fjxx-price .pli01{ float:left; width:49%; border-right:solid 1px #ddd;}
+.lp-section .fjxx-price .pli02{ float:right;width:49%;}
+.lp-section .fjxx-price .pp1{color:#ff8533;font-size:.5rem;margin-bottom:.1rem}
+.lp-section .fjxx-price .pp1 em{ font-size:.5rem;}
+.lp-section .fjxx-price .pp2,.lp-section .fjxx-price .pp4{ font-size:.5rem;}
+.lp-section .fjxx-price .pp2 em{ color:#4da635;}
+.lp-section .fjxx-price .pp4 em{ color:#ea3c54;}
+.fjxx-price li h3{float:left;height:1.4rem;line-height:1.4rem;font-size:.5rem;color:#363636;font-family:"微软雅黑"}
+
+.lp-section{border-top:1px solid #ddd;border-bottom: 1px solid #ddd;background-color: #fff;color: #666;}
+.lp-section .labTit{border-bottom: 1px solid #ddd;padding: .65rem .5rem; position:relative; }
+.lp-section .labTit span{float: left;color: #333;font-size: .5rem;position:relative;}
+
+
+.lou-list{background-color: #fff;}
+.lou-list .list{border-top:1px solid #ddd;padding: 0 .2rem;}
+.lou-list .list li{border-bottom: 1px solid #ddd;padding: .25rem 0;}
+.lou-list .list li:last-child{border-bottom: none;}
+.lou-list .list li a{display: block;width: 100%;position: relative;padding-left: 2.9rem;min-height: 2.5rem;}
+.lou-list .list li a .img{position: absolute;top:0;left: 0;}
+.lou-list .list li a .img,.lou-list .list li a .img img{ width: 2.66rem;height: 2.15rem;}
+.lou-list .list li a .img .lab{min-width: 1.575rem;height: .75rem;line-height: .75rem;display: block;background-size: 4.075rem .75rem;position: absolute;top:.175rem;right: 0;color: #fff;font-size: .55rem;text-indent: .26rem;}
+.lou-list .list li a .text{width: 100%;color: #666; line-height: .5rem;}
+.lou-list .list li a .text .name{color: #333;font-size: .4rem;}
+.lou-list .list li a .text .xx{font-size: .65rem;}
+.lou-list .list li a .text .xx .loc{width: 3rem;float:left;background-size: .5rem .6rem;white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.lou-list .list li a .text .xx .pri{width: 2.5rem;float:left;text-align: right;font-size: .4rem;text-overflow:ellipsis;overflow: hidden;white-space: nowrap;}
+.lou-list .list li a .text .xx .pri em{color: #fc863d;font-size: .75rem;}
+.lou-list .list li a .text .xx .num{color: #fc863d;}
+.lou-list .list li a .text .xx .loc_1{width: 40%;}
+.lou-list .list li a .text .xx .pri_1{width: 60%;}
+.lou-list .list li a .text .labs{margin-top: .5rem;color: #666;font-size: .7rem;}
+.lou-list .list li a .text .labs em{padding: 0 .5rem;color: #ddd;}
+.lou-list .list li a .text .labs .z-lab{font-size: .6rem;margin-left: 0;margin-right: .25rem; padding: 0 .1rem;}
+.text span{font-size: .29rem;margin-right: 5px;padding: 0px 3px;}
+.title{padding: .4rem 0 .4rem .2rem;color: #333;font-size: .5rem;position: relative; display: block;}

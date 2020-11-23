@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.hjf_slider{background: url(/public/static/home/image/hjf/hjf_bg.jpg) no-repeat center; height: 433px;}
+
+
+
+.hjf_nav{    width: 585px;margin: 0 auto;}
+
+.hjf_nav a{border:1px solid #666; padding:3px 12px;    margin-right: 20px;font-size: 16px;    background: floralwhite;}
+
+.hjf_nav a.act{background: #00A0EA;color: #fff;border:1px solid #00A0EA;}
+
+.hjf-title{text-align: center;}
+
+.hjf-title .t-1{font-size: 32px;padding-bottom: 5px;}
+
+
+
+.tenrtd{float:left;width:367px;height:321px;overflow:hidden;margin-bottom: 20px;}
+
+.tenrtd.mr24{margin-right:24px}
+
+.tenrtd .pic{width:367px;height:223px;overflow:hidden;position:relative}
+
+.tenrtd .pic img{width: 367px;}
+
+.tenrtd .text1{width:266px;height:34px;line-height:34px;overflow:hidden;}
+
+.tenrtd .text1 span{float:right;width:100px;overflow:hidden;text-align:right;font-size:12px}
+
+.tenrtd .text1 a {color: #00A0EA;font-size: 15px}
+
+.tenrtd .text2{width:282px;height:26px;line-height:26px;overflow:hidden;font-size:12px;margin-top:6px}
+
+.tenrtd .text2 b{font-style:normal;font-size:15px;padding-right:5px}
+
+.tenrtd .text2 em{font-style:normal;color:#00A0EA;font-size:15px;}
+
+.tenrtd .text3{width:282px;height:auto;line-height:25px;margin-top:8px;overflow:hidden;font-size:12px}
+
+.tenrtd .text3 span {float: left;}
+
+.text3 .btns,.loupan-list1-s4{border: 1px solid #ddd;color: #999;background: #fff;padding: 0px 6px;line-height: 22px;margin-right: 10px;
+
+}
+
+.tag a{display:inline-block;padding:0 10px;height:22px;line-height:22px;text-align:center;border:1px solid #ddd;text-decoration:none;font-size:12px}
+
+.tag span {float: left;}
+
+.tag .b2{margin-right:10px;color:#333;overflow:hidden}
+
+.text3 .b1{margin-right:10px;color:#00A0EA;overflow:hidden;border:1px solid #00A0EA;}
+
+
+
+/*购房保障*/
+
+.bz-title h3{ border-bottom: 2px solid #00A0EA;padding-bottom: 5px;font-size: 23px}
+
+
+
+.loupan-list-right{float:left;width:300px;overflow:hidden;margin-left:20px;position:relative}
+
+.loupan-list-right-1 h3{padding-bottom:5px;border-bottom:1px solid #00A0EA}
+
+.loupan-list-right-1 .merit li{padding:16px 0 15px 79px;position:relative}
+
+.loupan-list-right-1 .merit li i{width:56px;height:56px;display:block;position:absolute;top:15px;left:0;background:url(/public/static/home/image/lp/r-1.jpg) -2px -6px no-repeat}
+
+.loupan-list-right-1 .merit li .name{color:#4c4948;font-size:16px}
+
+.loupan-list-right-1 .merit li .ms{color:#999;font-size:12px}
+
+.loupan-list-right-1 .merit li i.ico2{background-position: -2px -94px;}
+
+.loupan-list-right-1 .merit li i.ico3{background-position: -3px -174px;}
+
+.loupan-list-right-1 .merit li i.ico4{background-position: -8px -249px;}
+
+
+
+.loupan-list-right-1 strong{font-size: 16px;}
+
+.loupan-list-right-1 .inp-2{ border: 1px solid #00A0EA;height: 35px;border-radius: 5px;padding: 5px;}
+
+.loupan-list-right-1 .inp-2 input{ height: 22px;border: 0;width: 100%;}  
+
+.loupan-list-right-1 .lp-btn{width: 100%;background: #00A0EA;color: #fff;}
+
+
+
+.loupan-list-right-1 h4 {padding-bottom: 5px;border-bottom: 1px solid #f4f4f4; font-size: 18px;}
+
+
+
+.safe-nav-l{width: 200px; overflow: hidden;}
+
+.safe-nav-r{width: 650px; overflow: hidden; margin-left: 20px;}
+
+
+
+.merit li{position: relative;}
+
+.merit .ico1{width:56px;height:56px;display:block;position:absolute;top:23px;left:11px;background:url(/public/static/home/image/bz/bz__13.jpg)no-repeat}
+
+.merit .ico2{width:61px;height:56px;display:block;position:absolute;top:23px;left:11px;background:url(/public/static/home/image/bz/bz__16.jpg)no-repeat}
+
+.merit .ico3{width:61px;height:56px;display:block;position:absolute;top:14px;left:15px;background:url(/public/static/home/image/bz/bz__21.jpg)no-repeat}
+
+.merit .ico4{width:61px;height:56px;display:block;position:absolute;top:20px;left:15px;background:url(/public/static/home/image/bz/bz__25.jpg)no-repeat}
+
+.merit .ico5{width:61px;height:56px;display:block;position:absolute;top:20px;left:15px;background:url(/public/static/home/image/bz/bz__28.jpg)no-repeat}
+
+.merit .ico6{width:61px;height:56px;display:block;position:absolute;top:20px;left:15px;background:url(/public/static/home/image/bz/bz__33.jpg)no-repeat}
+
+.merit .ico7{width:61px;height:56px;display:block;position:absolute;top:20px;left:15px;background:url(/public/static/home/image/bz/bz__35.jpg)no-repeat}
+
+.merit .ico8{width:61px;height:56px;display:block;position:absolute;top:20px;left:15px;background:url(/public/static/home/image/bz/bz__37.jpg)no-repeat}
+
+.merit li {padding: 16px 0 15px 79px;position: relative;background: #eeeceb;margin-bottom: 10px;cursor: pointer;}
+
+.merit li .name {color: #4c4948;font-size: 16px;}
+
+.merit li .ms {color: #999;font-size: 12px;}
+
+.merit li.hover p{color: #00A0EA;font-weight: 700;}
+
+
+
+
+
+
+
+
+
+.safe-box-1{background: #eeeceb;padding:20px;}
+
+.safe-box-1 h3{color: #7bc95e;font-size: 30px;font-weight: normal;}
+
+.safe-box-1 h4{color: #666;font-size: 20px;font-weight: normal;}
+
+
+
+
+
+.hjf-nav-ul li.on span {position: absolute;background: url(/public/static/home/image/bz/hjfbjh.png) no-repeat 50%;top: -110px;width: 160px;height: 91px;text-align: center; color:#62ab00;line-height: 34px;}
+
+.hsj-sp{position: absolute;width: 100%;border-bottom: 1px #62ab00 solid;top: 57px;}
+
+
+
+.hjf-nav-ul li{float:left;}
+
+.hjf-nav-ul li a{border:1px solid #ddd;text-align:center;line-height:35px;margin-right:12px;padding:8px 65px}
+
+.hjf-nav-ul li.on a{border: 1px solid #62ab00;color: #62ab00;}
+
+
+
+/*购房报障*/
+
+.con_two_main{display: none;}
+
+
+

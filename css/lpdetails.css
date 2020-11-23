@@ -1,0 +1,77 @@
+/*楼盘信息*/
+body{background: #f5f7fa;}
+
+/*项目参数*/
+.y_details_h h2{ font-size: 24px; font-weight: normal; color: #333;}
+
+.y_detav2_cent{padding: 30px 20px;}
+.y_detav2_table { margin-top: 20px;}
+.y_detav2_table table{width: 100%; height: auto; border: 1px solid #EEE;}
+.y_detav2_table table tr+tr{ border-top:1px solid #eee; }
+.y_detav2_table table tr td{ font-size: 14px;}
+.y_detav2_table table tr td.y_leimu{ padding: 10px 0; width: 120px; text-align: center; background: #F8F8F8; color: #666;}
+.y_detav2_table table tr td.y_cont{ color: #834545; padding: 10px 15px; width:464px; line-height: 25px;}
+.y_lpdatats i{ font-size: 13px;padding: 5px 8px;}
+.y_lpdatats i+i{ margin-left: 5px;}
+.y_lpdatats i:nth-child(1){ background: #EBF3FE; color:#638EC9;}
+.y_lpdatats i:nth-child(2){ background: #F8EAE6; color:#E3957E;}
+.y_lpdatats i:nth-child(3){ background: #E2F8E1; color:#75AB78;}
+.y_lpdatats i:nth-child(4){ background: #FFF3E2; color:#F9A321;}
+.y_lpdatats i:nth-child(5){ background: #EBF3FE; color:#638EC9;}
+.y_lpdatats i:nth-child(6){ background: #F8EAE6; color:#E3957E;}
+.y_lpdatats i:nth-child(7){ background: #E2F8E1; color:#75AB78;}
+.y_lpdatats i:nth-child(8){ background: #FFF3E2; color:#F9A321;}
+
+.y_detav2_table_pt table tr td.y_leimu{ padding: 10px 0; width: 11%; text-align: center; background: #F8F8F8; color: #666;}
+.y_detav2_table_pt table tr td.y_cont{ color: #333; padding: 10px 15px; width:89%; line-height: 25px;}
+
+.y_nodata{ text-align: center; margin-top: 30px;}
+.y_nodata p.y_img img{ width: 108px; height: auto;}
+.y_nodata p.y_text{ font-size: 22px; color: #d1d1d1; margin-top: 15px;}
+
+.y_detav2_pic{margin-top: 20px;}
+.y_detav2_pic table{width: 100%; height: auto; border: 1px solid #EEE;}
+.y_detav2_pic table tbody tr{ border-top:1px solid #eee; }
+.y_detav2_pic table thead{ background: #F8F8F8; font-size: 16px; color: #333; font-weight: normal;}
+.y_detav2_pic table thead th+th{ border-left: 1px solid #eee;}
+.y_detav2_pic table thead th{ padding: 10px 0; text-align: center; font-weight: normal;}
+.y_detav2_pic table thead th i{display: inline-block; outline-width: 18px; height: auto; margin-left: 5px; position: relative; top: 2px;}
+
+.y_detav2_pic table thead th.y_ind{width: 15%;}
+.y_detav2_pic table thead th.y_ind2{width: 55%;}
+.y_detav2_pic table tbody tr td{ font-size: 14px; color: #666; text-align: center; padding: 15px 15px;}
+.y_detav2_pic table tbody tr td+td{border-left: 1px solid #eee;}
+.y_detav2_pic table tbody tr td:last-child{ text-align: left; line-height: 25px;}
+
+.y_lpysz p.y_lpysz_h{ font-size: 16px; color:#835f5f; padding: 15px 0;text-align:center;}
+.y_lpysz_table table thead{ background: #F8F8F8;}
+.y_lpysz_table table thead th+th{ border-left: 1px solid #eee;}
+.y_lpysz_table table thead th{ padding: 15px; font-size: 15px;color: #333; text-align: center; font-weight: normal;}
+.y_lpysz_table table thead th.y_ind2{ width: 40%;}
+.y_lpysz_table table thead th.y_ind{ width: 30%;}
+
+.y_lpysz_table table tbody tr td{ font-size: 14px; color: #666; text-align: center; padding: 15px 15px;}
+.y_lpysz_table table tbody tr td+td{border-left: 1px solid #eee;}
+.y_lpysz_table table tbody tr td:last-child{ text-align: left; line-height: 25px;}
+
+.y_lpyszsq{ position: relative; top: -1px; width: 80px; height: 30px; line-height: 30px; text-align: center; margin:0 auto; background: #fff; border: 1px solid #eee; border-top:none; }
+.y_lpyszsq a{ font-size: 15px; color: #666; display: block; height: 100%;}
+.y_lpyszsq a i{ display: inline-block; position: relative; top: 10px; width: 12px; height: 8px; margin-left: 8px;}
+.y_lpyszsq a i img{ width: 100%; height: 100%;}
+.y_lpyszsq a.on i{
+	transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-webkit-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+}
+
+
+/*项目介绍*/
+.y_intro{ margin-top: 20px;}
+.y_intro_cent{ padding:20px;}
+.y_intro_nr{ margin-top: 15px; font-size: 14px; color: #333;line-height: 25px;}
+
+
+
+

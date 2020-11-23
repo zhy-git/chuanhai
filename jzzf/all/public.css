@@ -1,0 +1,329 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0;}
+ul,ol,dl{list-style-type:none;}
+address,caption,cite,code,dfn,em,th,var,i,b{font-style:normal;font-weight:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;border:0;}
+input,button{overflow: visible;vertical-align:middle;outline:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+a,area{outline:none;blr:expression(this.onFocus=this.blur());}
+a:focus,a:hover,a:active{outline:none;blr:expression(this.onFocus=this.blur());}
+sub,sup{vertical-align:baseline;}
+table{border-collapse:collapse;border-spacing:0;}
+textarea { resize:none;} 
+input[type="submit"],input[type="button"]{ cursor:pointer;}
+img,li{border:0;vertical-align:middle;zoom: 1;}
+a img,img{-ms-interpolation-mode:bicubic;}
+a{text-decoration:none;cursor: pointer; color:#666;}
+a:hover{text-decoration:none;color: #0576e3;}
+body,button,input,select,textarea{ font-family: Arial,"微软雅黑";font-size:12px;color:#666;line-height: 1.7;}
+.wrap{ width:1200px; margin:0 auto;position: relative; }
+.fl{ float:left;}
+.fr{ float:right;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden; font-size:0; line-height:0;}
+.clearfix{*zoom:1;}
+
+body{min-width: 1200px;margin:0 auto;}
+
+.zhezhao{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.54);
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index:99;
+    display: none;
+}
+.f30{font-size:30px;}
+.f24{font-size:24px;}
+.f22{font-size:22px;}
+.f18{font-size:18px;}
+.f16{font-size:16px;}
+.f15{font-size:15px;}
+.f14{font-size:14px;}
+.cfff{color: #fff;}
+.c999{color: #999;}
+.c333{color: #333;}
+.c666{color: #666;}
+.p_rel{position: relative}
+
+.header{background: url(../images/ico1.jpg);height: 70px;border-bottom:1px solid #0576e3;position: relative;z-index: 50;}
+.header .logo{top:0;position: absolute;z-index: 999;height: 70px;left: -60px;}
+.header .gps{
+    background: url(../images/ico1.png) no-repeat 9px center;line-height: 28px;padding: 0 9px 0 30px;margin-top: 20px;border-radius: 15px;color: #aeaeae;margin-left: 200px;
+    cursor: pointer;
+}
+.header .gps:hover{border:1px solid #c5c5c5;line-height: 26px;padding: 0 8px 0 29px;background-position: 8px center;}
+.header .a1{margin-top: 22px;}
+.header .a1 a{color: #0074e4;}
+.header .a1 .landing{background: url(../images/ico2.png) no-repeat left center;padding-left: 26px;padding-right: 15px;margin-right: 15px;border-right:1px solid #e1e1e1;}
+.header .nav{line-height: 70px;margin-left: 40px;}
+.header .nav li{float:left;margin-right: 1px;}
+.header .nav li>a{padding: 0 15px;color: #000;display: block;}
+.header .nav li>a.hover{color: #fff;background: #40c0c1 no-repeat center bottom;}
+.header .nav li dl{line-height: 40px;position: absolute;z-index: 50;font-size:13px;display: none;margin-left: -115px;}
+.header .nav li dl:last-child{margin-left: 0px;}
+.header .nav li:hover dl{display: block;}
+.header .nav li:hover>a{background:#40c0c1 no-repeat center bottom; color: #fff;}
+.header .nav li dd{float:left;padding: 0 17px;background: url(../images/ico4.png) no-repeat left center;}
+.header .nav li dd:first-child{background:none;}
+.header .nav2_bg{background: url(../images/ico5.png);height:40px;top: 71px;left: 0;width: 100%;position: absolute;z-index: 49;display: none;}
+.header .nav li dd:hover.header .nav li>a{color: #fff;}
+
+
+.links{padding: 10px 0;line-height: 40px;}
+.links span{float:left;margin-right: 10px;}
+.links a{float:left;margin-right: 20px;}
+
+.webtip{
+    color: #666666;
+    padding:13px 0;
+    background: #f0f0f0;}
+
+.webtip h5{
+    line-height: 28px;
+    font-size: 14px;}
+
+
+.webtip p{
+    line-height: 22px;
+    font-size: 13px;}
+
+.footer{background-color: #252525;}
+.footer .a1{padding: 50px 0 40px;position: relative;border-bottom:1px solid #3b3b3b;}
+.footer .a1 li{float:left;padding-right: 70px;margin-right: 70px;border-right:1px solid #3b3b3b;line-height: 2.2;}
+.footer .a1 li h3{font-size:16px;color: #fff;}
+.footer .a1 li h4{font-size:16px;color: #fff;}
+.footer .a1 li a{color: #959595;}
+.footer .a1 li a:hover{color: #fff;}
+.footer .a1 .b1{position: absolute;right:0;top:50px;width: 400px;}
+.footer .a1 .b1 .c1{float:left;width: 136px;height: 136px;}
+.footer .a1 .b1 .c1 img{width: 136px;height: 136px;}
+.footer .a1 .b1 .c2{float:right;width: 260px;text-align: right;}
+.footer .a1 .b1 .c2 .more{
+    color: #fff;
+    float: left;
+    line-height: 33px;
+    margin-left: 75px;
+    text-align: center;
+    width: 125px;
+}
+.footer .a2{padding-bottom: 10px;position: relative;}
+.footer .a2 .b1{padding: 15px 0;}
+.footer .a2 .b1 a{float:left;padding-left: 20px;margin-left: 20px;background: url(../images/ico26.png) no-repeat left center;color: #959595;}
+.footer .a2 .b1 a:hover{color: #fff;}
+.footer .a2 .b1 a:first-child{background:none;margin: 0;padding: 0;}
+.footer .a2 .b2{width: 750px;font-size:13px;}
+.footer .a2 .b3{position: absolute;bottom:16px;right: 0;}
+.footer .a2 .b3 li{float:left;margin-left: 22px;}
+
+
+/*//-----------------------------------报名看房FLASH----------------------------------------------------------------------*/
+.flashban{
+    height: 80px;
+    margin:41px 0;
+    background:url("../images/c_bgpng3.png") center no-repeat;}
+
+.flashban-img{
+    text-align: center;
+    width: 217px;
+    float: left;
+    padding-top: 16px;}
+
+.flashban-tip{
+    text-align: center;
+    width: 477px;
+    color: #ffffff;
+    background:url("../images/c_bgpng1.png") left center no-repeat;
+    float: left;
+    font-size: 36px;
+    line-height: 80px;}
+
+.flashban-btn{
+    float: right;
+    width: 168px;
+    height: 50px;
+    background: url("../images/c_bgpng2.png") no-repeat;
+    margin:16px 16px 0 0;}
+
+.flashban-time{
+    width: 300px;
+    float: left;
+    line-height: 22px;
+    font-size: 13px;
+    /* color: #ffffff; */
+    padding-top: 20px;}
+
+.flashban-time i{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin:0 5px;
+    background: url("../images/c_bgpng4.png") repeat;border-radius: 1px;
+    text-align: center;}
+
+
+.flashban.spe{background:url("../images/c_bgpng7.png") center no-repeat;
+              height: 115px;}
+
+.flashban.spe .flashban-img{width: auto;
+                            padding-top: 5px;
+                            margin-left: 46px;}
+
+.flashban.spe .flashban-btn{
+    width: 170px;
+    height: 50px;
+    background: url("../images/c_bgpng8.png") no-repeat;
+    margin:35px 30px 0 0;}
+
+.flashban.spe .flashban-time{
+    margin-left: 48px;
+    padding-top: 36px;}
+/*//-----------------------------------报名看房FLASH 结束----------------------------------------------------------------------*/
+
+
+/*//-----------------------------------主结构----------------------------------------------------------------------*/
+.main{
+    background: #FFF;}
+/*//-----------------------------------主结构结束 ----------------------------------------------------------------------*/
+
+/*//--------------------------------导航区域弹窗  开始---------------------------------------------------*/
+.gps_pop_alert{
+    display: none;
+    left: 0;
+    padding-top: 20px;
+    position: fixed;
+    top: 25px;
+    width:480px;
+    z-index: 1000002;
+    padding: 40px;
+    background:#fff;
+}
+.gps_pop_alert ul{
+    -padding:10px;
+    padding-left:50px;
+}
+.gps_pop_alert li {
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    width: 40%;
+}
+.gps_pop_alert li a{
+    font-size: 14px;
+    padding:10px  60px;
+}
+.gps_pop_alert li a:hover{
+    background:#ececec;
+}
+
+
+.gps_pop_alert .close{
+    background: rgba(0, 0, 0, 0) url("../images/close-fc.png") no-repeat scroll 0 0 / 70% auto;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    right: -30px;
+    top: -17px;
+    width: 50px;
+}
+.info ul.house_list{
+    position: absolute;
+    top:60px;
+    left: 0px;
+    display: none;
+    z-index: 2;
+}
+.info ul.house_list li{
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    width: 490px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 5px;
+}
+.info ul.house_list li:hover{
+    background: #e9e9e9;
+}
+.info ul.house_list li{
+    color: #ff6600;
+    font-size: 14px;
+}
+.info ul.house_list li span{
+    color: #999;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.gps_pop_alert .title {
+    border-bottom: 1px solid #eee;
+    display: block;
+    height: 40px;   
+}
+.gps_pop_alert .title li a{
+    padding:0;
+}
+.gps_pop_alert .title li a:hover{
+    background:none;
+}
+
+.gps_pop_alert p{
+    font-size: 14px;
+    padding-top: 20px;
+    color: #0d54c2;
+}
+.gps_pop_alert .title h3 {
+    float: left;
+    padding: 0px 7px;
+    font-size:1.5rem;
+}
+.gps_pop_alert .title ul {
+    float: right;
+}
+.gps_pop_alert .title li:first-child {
+    color: #999;
+    width:100px;
+}
+.gps_pop_alert .title li {
+    float: left;
+    padding: 0 5px;
+    width:35px;
+}
+
+
+
+.gps_pop_alert .title {
+    color: #394043;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 40px 0;
+    position: relative;
+    text-align: left;
+}
+.gps_pop_alert .title .city-tab {
+    display: inline-block;
+    float: right;
+}
+.gps_pop_alert .title .city-tab span {
+    color: #999999;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 9px;
+}
+.gps_pop_alert .title .city-tab a {
+    color: #394043;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.hot_city a{
+    padding:10px 30px;
+}
+.hot_city a:hover{
+    background:#ececec;
+}
+/*//--------------------------------导航区域弹窗---------------------------------------------------*/

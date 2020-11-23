@@ -1,0 +1,2088 @@
+@charset "utf-8";
+
+/*别墅*/
+
+.w185{ width:auto !important;}
+
+h3.title{color: #333;font-size: 30px;padding-bottom: 15px;position: relative;}
+
+.bs_slider{background: url(/public/static/home/image/bieshu/bg.jpg) no-repeat center; height: 433px;}
+
+.bs-title{text-align: center;}
+
+.bs-title .t-1{font-size: 32px;font-weight: 700;color: #027fff}
+
+.bs-list-1-ul {width: 1250px;}
+
+.bs-list-1-ul li{float: left;margin-right: 41px; width: 372px;height: 248px;margin-bottom: 20px;position: relative;}
+
+.bs-list-2{background: #f6f6f6;}
+
+.bs-list-1-ul span{bottom: 0;width: 100%;padding: 10px 0;background: rgba(0,0,0,.5);color: #fff;font-size: 18px;position: absolute; text-align: center;left: 0}
+
+.bs-list-1-ul span.moreCity{flex:1;-webkit-flex:1;display:flex;justify-content:center;flex-direction:column;height:100%;background:0 0;padding:0}
+
+.fu-tag{  margin-top:5px;}
+
+.hot-houses{margin-bottom: -20px;*margin-bottom: 0;}
+
+.new-houses .imgs-section{width: 895px;float: left;position: relative;}
+
+.new-houses .imgs-section .tabnav{position: absolute;top:12px;left: 95px;}
+
+.new-houses .imgs-section .tabnav li{float: left;margin-right: 15px;}
+
+.new-houses .imgs-section .tabnav li a{padding: 1px 10px 3px;display: inline-block;*display: inline;*zoom:1;border-radius: 3px;font-size: 16px;}
+
+.new-houses .imgs-section .tabnav li.active a{color: #fff;background-color: #5ab431;position: relative;}
+
+.new-houses .imgs-section .tabnav li.active a i{width: 0;height: 0;border-width: 4px 6px;border-style: solid;border-color: #5ab431 transparent transparent transparent;position: absolute;left:50%;top:100%;margin-left: -6px;}
+
+.new-houses .imgs-section .tabwrap{height: 610px;overflow: hidden;}
+
+.new-houses .imgs-section .tabcon{height: 610px;position: relative;}
+
+.new-houses .imgs-section .tabcon .inbox{overflow: hidden;height: 100%;}
+
+.new-houses .imgs-section .tabcon .turn-btn{width: 60px;height: 100%;top:0;margin-top: 0;display: none;}
+
+.new-houses .imgs-section .tabcon:hover .turn-btn{display: block;}
+
+.new-houses .hot-search,.new-houses .dynamic{width: 285px;float: left;margin-left: 20px;}
+
+.new-houses .hot-search{padding-top: 0;height: 375px;overflow: hidden;}
+
+.new-houses .hot-search a.refresh:hover i{-webkit-animation:rotateAnim .8s;-moz-animation:rotateAnim .8s;animation:rotateAnim .8s;}
+
+
+
+/* 图片翻页左右箭头 */
+
+.prev,.next{width: 36px;height: 60px;display: block;background: rgba(0,0,0,.6);background:url(/public/static/home/image/mask_bg.png) 0 0 repeat\9;position: absolute;top:50%;margin-top: -30px;display: none;}
+
+.prev{border-radius: 0 3px 3px 0;left: 0;}
+
+.next{border-radius: 3px 0 0 3px;right: 0;}
+
+.prev i,.next i{width: 12px;height: 21px;display: block;background: url(/public/static/home/image/icons_v5.png) -164px 0 no-repeat;position: absolute;top: 50%;left: 50%;margin-top: -10px;margin-left: -6px;}
+
+.next i{background-position: -181px 0;}
+
+/* 图片展示区域 */
+
+.houses-img ul{margin-right: -20px;}
+
+.houses-img li{float: left;margin: 0 20px 20px 0;}
+
+.houses-img li .awrap{width: 285px;height: 190px;display: block;position: relative;overflow: hidden;}
+
+.houses-img li .awrap .lab{display: block;position: absolute;right:12px;top: 12px;color: rgba(255,255,255,0.5);font-size: 12px;}
+
+.houses-img li .awrap img{width: 100%;height: 100%;background: url(/public/static/home/image/bieshu/loading.gif) center center no-repeat;}
+
+.houses-img li .desc{padding:0 10px;height: 50px;color: #fff;background: url(/public/static/home/image/bieshu/desc_bg.png) 0 0 repeat-x;position: absolute;left: 0;right:0;bottom: 0;-webkit-transition:bottom .5s;-moz-transition:bottom .5s;transition:bottom .5s;}
+
+.houses-img li .desc .name,
+
+.houses-img li .desc .loc{display: block;max-width: 50%;*width:50%;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+
+.houses-img li .desc .name{margin-top:18px;font-size: 16px;}
+
+.houses-img li .desc .price{position: absolute;right: 10px;bottom: 10px;max-width: 45%;*width:45%;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+
+.houses-img li .desc .rowspan2{display: block;position: absolute;bottom: 10px;left:10px;right:10px;line-height: 19px;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
+
+.houses-img li .mask,
+
+.houses-img li .text{position: absolute;top:100%;left:0;color: #fff;-webkit-transition:top .5s;-moz-transition:top .5s;transition:top .5s;}
+
+.houses-img li .mask{width: 100%;height: 100%;background: rgba(0,0,0,.8);background:url(/public/static/home/image/mask_bg.png) 0 0 repeat\9;}
+
+.houses-img li .text{margin: 20px 15px;width: 255px;}
+
+.houses-img li .text .name{font-size: 20px;color: #fff;}
+
+.houses-img li .text .price,
+
+.houses-img li .text .loc{padding-left: 19px;position: relative;}
+
+.houses-img li .text .price i,
+
+.houses-img li .text .loc i{width: 14px;height: 14px;background: url(/public/static/home/image/icons_v5.png) 0 -768px no-repeat;position: absolute;top:3px;left: 0;}
+
+.houses-img li .text .loc i{background-position: 0 -787px;}
+
+.houses-img li .text .labs span{color: #999;padding: 0 5px;border:1px solid #999;display: inline-block;margin-right: 5px;}
+
+.houses-img .big-img .awrap{width: 590px;height: 400px;}
+
+.houses-img .big-img .desc{height: 106px;background: url(/public/static/home/image/bieshu/desc_bg2.png) 0 0 repeat-x;}
+
+.houses-img .big-img .desc .name,.houses-img .big-img .desc .price{font-size: 20px;}
+
+.houses-img .big-img .desc .name{margin-top: 35px;max-width: 98%;*width:98%;}
+
+.houses-img .big-img .desc .loc{margin-top: 10px;max-width: 60%;*width: 60%;}
+
+.houses-img .big-img .desc .price{bottom: 12px;max-width: 35%;*width: 35%;}
+
+.houses-img .big-img .desc .zx-bt{font-size: 24px;padding: 0 10px;white-space: nowrap;text-overflow:ellipsis;overflow: hidden;}
+
+.houses-img .big-img .desc .zx-txt{font-size: 14px;padding: 0 10px;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;opacity: .8;height: 38px;line-height: 19px;}
+
+.houses-img .big-img .text{width: 560px;}
+
+.houses-img li .awrap.hover .mask,.houses-img li .awrap.hover .text{top:0;}
+
+.houses-img li .awrap.hover .desc{bottom: 100%;}
+
+.houses-img .mid-img .awrap{width: 590px;height: 190px;}
+
+.houses-img .mid2-img .awrap{width: 285px;height: 400px;}
+
+.houses-img .mid-img .text{width: 560px;}
+
+.houses-img li .desc .area,
+
+.houses-img li .desc .fy-count{width:100%;text-align: center;color: #fff;display: block;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;position: absolute;}
+
+.houses-img li .desc .area{font-size: 24px;bottom: 35px;}
+
+.houses-img li .desc .fy-count{bottom: 10px;}
+
+.houses-img li .text .area{color: #fff;font-size: 24px;display: inline-block;}
+
+.houses-img li .text .townlist{margin: 15px 0;height: 58px;overflow: hidden;}
+
+.houses-img li .text .townlist a{display: inline-block;*display: inline;*zoom:1;margin: 5px;*color:#fff;}
+
+.houses-img li .text .townlist a:hover{color: #5ab431;}
+
+.houses-img li .text .more{color: #888;}
+
+.houses-img li .text .panxx{text-align: left;padding: 10px 15px;}
+
+.houses-img li .text .panxx a{color: #fff;font-size: 14px;line-height: 28px;display: block;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+
+.houses-img li .text .panxx a:hover{color: #5ab431;}
+
+.houses-img li .desc-j1{height: 77px;background: url(/public/static/home/image/desc_j1.png) 0 0 repeat-x;}
+
+.houses-img li .desc-j2{height: 77px;background: url(/public/static/home/image/desc_j2.png) 0 0 repeat-x;}
+
+.houses-img li .desc-j3{height: 77px;background: url(/public/static/home/image/desc_j3.png) 0 0 repeat-x;}
+
+.houses-img li .desc-j4{height: 77px;background: url(/public/static/home/image/desc_j4.png) 0 0 repeat-x;}
+
+.houses-img li .desc .lpms{font-size: 16px;padding: 18px 0 0;display: block;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+
+.houses-img li .lab-pri{display: inline-block;*display: inline;*zoom:1;height: 34px;line-height: 34px;padding: 0 12px;background-color: #333;color: #fff;font-size: 16px;font-weight: bold;position: absolute;left:0;bottom: 45px;}
+
+.houses-img li .lab-img{display: inline-block;*display: inline;*zoom:1;height: 24px;line-height: 24px;padding: 0 12px;background-color: #000;background-color: rgba(0,0,0,.6);border-radius: 2px;font-size: 14px;color: #fff;position: absolute;top:10px;left: 10px;}
+
+.houses-img .slide-controls{margin-right: 0;}
+
+.houses-img .slide-controls li{margin: 0 4px;float: none;}
+
+
+
+.new-houses .hot-search .tablabs{}
+
+.new-houses .hot-search .tablabs p{color: #666;font-size: 16px;}
+
+.new-houses .hot-search .tablabs .labs-box{margin-right: -10px;margin-top: 10px;*margin-bottom: 18px;}
+
+.new-houses .hot-search .tablabs .labs-box a{width: 78px;height: 34px;padding: 0 5px;text-align: center;line-height: 34px;display: block;float: left;margin-right: 10px;background-color: #f4f4f4;border-radius: 3px;margin-bottom: 18px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.new-houses .hot-search .tablabs .labs-box a.active,
+
+.new-houses .hot-search .tablabs .labs-box a:hover{color: #fff;background-color: #5ab431;}
+
+.new-houses .dynamic .imgs-dt{height: 190px;overflow: hidden;margin-top: 4px;position: relative;}
+
+.new-houses .dynamic .imgs-dt li{height: 100%;}
+
+.new-houses .dynamic .slide-controls{position: absolute;right: 8px;top: 12px;font-size: 0;}
+
+.new-houses .dynamic .slide-controls li{width: 6px;height: 6px;display: inline-block;*display: inline;*zoom:1;background: url(/public/static/home/image/icons_v5.png) 0 -100px no-repeat;margin: 0 4px;text-indent: -999em;border-radius: 3px;-webkit-transition:width .5s;cursor: pointer;}
+
+.new-houses .dynamic .slide-controls li.on{width: 26px;background-position: 0 -89px;}
+
+.new-houses .dynamic .imgs-dt:hover .prev,.new-houses .dynamic .imgs-dt:hover .next{display: block;}
+
+.esf-houses{*margin-bottom: 20px;}
+
+
+
+/*详细页*/
+
+.onehandBox,.onehandBox .oneHandFocus,.onehandBox .oneHandFocus>div {
+
+	height: 420px
+
+}
+
+
+
+.houseDet ul li b,.overflow_hidden_width340,.pg_quwei,.proInfo .proCont .selling h5,.villa .hxInfo .hxNews p b {
+
+	overflow: hidden;
+
+	text-overflow: ellipsis
+
+}
+
+
+
+.locating {
+
+	padding-bottom: 10px
+
+}
+
+
+
+.locating>p {
+
+	color: #fff
+
+}
+
+
+
+.onehandBox {
+
+	position: relative
+
+}
+
+
+
+.onehandBox .oneHandFocus {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0
+
+}
+
+
+
+.onehandBox .oneHandFocus>div span {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	background: url() center center no-repeat;
+
+	min-width: 1220px;
+
+	height: 480px;
+
+	background-size: cover
+
+}
+
+
+
+.project p.album {
+
+	position: absolute;
+
+	bottom: 0;
+
+	right: 15px;
+
+	z-index: 10;
+
+	height: 32px;
+
+	line-height: 32px;
+
+	padding: 0 10px;
+
+	background: rgba(255,255,255,.8);
+
+	color: #000;
+
+	font-size: 12px;
+
+	cursor: pointer
+
+}
+
+
+
+.project p.album span {
+
+	display: inline-block;
+
+	width: 19px;
+
+	height: 15px;
+
+	margin-top: 9px;
+
+	margin-right: 10px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) -185px -148px no-repeat;
+
+	vertical-align: top
+
+}
+
+.onehandBox .locating>p a {
+
+	color: #fff;
+
+	font-size: 12px
+
+}
+
+
+
+.onehandBox .locating .search {
+
+	background: #fff
+
+}
+
+
+
+.project {
+
+	position: relative;
+
+	z-index: 4
+
+}
+
+
+
+.project .proInfo {
+
+	position: relative;
+
+	float: left;
+
+	width: 314px;
+
+	height: 360px;
+
+	overflow: hidden
+
+}
+
+
+
+.project .proInfo .proBtn {
+
+	position: absolute;
+
+	top: 0;
+
+	left: -139px;
+
+	z-index: 4;
+
+	width: 139px;
+
+	height: 30px;
+
+	line-height: 30px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) 0 -151px no-repeat;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	text-align: center;
+
+	cursor: pointer
+
+}
+
+
+
+.project .proInfo .proCont {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 4;
+
+	width: 100%;
+
+	height: 100%
+
+}
+
+
+
+.project .proInfo .proCont>b.slide {
+
+	position: absolute;
+
+	top: 0;
+
+	right: 4px;
+
+	z-index: 5;
+
+	line-height: 20px;
+
+	font-size: 24px;
+
+	color: #fff;
+
+	cursor: pointer
+
+}
+
+
+
+.proInfo .proCont .selling {
+
+	position: relative;
+
+	padding: 24px 0 16px 38px;
+
+	background: rgba(51,51,51,.9);
+
+	color: #fff
+
+}
+
+
+
+.proInfo .proCont .selling>span {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	height: 22px;
+
+	line-height: 22px;
+
+	padding: 0 6px;
+
+	background: #666;
+
+	color: #fff
+
+}
+
+
+
+.proInfo .proCont .selling h5 {
+
+	width: 100%;
+
+	white-space: nowrap;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	margin-bottom: 12px
+
+}
+
+
+
+.proInfo .proCont .selling p b {
+
+	font-size: 16px;
+
+	color: #efdb9f
+
+}
+
+
+
+.proInfo .proCont .sellCont {
+
+	width: 100%;
+
+	background: rgba(255,255,255,.9)
+
+}
+
+
+
+.proInfo .proCont .sellCont ul {
+
+	padding: 0 10px
+
+}
+
+
+
+.proInfo .proCont .sellCont li {
+
+	padding: 14px 0;
+
+	border-bottom: 1px solid #ddd;
+
+	font-size: 12px;
+
+	font-family: "å¾®è½¯é›…é»‘";
+
+	color: #000
+
+}
+
+
+
+.proInfo .proCont .sellCont li:last-child {
+
+	border-bottom: 0
+
+}
+
+
+
+.proInfo .proCont .sellCont li label,.sellCont .loupan-list1-s4 {
+
+	float: left;
+
+	height: 16px;
+
+	line-height: 16px;
+
+	padding: 0 8px;
+
+	border: 1px solid #303;
+
+	font-size: 12px;
+
+	color: #303;
+
+	margin-right: 10px
+
+}
+
+
+
+.proInfo .proCont .sellCont li label:last-child {
+
+	margin-right: 0
+
+}
+
+
+
+.proInfo .proCont .sellCont li a {
+
+	display: block;
+
+	font-family: "å¾®è½¯é›…é»‘";
+
+	color: #000
+
+}
+
+
+
+.proInfo .proCont .sellCont li span {
+
+	display: inline-block;
+
+	width: 52px	    ;
+
+    text-align: center;
+
+}
+
+
+
+.proInfo .proCont .sellCont li i {
+
+	display: inline-block;
+
+	width: 13px;
+
+	height: 17px;
+
+	margin: 0 7px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) no-repeat;
+
+	vertical-align: middle
+
+}
+
+
+
+.proInfo .proCont .sellCont li i.qw {
+
+	background-position: -184px -109px
+
+}
+
+
+
+.proInfo .proCont .sellCont li i.cp {
+
+	height: 13px;
+
+	background-position: -201px -110px
+
+}
+
+
+
+.proInfo .proCont .sellCont li i.zs {
+
+	width: 12px;
+
+	height: 12px;
+
+	background-position: -185px -128px
+
+}
+
+
+
+.proInfo .proCont .sellCont li i.bh {
+
+	width: 13px;
+
+	background-position: -201px -128px
+
+}
+
+
+
+.proInfo .proCont .sellCont li b {
+
+	float: right;
+
+	color: #303
+
+}
+
+
+
+.project .smallImg {
+
+	float: left;
+
+	width: 806px;
+
+	height: 360px
+
+}
+
+
+
+.project .smallImg>img {
+
+	display: block;
+
+	width: 100%;
+
+	height: 100%
+
+}
+
+
+
+.project .share {
+
+	position: absolute;
+
+	top: 10px;
+
+	right: 32px;
+
+	padding: 3px 8px
+
+}
+
+
+
+.project .share a {
+
+	position: relative;
+
+	display: inline-block;
+
+	margin-right: 20px;
+
+	height: 26px;
+
+	line-height: 26px;
+
+	font-size: 14px;
+
+	color: #fff;
+
+	z-index: 6
+
+}
+
+
+
+.project .share a b {
+
+	display: inline-block;
+
+	width: 26px;
+
+	height: 26px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) no-repeat;
+
+	vertical-align: middle
+
+}
+
+
+
+.pg_fx,.pg_yuyue {
+
+	width: 30px;
+
+	overflow: hidden;
+
+	transition: all .3s linear
+
+}
+
+
+
+.project .share a:hover {
+
+	width: 90px
+
+}
+
+
+
+.project .share a b.gz {
+
+	top: 6px;
+
+	width: 24px;
+
+	height: 21px;
+
+	background-position: 0 -186px
+
+}
+
+
+
+.project .share a b.yy {
+
+	background-position: -26px -186px
+
+}
+
+
+
+.project .share a b.fx {
+
+	top: 3px;
+
+	background-position: -56px -186px
+
+}
+
+
+
+.project .share a span {
+
+	font-size: 14px;
+
+	color: #fff;
+
+	opacity: 0
+
+}
+
+
+
+.titleNav {
+
+	border-bottom: 2px solid #027fff;
+
+	margin-top: 20px
+
+}
+
+
+
+.titleNav h3 {
+
+	float: left;
+
+	height: 50px;
+
+	line-height: 50px;
+
+	padding: 0 32px;
+
+	font-size: 16px;
+
+	cursor: pointer
+
+}
+
+
+
+.titleNav h3.current {
+
+	background: #027fff;
+
+	color: #fff;
+
+}
+
+
+
+.buildSport {
+
+	padding: 30px 0 40px
+
+}
+
+
+
+.buildSport h4 {
+
+	font-size: 18px;
+
+	color: #303
+
+}
+
+
+
+.sportCont .sportList {
+
+	border-bottom: 1px solid #ddd
+
+}
+
+
+
+.sportCont .sportList:last-child {
+
+	border: 0
+
+}
+
+
+
+.sportCont .sportList dl {
+
+	padding: 32px 0;
+
+	width: 500px;
+
+	height: 84px
+
+}
+
+
+
+.sportCont .sportList dl:first-child {
+
+	margin-right: 100px
+
+}
+
+
+
+.sportCont .sportList dl:nth-child(odd) {
+
+	float: left
+
+}
+
+
+
+.sportCont .sportList dl:nth-child(even) {
+
+	float: right
+
+}
+
+
+
+.sportCont .sportList dl dt {
+
+	float: left;
+
+	margin-right: 10px;
+
+	margin-top: 8px
+
+}
+
+
+
+.sportCont .sportList dl dt img {
+
+	display: block;
+
+	width: 50px;
+
+	height: 50px;
+
+	border-radius: 100%
+
+}
+
+
+
+.sportCont .sportList dl dd {
+
+	float: left;
+
+	max-width: 440px
+
+}
+
+
+
+.sportCont .sportList dl dd h5 {
+
+	font-size: 15px;
+
+	height: 24px;
+
+	line-height: 24px
+
+}
+
+
+
+.sportCont .sportList dl dd h5 span {
+
+	display: inline-block;
+
+	width: 83px;
+
+	height: 24px;
+
+	line-height: 24px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) -88px -186px no-repeat;
+
+	text-align: center;
+
+	font-size: 12px;
+
+	margin-left: 12px;
+
+	text-shadow: 0 0 0 #ddd
+
+}
+
+
+
+.sportCont .sportList dl dd p {
+
+	width: 100%;
+
+	max-height: 40px;
+
+	line-height: 20px;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: -webkit-flex;
+
+	display: flex;
+
+	color: #666
+
+}
+
+
+
+.sportCont .sportList dl dd p .overflow_hidden {
+
+	width: 366px;
+
+	max-height: 40px;
+
+	overflow: hidden;
+
+	text-overflow: ellipsis;
+
+	-webkit-line-clamp: 2;
+
+	-webkit-box-orient: vertical;
+
+	display: inline-block;
+
+	display: -webkit-box
+
+}
+
+
+
+.overflow_hidden_width340 {
+
+	display: inline-block;
+
+	max-width: 340px;
+
+	white-space: nowrap
+
+}
+
+
+
+.buildSport .art,.buildSport .art img {
+
+	display: block;
+
+	width: 100%;
+
+	height: 80px
+
+}
+
+
+
+.buildSport .noSport {
+
+	margin-top: 20px;
+
+
+
+}
+
+.noSport{ width:500px ;margin: 0 auto;}
+
+.noSportfr{ float:right; width:445px;}
+
+.buildSport .noSport span {
+
+	display: inline-block;
+
+	margin-top: 12px;
+
+	vertical-align: middle;
+
+	font-size: 16px;
+
+	color: #666
+
+}
+
+.talfe{    float: right;
+
+    width: 280px;}
+
+.buildSport .noSport b {
+
+	display: inline-block;
+
+	width: 54px;
+
+	height: 56px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) -75px -216px no-repeat;
+
+	margin-right: 16px;
+
+	vertical-align: middle
+
+}
+
+
+
+.buildSport .picture dl {
+
+	float: left;
+
+	margin-top: 18px;
+
+	margin-right: 20px;
+
+	text-align: center
+
+}
+
+
+
+.buildSport .picture dl:last-child {
+
+	margin-right: 0
+
+}
+
+
+
+.buildSport .picture dl dt,.picture dl dt a,.picture dl dt img {
+
+	display: block;
+
+	width: 279px;
+
+	height: 186px
+
+}
+
+
+
+.buildSport .picture dl dd {
+
+	margin-top: 22px;
+
+	font-size: 18px
+
+}
+
+
+
+.buildSport .hxTitle {
+
+	border-bottom: 1px solid #303;
+
+	margin-top: 20px
+
+}
+
+
+
+.buildSport .hxTitle h5 {
+
+	float: left;
+
+	height: 40px;
+
+	line-height: 40px;
+
+	margin-right: 20px;
+
+	font-size: 16px;
+
+	cursor: pointer
+
+}
+
+
+
+.buildSport .hxTitle h5.current {
+
+	color: #303;
+
+	font-weight: 700
+
+}
+
+
+
+.buildSport .hxBox {
+
+	position: relative;
+
+	width: 100%;	
+
+	overflow: hidden;
+
+	margin-top: 28px
+
+}
+
+
+
+.hxBox>a {
+
+	position: absolute;
+
+	top: 160px;
+
+	width: 72px;
+
+	height: 72px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) no-repeat;
+
+	z-index: 5;
+
+	zoom: .8
+
+}
+
+
+
+.hxBox>a.goLeft {
+
+	left: 10px;
+
+	background-position: -29px -75px
+
+}
+
+
+
+.hxBox>a.goRight {
+
+	right: 10px;
+
+	background-position: -108px -74px
+
+}
+
+
+
+ul.imglist {
+
+	position: relative;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 4;
+
+	white-space: nowrap
+
+}
+
+
+
+ul.imglist li {
+
+	height: 334px;
+
+	margin-right: 58px
+
+}
+
+
+
+ul.imglist li dl {
+
+	width: 100%
+
+}
+
+
+
+ul.imglist li dl dt {
+
+	width: 249px;
+
+	height: 332px;
+
+	border: 1px solid #ddd
+
+}
+
+
+
+ul.imglist li dl dd h6 {
+
+	font-size: 24px;
+
+	color: #fe0019;
+
+	margin-top: 10px
+
+}
+
+
+
+ul.imglist li dl dd p {
+
+	line-height: 26px;
+
+	font-size: 14px;
+
+	text-shadow: 0 0 1px #ddd
+
+}
+
+
+
+ul.imglist li dl dd p span {
+
+	float: left;
+
+	margin-right: 14px;
+
+	font-size: 13px
+
+}
+
+
+
+ul.imglist li dl dd p i {
+
+	float: right;
+
+	height: 20px;
+
+	line-height: 20px;
+
+	padding: 0 12px;
+
+	text-align: center;
+
+	background: #fcfcfc;
+
+	border: 1px solid #333
+
+}
+
+
+
+.houseDet ul.all {
+
+	border-bottom: 1px solid #ddd
+
+}
+
+
+
+.houseDet ul.all li span {
+
+	float: left;
+
+	margin-right: 20px;
+
+	padding-top: 20px;
+
+	font-size: 14px
+
+}
+
+
+
+.houseDet ul.all li span:last-child {
+
+	margin-right: 0
+
+}
+
+
+
+.houseDet ul li label {
+
+	display: inline-block;
+
+	width: 60px;
+
+	color: #333;
+
+	vertical-align: top
+
+}
+
+
+
+.houseDet ul li b {
+
+	display: inline-block;
+
+	width: 306px;
+
+	white-space: nowrap;
+
+	color: #666;
+
+	vertical-align: bottom;
+
+	font-weight: 400;
+
+}
+
+
+
+.houseDet ul.all a.btns {
+
+	display: block;
+
+	width: 20px;
+
+	height: 14px;
+
+	margin: 0 auto 20px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) no-repeat;
+
+	vertical-align: middle
+
+}
+
+
+
+.houseDet ul.all a.downIt {
+
+	background-position: -147px -147px
+
+}
+
+
+
+.houseDet ul.all a.upIt {
+
+	background-position: -147px -164px
+
+}
+
+
+
+.houseDet ul.intrLong li {
+
+	margin-top: 20px;
+
+	font-size: 14px
+
+}
+
+
+
+.houseDet ul.intrLong li b {
+
+	width: 800px
+
+}
+
+
+
+.villa {
+
+	padding: 38px;
+
+	background: #fff
+
+}
+
+
+
+.villa .upPhoto {
+
+	position: relative;
+
+	float: left;
+
+	width: 312px;
+
+	height: 416px;
+
+	overflow: hidden
+
+}
+
+
+
+.villa .upPhoto>a {
+
+	position: absolute;
+
+	top: 260px;
+
+	width: 72px;
+
+	height: 72px;
+
+	background: url(/public/static/home/image/bieshu/icon.png) no-repeat;
+
+	z-index: 5;
+
+	zoom: .7
+
+}
+
+
+
+.villa .upPhoto>a.prev {
+
+	left: 10px;
+
+	background-position: -30px -74px
+
+}
+
+
+
+.villa .upPhoto>a.next {
+
+	right: 10px;
+
+	background-position: -109px -74px
+
+}
+
+
+
+.upPhoto ul.photoScro {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	height: 100%;
+
+	white-space: nowrap
+
+}
+
+
+
+.upPhoto ul.photoScro li {
+
+	position: relative;
+
+	float: left;
+
+	width: 312px;
+
+	height: 100%
+
+}
+
+
+
+.upPhoto ul.photoScro li img {
+
+	width: 100%;
+
+	height: 416px
+
+}
+
+
+
+.upPhoto ul.photoScro li a {
+
+	position: absolute;
+
+	bottom: 10px;
+
+	right: 0;
+
+	z-index: 6;
+
+	width: 96px;
+
+	height: 28px;
+
+	line-height: 28px;
+
+	background: #303;
+
+	color: #fff;
+
+	text-align: center
+
+}
+
+
+
+.villa .hxInfo {
+
+	float: left;
+
+	margin-left: 58px
+
+}
+
+
+
+.villa .hxInfo h5 {
+
+	font-size: 18px;
+
+	color: red;
+
+	border-bottom: 1px solid #303
+
+}
+
+
+
+.villa .hxInfo h5>b {
+
+	display: inline-block;
+
+	padding: 0 8px;
+
+	height: 26px;
+
+	line-height: 26px;
+
+	margin-left: 4px;
+
+	border-radius: 4px;
+
+	background: #f5e8c3;
+
+	font-size: 12px;
+
+	color: #303
+
+}
+
+
+
+.villa .hxInfo h5 p {
+
+	float: right;
+
+	font-size: 12px;
+
+	color: #333;
+
+	margin-left: 66px;
+
+	padding-bottom: 10px;
+
+	text-align: right;
+
+	vertical-align: middle
+
+}
+
+
+
+.villa .hxInfo h5 p b {
+
+	display: block;
+
+	font-size: 12px;
+
+	color: #a0a0a0
+
+}
+
+
+
+.villa .hxInfo .hxNews {
+
+	padding: 18px 0 0
+
+}
+
+
+
+.villa .hxInfo .hxNews p {
+
+	margin-bottom: 16px;
+
+	font-size: 16px
+
+}
+
+
+
+.villa .hxInfo .hxNews p:first-child {
+
+	font-size: 18px
+
+}
+
+
+
+.villa .hxInfo .hxNews p span {
+
+	float: left;
+
+	text-align: left;
+
+	width: 33%;
+
+	font-size: 15px
+
+}
+
+
+
+.villa .hxInfo .hxNews p span:nth-of-type(2) {
+
+	text-align: center
+
+}
+
+
+
+.villa .hxInfo .hxNews p span:last-child {
+
+	text-align: right
+
+}
+
+
+
+.villa .hxInfo .hxNews p label {
+
+	display: inline-block;
+
+	width: 70px;
+
+	color: #666
+
+}
+
+
+
+.villa .hxInfo .hxNews p b {
+
+	display: inline-block;
+
+	color: #333;
+
+	white-space: nowrap;
+
+	vertical-align: middle;
+
+	margin-left: 2px
+
+}
+
+
+
+.villa div.labelBox {
+
+	padding-bottom: 10px;
+
+	margin-top: 1%
+
+}
+
+
+
+.villa div.labelBox label {
+
+	display: inline-block;
+
+	height: 24px;
+
+	line-height: 24px;
+
+	padding: 0 10px;
+
+	margin-right: 15px;
+
+	border: 1px solid #303;
+
+	color: #303;
+
+	font-size: 12px
+
+}
+
+
+
+.villa div.labelBox label:last-child {
+
+	margin-right: 0
+
+}
+
+
+
+.actCont {
+
+	width: 100%
+
+}
+
+
+
+.actCont span {
+
+	display: block;
+
+	width: 100%
+
+}
+
+
+
+.actCont span.ban1 {
+
+	height: 540px;
+
+	background: url(/public/static/home/image/bieshu/actBanner1.jpg) center center no-repeat
+
+}
+
+
+
+.actCont span.ban2 {
+
+	height: 702px;
+
+	background: url(/public/static/home/image/bieshu/actBanner2.jpg) center center no-repeat
+
+}
+
+
+
+.actCont span.ban3 {
+
+	height: 792px;
+
+	background: url(/public/static/home/image/bieshu/actBanner3.jpg) center center no-repeat
+
+}
+
+
+
+.actCont span.ban4 {
+
+	height: 614px;
+
+	background: url(/public/static/home/image/bieshu/actBanner4.jpg) center center no-repeat
+
+}
+
+
+
+.actCont span.ban5 {
+
+	height: 583px;
+
+	background: url(/public/static/home/image/bieshu/actBanner5.jpg) center center no-repeat
+
+}
+
+
+
+.actCont span.ban6 {
+
+	height: 718px;
+
+	background: url(/public/static/home/image/bieshu/actBanner6.jpg) center center no-repeat
+
+}
+
+
+
+.pg_quwei {
+
+	display: inline-block;
+
+	vertical-align: top;
+
+	max-width: 190px;
+
+	white-space: nowrap
+
+}
+
+
+
+input[type=checkbox]+label {
+
+	cursor: pointer;
+
+	font-size: 1em
+
+}
+
+[id^=checkbox-]+label {
+
+	background-color: #fff;
+
+	border: 1px solid #666;
+
+	box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 -15px 10px -12px rgba(0,0,0,.05);
+
+	padding: 7px;
+
+	border-radius: 3px;
+
+	display: inline-block;
+
+	vertical-align: middle
+
+}
+
+[id^=checkbox-]+label:active {
+
+	box-shadow: 0 1px 2px rgba(0,0,0,.05),inset 0 1px 3px rgba(0,0,0,.1)
+
+}
+
+[id=checkbox-1]:checked+label {
+
+	background-color: #F47164;
+
+	border: 1px solid #F47164
+
+}
+
+.anchorBL {
+
+	display: none
+
+}
+
+#huxing_view .imglist {
+
+	display: flex;
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox
+
+}
+
+
+
+.vertical-align-top {
+
+	vertical-align: top
+
+}
+
+.bieshu-top-nav{background: #027fff;height: 45px;}
+
+
+
+/*列表*/
+
+.contBox .contList{padding:40px 0;border-bottom:1px solid #ddd}
+
+.contList>a,.contList>div{float:left}
+
+.contList>a.listImg{width:210px;margin-right:30px;height: 140px;}
+
+.contList>a.listImg img{width:100%;height:140px}
+
+.contList>div{width:960px}
+
+.contList>div .leftSize{float:left;width:500px}
+
+.contList>div .leftSize>h3{font-size:0;font-style:normal}
+
+.contList>div .leftSize h3 a{display:block;margin-bottom:15px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:20px;color:#333;font-weight:700;font-family:"å¾®è½¯é›…é»‘",arial}
+
+.contList>div .leftSize ul li{margin-bottom:15px;font-size:14px;color:#999}
+
+.contList>div .leftSize ul li:first-child i{color:#333}
+
+.contList>div .leftSize ul li b{display:inline-block;width:17px;height:17px;background:url(../img/icon.png) no-repeat;vertical-align:top;margin-top:2px}
+
+.contList>div .leftSize ul li s.question{display:inline-block;width:15px;height:15px;background:url(../img/icon.png) -120px -24px no-repeat;vertical-align:top;margin-top:2px;cursor:pointer}
+
+.contList>div .leftSize ul li b.dw{width:13px;height:17px;background-position:-162px 0;margin-right:6px}
+
+.contList>div .leftSize ul li b.js{width:16px;height:16px;background-position:-33px -24px}
+
+.contList>div .leftSize ul li b.dz{background-position:-55px -23px}
+
+.contList>div .leftSize ul li b.zz{background-position:-77px -22px}
+
+.contList>div .leftSize ul li i{padding:0;color:#474747}
+
+.contList>div .leftSize p.label{width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.contList>div .leftSize p.label .b4{border:1px solid #ff9a02;color: #ff9a02}
+
+.contList>div .leftSize p.label span{display:inline-block;height:26px;line-height:26px;padding:0 15px;border:1px solid #ddd;margin-right:15px;font-size:12px}
+
+.contList>div .rightCern{float:right;text-align:right;width: 210px}
+
+.contList>div .rightCern li{margin-bottom:10px}
+
+.contList>div .rightCern li:last-child{margin-bottom:0;color:#999}
+
+.contList>div .rightCern li span{font-size:24px;color:#fe0019;margin-bottom:10px}
+
+.contList>div .rightCern li b{display:block;height:20px;font-size:14px;color:#666}
+
+.contList>div .rightCern li a{display:block;line-height:22px}
+
+.contList>div .rightCern li a i.threeD{display:inline-block;width:16px;height:16px;background:url(../img/icon.png) -100px -23px no-repeat;vertical-align:top;margin-top:2px;margin-right:4px}
+
+.contBox .page-box{padding:40px 0;text-align:center}
+
+.contList>div .oneIdent h3 a{display:inline-block;max-width:450px}
+
+.contList>div .oneIdent h3 b{display:inline-block;width:132px;height:24px;line-height:24px;margin-left:13px;background:url(../img/icon.png) 0 -45px;text-align:center;vertical-align:top;font-size:12px;color:#666}
+
+.contList>div .leftSize ul li a.lookMap{display:inline-block;margin-left:10px;font-size:12px;color:#666}
+
+.intrH{border-top:1px solid #ddd}
+
+
+
+.hjf-box{border-top: 3px solid #04a2eb}
+
+.hjf-box li.contList{margin-bottom: 20px;border-bottom: 1px solid #ddd;height: 160px;}
+
+.kefu-lt{right: 230px;}
+
+.ava-pic {width: 90px;}
+
+.ava-pic p{width: 80px; height: 80px; border-radius: 50%; display:inline-block; overflow:hidden;}
+.ava-pic img{width: 80px; height: auto; border-radius:initial;}
+
+.tag{line-height: 30px;}
+
+.tag span{border:1px solid #ddd;padding: 3px 4px;}
+
+.tag .b1{border:1px solid #9971b5;color: #9971b5}
+
+.tag .b2{border:1px solid #38a1e2;color: #38a1e2}
+
+.tag .b3{border:1px solid #74b571;color: #74b571}
+
+
+
+.hjf-kf{background: #f3f3f3}
+
+.hjf-kf-pic {width: 180px;}
+
+.f18{font-size: 18px;}
+
+.hjf-kf-2{line-height: 30px;width: 540px;}
+
+
+
+
+
+.ground{border-bottom:1px solid #303}
+
+.ground p span{float:left;margin-right:50px}
+
+.ground p span.current{color:#303;font-weight:700}
+
+.ground strong{float:right;color:#303}
+
+.ground strong i{display:inline-block;width:30px;height:28px;margin-right:10px;background:url(../img/icon.png) -180px 0 no-repeat no-repeat;vertical-align:middle}
+
+.ground p span,.ground strong{height:40px;line-height:40px;font-size:16px;cursor:pointer}
+
+.decscri h4 {
+
+    font-size: 18px;
+
+    color: #303;
+
+    margin-bottom: 30px;
+
+}

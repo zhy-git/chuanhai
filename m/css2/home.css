@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+
+html{font-size: 125%;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust:none;min-width: 320px;}
+
+html * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+body{padding:0;margin:0;height:100%;color:#333;font-size: 12px;font-family: "Microsoft yahei","Hiragino Sans GB",Helvetica,sans-serif;}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ margin:0; padding:0;}
+
+ul,ol,li{list-style:none;}
+
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;}
+
+button,input,select,textarea{font-size:100%; vertical-align:middle;outline:none;font-family:"Microsoft YaHei","微软雅黑",Helvetica,"黑体",Arial,Tahoma;}
+
+textarea{resize:none}
+
+em,i{font-style: normal;}
+
+input[type="button"], input[type="submit"], input[type="reset"], textarea{-webkit-appearance: none;}
+
+input::-webkit-input-placeholder{color: #999;}
+
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder {color:transparent}
+
+button::-moz-focus-inner,input::-moz-focus-inner { padding:0; border:0}
+
+table { border-collapse:collapse; border-spacing:0}
+
+del {text-decoration: line-through}
+
+a{text-decoration: none;color: #333;}
+
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+
+.react:active{background:#f2f2f2;}
+
+a.react{display: block;color: inherit;height: 100%;}
+
+.clearfix:after{content:'';display:block;clear:both;height:0;overflow:hidden;}
+
+.clearfix{zoom:1;}
+
+.ellipsis{white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+
+.break{word-break:break-all; word-wrap:break-word}
+
+.col3,.col4,.col6,.percent20{display: block;float: left;}
+
+.col3{width: 25%;}
+
+.col4{width: 33.3%;}
+
+.col6{width: 50%;}
+
+.percent20{width: 20%;}
+
+.mt30{margin-top: .75rem;}
+
+.pt15{padding-top: .75rem;}
+
+.pb15{padding-bottom: .75rem;}
+
+.f24{font-size: 1.2rem;}
+
+.mt5{margin-top: .125rem;}
+
+.mt10{margin-top: .5rem!important;}
+
+.mt20{margin-top: 1rem;}
+
+.ml20{margin-left: 1rem;}
+
+.tc{text-align: center;}
+
+.tr{text-align: right;}
+
+.cred{color: #e9102d;}
+
+.cblue{color: #4da635;}
+
+.bt0{border-top: none!important;}
+
+.mb0{margin-bottom: 0!important;}
+
+
+
+.flexbox{display: -webkit-box;display: -moz-box;}
+
+
+
+html,body{width:100%;height: 100%;/* overflow-x:hidden; */}
+
+.bgcolor{background-color: #f6f6f6;}
+
+.bgcolor2{background-color: #eee;}
+
+.defalut-btn{display: block;padding-left: .5rem;padding-right: .5rem;height: 1.75rem;line-height: 1.75rem;color: #fff;background-color: #4da635;border-radius: .25rem;font-size: .75rem;text-align: center;}
+
+.defalut-btn.disabled{color: rgba(255,255,255,.4);}
+
+.pagewrap{width: 100%;min-height: 100%;position: relative;}
+
+.topnav{height: 2.5rem;border-bottom: 1px solid #ddd;background-color: #fbfbfb;position: relative;padding-left: 5rem;padding-right: 5rem;}
+
+.topnav .backpage{width: 1.075rem;height: 1.5rem;display: block;background: url(../image/icons/top_arrow.png) center center no-repeat;background-size: 0.575rem 1rem;position: absolute;left: 0.25rem;top:0.5rem;}
+
+.topnav .tit{display: block;width: 100%;height: 100%;line-height: 2.5rem;text-align: center;font-size: 0.9rem;font-weight: bold;white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+
+.fix-backlan{position: fixed;width: 100%;top:0;left: 0;z-index: 99;}
+
+/* 置业管家列表 */
+
+
+
+
+
+/* 城市选择 */
+
+.csxz .lab-tit{height: 1.75rem;line-height: 1.75rem;font-size: .65rem;text-indent: .75rem;}
+
+.csxz .curr-loc{height: 2.25rem;border-top:1px solid #ddd;border-bottom: 1px solid #ddd;background-color: #fff;position: relative;}
+
+.csxz .curr-loc .city{color: #4da635;font-size: .85rem;text-indent: .75rem;line-height: 2.2rem;display: block;}
+
+.csxz .curr-loc .city a{color: #4da635;font-size: .85rem;text-indent: .75rem;line-height: 2.2rem;display: block;}
+
+.csxz .hot-citys{background-color: #fff;border-top:1px solid #ddd;border-bottom: 1px solid #ddd;padding: .75rem 0 0 .75rem;}
+
+.csxz .hot-citys ul{}
+
+.csxz .all-citys{border-top:1px solid #ddd;background-color: #fff;}
+
+.csxz .all-citys .words-search,.csxz .all-citys .word-citys{padding: .75rem 0 0 .75rem;border-bottom: 1px solid #ddd;}
+
+.csxz .hot-citys ul li,.csxz .all-citys .words-search li,.csxz .all-citys .word-citys li{display: block;border:1px solid #ddd;float: left;margin-right: .75rem;margin-bottom: .75rem;}
+
+.csxz .hot-citys ul li a,.csxz .all-citys .words-search li a,.csxz .all-citys .word-citys li a{display: block;height: 100%;line-height: 1.45rem;text-align: center;font-size: .75rem;}
+
+.csxz .hot-citys ul li{width: 3.75rem;height: 1.5rem;}
+
+.csxz .all-citys .words-search li{width: 2.85rem;height: 1.5rem;}
+
+.csxz .all-citys .word-citys li{float: left;width: 3.75rem;height: 1.5rem;}
+
+.csxz .all-citys .word-citys li:first-child{border:none;height: 3.75rem;background-color: #eee;}
+
+.csxz .all-citys .word-citys li:first-child a{font-size: 0.8rem;line-height: 3.75rem;}
+
+.csxz .hot-citys ul li.current,.csxz .all-citys .words-search li.current{background-color: #4da635;border:1px solid #4da635;}
+
+.csxz .hot-citys ul li.current a,.csxz .all-citys .words-search li.current a{color: #fff;}
+
+.back-top{width: 2.5rem;height: 2.5rem;position: fixed;right: .75rem;bottom: 6.25rem;}
+
+
+

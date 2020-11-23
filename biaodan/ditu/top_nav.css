@@ -1,0 +1,40 @@
+.wrap{width:1200px; margin: 0 auto; position:relative;}
+.mr10{margin-right:10px;}
+input{outline:medium;}
+
+
+
+
+/*top_nav*/
+.logo_top{width: 80px; height: 52px;}
+.adress_top{ color: #fff; line-height: 52px; padding-right:16px; position: relative; margin-right:30px;display: block;}
+.adress_top .arrow{width:11px; height:6px;background:url(../images/arrow.gif) no-repeat 0 0;position: absolute;top:25px; right:0;}
+.top_nav{height: 52px;background-color: #565656;}
+.top_nav .nav ul,.top_nav .nav li{float: left;display: inline; font-size: 16px;font-weight: bold;line-height: 52px;}
+.top_nav .nav li a{color:#fff;display: block;}
+.top_nav .nav li a:hover,.top_nav .nav li a.cur{background-color: #6ba811;}
+.top_nav .nav li a{padding: 0 15px;}
+.top_nav .nav .p1 li a{padding: 0 10px;}
+.top_nav .jmbtn{padding-top: 11px;}
+.top_nav .login ul,.top_nav .login li{float: left; display: inline;}
+.top_nav .login li a{padding-right: 10px;color:#7ec43d;}
+.top_nav .login li{color:#7ec43d;}
+.top_nav .login li.userName a{color:#fd6300;}
+.top_nav .login{font-size: 14px;line-height: 52px;background: url(../images/icon_user.gif) no-repeat left center; padding-left: 20px;}
+
+.top_menu_y{height: 60px; background-color: #75ae22;}
+.top_menu_y .menu{width:56%;height: 60px;line-height: 60px;zoom:1;}
+.top_menu_y .menu li{position: relative;padding: 0 11px;float: right;display: inline;}
+.top_menu_y .menu li b{display: block;height: 16px;width: 1px;position: absolute;left: 0;top: 22px;background-color: #dedede;}
+.top_menu_y .menu li a{display: block;font-size: 16px;padding: 0 13px;text-decoration: none;color:#fff;}
+.top_menu_y .menu li.cur a,.top_menu .menu li a:hover{background-color: #75ae22;color: #fff;-webkit-border-radius: 2px 2px 0 0; -moz-border-radius: 2px 2px 0 0; -ms-border-radius: 2px 2px 0 0; -o-border-radius: 2px 2px 0 0; border-radius: 2px 2px 0 0;}
+.top_menu_y .search{padding-top: 12px;}
+.top_menu_y .search .i1{height: 39px;width: 26px;background: url(../images/icon_search.gif) no-repeat 0 -100px}
+.top_menu_y .search .i2{height: 37px;border-top: 1px solid #7ba341;border-bottom: 1px solid #7ba341;background-color: #fff;}
+.top_menu_y .search .i2 input{width: 360px;font-size: 14px;height: 36px;_height:35px;line-height: 36px;padding: 0 5px;border: 0;}
+.top_menu_y .search .i3 input{width: 98px;height: 39px;border: none;background: url(../images/icon_search.gif) no-repeat 0 -150px}
+/*top_nav end*/
+
+
+
+

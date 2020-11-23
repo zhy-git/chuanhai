@@ -1,0 +1,49 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: url(../images/login_bg1.jpg) no-repeat center top; PADDING-TOP: 0px
+}
+#content {
+	MARGIN: 130px auto 0px; WIDTH: 740px; BACKGROUND: #f1f1f1; HEIGHT: 300px; COLOR: #333; FONT-SIZE: 12px; box-shadow: 0px 0px 18px #333;
+}
+#content DL {
+	 WIDTH: 280px; HEIGHT: auto; PADDING-TOP: 30px; float:right; padding-right:50px;
+	 
+}
+#content DL DT {
+	LINE-HEIGHT: 30px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; MARGIN-BOTTOM: 24px; HEIGHT: 30px; COLOR: #666; FONT-SIZE: 26px; FONT-WEIGHT: 400
+}
+#content DL DD {
+	POSITION: relative; TEXT-ALIGN: left; MARGIN-BOTTOM: 6px; HEIGHT: 50px; COLOR: #444
+}
+#content DL DD A {
+	COLOR: #060; TEXT-DECORATION: none
+}
+#content DL DD A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+#content #verify {
+	POSITION: absolute; DISPLAY: block; TOP: 0px; LEFT: 90px
+}
+#content .button {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; WIDTH: 90px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: #333; HEIGHT: 38px; COLOR: #fff; FONT-SIZE: 14px; BORDER-TOP: medium none; TOP: 0px; CURSOR: pointer; BORDER-RIGHT: medium none; LEFT: 190px
+}
+#content .button:hover {
+	BACKGROUND: #2571c5
+}
+#content .utext {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 36px; TEXT-INDENT: 50px; WIDTH: 280px; HEIGHT: 36px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; LEFT: 0px
+}
+.ptext {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 36px; TEXT-INDENT: 50px; WIDTH: 280px; HEIGHT: 36px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; LEFT: 0px
+}
+#content .utext {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: url(../images/login_text.png) #fff no-repeat left top; COLOR: #666; FONT-SIZE: 14px
+}
+#content .ptext {
+	BACKGROUND: url(../images/login_text.png) #fff no-repeat left bottom
+}
+#content .code {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 36px; TEXT-INDENT: 5px; WIDTH: 80px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: #fff; HEIGHT: 36px; COLOR: #666; FONT-SIZE: 14px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; LEFT: 0px
+}

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+.zhiye-ad{height: 432px; background: url(/public/static/home/image/zhiye/zy_1.jpg) no-repeat center;}
+
+.xwm-ad{height: 682px; background: url(/public/static/home/image/about/xwm_02.png) no-repeat center;}
+
+.title32 h3{font-size: 26px;color: #00A0EA}
+
+.zhiye-ul{width: 1300px;}
+
+.zhiye-ul li{float: left;margin-right: 15px;}
+
+
+
+.zx{margin-top: 8px;margin-bottom: 8px;}
+
+
+
+.xwm-list-1{border: 1px dashed #00A0EA;border-radius: 5px;}
+
+.w950{margin: 0 auto;}
+
+.xwm-list-1 p{padding-top: 8px;font-size: 20px;color: #666;}
+
+
+
+.xwm-ul li{float: left;margin-right: 40px}
+
+.xwm-ul1 li{float: left; margin-right: 8px;}
+
+.xwm-ul1 .inp{ border: 1px solid #16a603;padding: 8px;width: 210px;}
+
+.xwm-ul1 .btn{background: #16a603;color: #fff}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+    color: #666;  
+
+}
+
+ 
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+    color: #666;
+
+}
+
+ 
+
+input:-ms-input-placeholder,
+
+textarea:-ms-input-placeholder {
+
+    color: #666;
+
+}
+
+ 
+
+input::-webkit-input-placeholder,
+
+textarea::-webkit-input-placeholder {
+
+    color: #666;
+
+}
+
+ 
+
+.zskfi ul{   /* height: 320px;*/
+
+    float: left;
+
+    overflow: hidden;}
+
+.zsksec {}
+
+.zsks ul {height: auto;}
+
+.zhiyeg{
+
+    text-align: center;
+
+    height: 10px;
+
+    float: left;
+
+    width: 100%;
+
+    line-height: 40px;
+
+    margin-top: 15px;
+
+    font-size: 16px; color:#FFF;
+
+    font-weight: bold;
+
+    cursor: pointer; background:url(../image/bieshu/downIt.jpg) no-repeat center;
+
+}
+
+
+
+.zsks .zhiyeg{
+
+    text-align: center;
+
+    height: 10px;
+
+    float: left;
+
+	color:#FFF;
+
+    width: 100%;
+
+    line-height: 40px;
+
+    margin-top: 15px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer; background:url(../image/bieshu/upIt.jpg) no-repeat center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

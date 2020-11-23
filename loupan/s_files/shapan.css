@@ -1,0 +1,106 @@
+.information_li .inf_left .prib{color:#48bf01!important;font-size:36px}
+.information_li .inf_right a{margin-left:15px}
+.qjia{margin:10px 0}
+.qjia span{margin:0 95px 0 0}
+.lanse{background:#48bf01}
+.lp-yh-ul .lp-yh{background:#f8f8f8 url(/public/static/home/image/lp/bq.png) no-repeat 7px;border:1px #ddd9d9 solid}
+.lp-yh-ul .yh-btn{border:1px solid #48bf01;margin-right:5px;color:#FFF;background:#48bf01;font-weight:700}
+.lp-yh-ul .yh-1{color:#181818;font-size:16px;width:280px}
+.lp-yh-ul li{margin-top:20px}
+.btnyh{display:inline-block;margin-bottom:5px;font-weight:400;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:4px 12px;font-size:14px;line-height:1.42857;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.telbox{width:570px;height:88px;background:#fff;margin-top:10px;border: 1px solid #ddd;border-radius:3px }
+#phone600{padding:10px 15px;width:300px;float:left;}
+#shadow_tel{color:#48bf01;font-size:30px;font-family:微软雅黑;font-weight:bolder}
+#shadow_tel_p{color:#48bf01;font-size:14px;margin:4px 8px}
+.tel_right{position:relative;float:right;width:165px;height:88px}
+.tel_right .smbtn i{width:13px;height:14px;display:inline-block;background:url(/public/static/home/image/lp/sma.gif) no-repeat;vertical-align:middle;position:relative;top:-1px}
+.tel_right a{position:absolute;right:20px;width:112px;height:48px;text-align:center;line-height:48px;top:20px;color:#fff;font-size:16px;background:#48bf01;border-radius:3px; }
+.qrcodebox{width:170px;border:1px solid #ddd;background-color:#fff;padding:10px;line-height:18px;text-align:center;position:absolute;top:100%;left:-41px;display:none}
+.tel_right .qrcodebox span{color:#333;font-size:12px;display:block}
+.tel_right .qrcodebox img{width:100px;height:100px;margin-top:8px}
+.tel_right:hover .qrcodebox{display:block}
+.lyl-1{position:absolute;bottom:14px;left:25px;color:#fff;background:rgba(0,0,0,.6);padding:1px 5px}
+.lyl-1:hover{color:#48bf01}
+.loupan-name-right2 span{font-size:12px;color:#666;border:1px solid #ddd}
+.preferential{height:70px;min-width:1100px;position:relative}
+.preferential .title{float:left;height:70px;text-indent:-9999px;width:176px;background:rgba(0,0,0,0) url(/public/static/home/image/lp/bg-youhui.png) no-repeat scroll 0 0;overflow:hidden}
+.preferential .content{float:left;text-align:center;width:750px;height:50px;padding:20px 0 0 34px;background:rgba(0,0,0,0) url(/public/static/home/image/lp/bg-youhui1.png) no-repeat scroll 0 0;overflow:hidden}
+.preferential .list{height:30px;overflow:hidden}
+.preferential .list li{float:left;color:#e85045;font-size:14px;font-weight:700;height:30px;line-height:30px;margin-right:10px;padding:0 30px;background-color:#fff}
+.preferential .btn-area{float:left;width:190px;height:70px;padding-left:50px;background:rgba(0,0,0,0) url(/public/static/home/image/lp/bg-youhui2.png) no-repeat scroll 0 0;overflow:hidden}
+.preferential .btn-pre{float:left;color:#e85045;cursor:pointer;font-size:18px;width:128px;height:36px;line-height:34px;margin-top:17px;padding-left:32px;background-color:#fffc00;border-radius:2px}
+.ico{display:inline-block;font-size:0;line-height:0;width:16px;height:18px;background:url(/public/static/home/image/lp/bg-icon.png) 0 0 no-repeat;overflow:hidden}
+.preferential .ico-price{width:26px;height:24px;background-position:-50px -40px}
+.preferential .btn-pre .ico-price{float:left;margin:6px 10px 0 0}
+.lp-coltit{line-height:28px;overflow:hidden;padding:20px 0 10px}
+.lp-coltit h3{font-size:21px;float:left;padding:0 5px}
+.lp-coltit .more{font-size:14px;float:right;color:#999}
+.lp-coltit .more a{margin:0 5px;color:#999}
+.lp-coltit .more a:hover{color:red}
+.lp-coltit .tip{float:right;color:#797979}
+.lp-coltit .tip span{float:left;margin-right:5px}
+.lp-coltit .tip i{float:left;overflow:hidden;width:12px;height:12px;margin:9px 5px 0 0;vertical-align:top;border-radius:50%;background:#3393f5}
+.lp-coltit .tip .ico2{background:#fb841f}
+.lp-coltit .tip .ico3{background:#a9a9aa}
+.lp-coltit .btn{background:#f97822}
+.lp-coltit1{height:57px;margin-bottom:10px;background:url(/public/static/home/image/lp/lpxctab.png) repeat-x 0 0}
+.lp-coltit1 a{float:left}
+.lp-coltit1 .inner{line-height:18px;float:left;width:104px;height:50px;padding-top:7px;text-align:center;background:url(/public/static/home/image/lp/lpxctab.png) no-repeat right -119px}
+.lp-coltit1 .act{background:url(/public/static/home/image/lp/lpxctab.png) no-repeat center -58px}
+.lp-coltit1 .act .title{color:#e43}
+.lp-coltit3{line-height:33px;height:33px;border-top:1px solid #ddd;background:url(/public/static/home/image/lp/sline.gif) 0 16px repeat-x}
+.lp-coltit3 h3{font-size:14px;font-weight:700;float:left;padding-right:10px;padding-left:8px;color:#327acf;background:#fff}
+.lp-coltit3 h3 a{color:#327acf}
+.lp-content2 li{float:left;clear:none;width:50%;margin-left:-1px}
+.bd-gray{border:1px solid #ddd}
+.bd-gray{border-radius:5px}
+.w920{width:920px}
+.w270{width:270px}
+.blank10{height:10px}
+.shapan{position:relative;z-index:1;overflow:hidden;width:900px;height:380px;margin:10px auto}
+#shapan-i{position:absolute;top:-90px;left:0}
+#shapan-i .sha-dot{line-height:26px;position:absolute;z-index:999;display:block;padding:0 10px;white-space:nowrap;color:#fff;border-radius:2px;outline:0;background:#fb841f}
+#shapan-i .sha-dot:hover{text-decoration:none}
+#shapan-i .sha-dot i{position:absolute;top:26px;left:5px;overflow:hidden;width:0;height:0;border-width:7px 8px 8px 0;border-style:solid dashed dashed dashed;border-color:#fb841f transparent transparent transparent}
+#shapan-i .sha-dot-2{background:#3393f5}
+#shapan-i a:hover{background:red}
+#shapan-i a:hover i{position:absolute;top:26px;left:5px;overflow:hidden;width:0;height:0;border-width:7px 8px 8px 0;border-style:solid dashed dashed dashed;border-color:red transparent transparent transparent}
+#shapan-i .sha-dot-2 i{border-top-color:#3393f5}
+#shapan-i .sha-dot-3{background:#a9a9aa}
+#shapan-i .sha-dot-3 i{border-top-color:#a9a9aa}
+#shapan-i a.act{z-index:1000}
+#shapan-i a.act .sha-dot-info{display:block}
+.sha-dot-info{position:absolute;left:15px;display:none}
+.sha-dot-info .tit{line-height:28px;float:none;clear:both;height:28px;margin-bottom:5px;padding:0 10px;cursor:pointer;color:#666;border-bottom:1px dashed #ddd}
+.sha-dot-info ul{z-index:10;padding:10px;color:#2c2c2c;border:1px solid #eee;border-radius:2px;background:#fff}
+.sha-dot-info li{padding-right:18px}
+.sha-dot-info li span{display:inline-block}
+.sha-dot-info .ico08{width:18px;text-align:center;color:#ffaa1d}
+.hx-info li{line-height:28px;display:block;overflow:hidden;height:28px;padding:0 10px}
+.hx-info-tit i{font-family:simsun;font-size:12px;line-height:20px;display:none;float:right;height:20px;padding:0 10px;cursor:pointer;border:1px solid #ddd}
+.hx-info dl{margin-top:5px}
+.hx-info dt{cursor:pointer;background:#e6f0f7}
+.hx-info dt span{float:left;overflow:hidden;width:9px;height:9px;margin-top:9px;margin-right:5px;background:url(/public/static/home/image/lp/zkico.gif) no-repeat}
+.hx-info dl.act span{background-position:0 -11px}
+.hx-info dd{display:none}
+.hx-info dl.act dd{display:block}
+.hx-info i{float:left;width:33.3%}
+.hx-info li.fs{color:#666;border-bottom:1px dotted #ddd}
+.hx-tips{font-size:14px;padding:10px 0;text-align:center;color:#999}
+.hx-info{overflow-y:auto;height:354px}
+.hx-info dt,.hx-info li,.hx-info-tit{line-height:28px;display:block;overflow:hidden;height:28px;padding:0 10px}
+.hx-info-tit i{font-family:simsun;font-size:12px;line-height:20px;display:none;float:right;height:20px;padding:0 10px;cursor:pointer;border:1px solid #ddd}
+.hx-info dl{margin-top:5px}
+.hx-info dt{cursor:pointer;background:#e6f0f7}
+.hx-info dl.act span{background-position:0 -11px}
+.hx-info dd{display:none}
+.hx-info dl.act dd{display:block}
+.hx-info i{float:left;width:33.3%}
+.hx-info li.fs{color:#666;border-bottom:1px dotted #ddd}
+.mtaico{background:url(/public/static/home/image/lp/mapico.gif) no-repeat scroll 0 0;height:15px;margin:10px 5px 0 0;width:15px}
+.sha-dot-info .ico1{background-position:0 -31px}
+.sha-dot-info .ico2{background-position:-25px -31px}
+.sha-dot-info .ico3{background-position:0 -47px}
+.sha-dot-info .ico4{background-position:-25px -47px}
+.sha-dot-info .ico5{background-position:0 -63px}
+.sha-dot-info .ico6{background-position:-25px -63px}

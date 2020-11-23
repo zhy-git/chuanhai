@@ -1,0 +1,111 @@
+@charset "gb2312";
+/* CSS Document */
+.place { width:1200px; margin:0 auto; line-height:60px;}
+body{background: #F5F7FA;}
+a{text-decoration:none;margin:0; padding:0; color:#333;}
+a:hover{text-decoration:none; color:#117ad0;}
+.cuWrap{ clear:both; margin-bottom:10px; margin-top:10px; overflow:hidden;}
+.cuHome{ float:left; width:58%; font-size:14px;}
+.cuHome a, .cuHome em {
+    font-size: 15px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    zoom: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    background: #BBB;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.cuHome em {
+    font-size: 22px;
+    color: #FFF;
+    background: #00C8DE;
+}
+.smallSearch {
+    float: right;
+    width: 40%;
+    height: 30px;
+    overflow: hidden;
+}
+.smallSearch .searchItext {
+    width: 100%;
+    background: none;
+}
+.smallSearch .searchItext input {
+    padding: 5px 1%;
+    background: #DDD;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.searchItext input {
+    float: left;
+    width: 80%;
+    border: 0;
+    padding: 10px 1%;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    background: #E5E5E5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+}
+.smallSearch .searchItext .btn {
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.gray {
+    color: #FFF;
+    background-color: #CCCCCC;
+    text-shadow: 0 1px 0 rgba(110,110,110,0.1);
+}
+.tuan_searc{ height:30px; width:72px; cursor:pointer; outline: none; float: left; padding-left:5px;}
+.smallSearch .searchItext input.tuan_search_sub{ height:30px; width:72px; cursor:pointer; background:#ccc;}
+
+.wr_tuan{ width:1200px; margin:0 auto; overflow:hidden;}
+.wr_tuan .left{ float:left; width:870px;}
+.groupItem{ clear:both; margin-bottom:20px; overflow:hidden;}
+.groupItem a{ float:left; width:100%; background:#fff;}
+.groupItem a:hover{color:#E50;}.groupItem a:hover h3,.groupItem a:hover h4{color:#C50;}
+.groupPic{ float:left; width:420px; height:270px; margin:5px; position:relative;}
+.groupPic img{ width:100%; height:100%}
+.groupPic span { background:rgba(0,0,0,0.7); padding:10px 5px; position:absolute; top:0px; left:0; color:#FFF; font-size:16px;}
+.groupData{ float:right; width:400px; height:240px; padding:20px; overflow:hidden; position:relative;}
+.groupData h2{ font-size:22px; width:100%; margin-bottom:10px; white-space: nowrap; overflow:hidden; text-overflow: ellipsis; font-weight:normal;}
+.groupData h3{ font-size:14px; margin-bottom:15px; color:#999; font-weight:normal;}
+.groupData h4{ font-size:18px; color:#00C0D5; padding-top:10px; margin-bottom:10px; border-top:1px dashed #DDD; font-weight:normal;}
+.groupData h5{ font-size:16px; margin-bottom:10px; color:#999; font-weight:normal;}
+.groupData h5 b{ margin:0 2px; color:#D30; font-weight:normal;}
+.groupData h6{ position:absolute;  font-size:22px; width:100%; height:30px; line-height:30px; color:#bbb; left:0; font-weight:normal;}
+.groupData h6 span{ padding:0 20px; display:block;}
+.groupData h6 b{ color:#F60; margin-left:20px;}
+.groupData h6 .btn {font-weight: bold;font-size: 16px;padding: 0 10px;}
+.groupData h6 em {float: right; margin-right:20px;}
+.orange {color: #FFF;background-color: #FF9A0D;text-shadow: 0 1px 0 rgba(170,100,0,0.1);border-radius: 4px; font-weight:normal;}
+
+.yomibox{ float:right; margin-right:80px;}
+.yomi {list-style:none; font-size:15px;}
+.yomi li{float:left;color:#D30;padding:1px 5px;font-size:14px; margin:0 1px;}
+.yomi li.split{background:none;padding:1px 0;color:#000000;font-size:14px;}

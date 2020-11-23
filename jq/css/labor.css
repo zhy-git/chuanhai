@@ -1,0 +1,80 @@
+/* 公共:begin */
+body{background: #d61206}
+.w100b{width: 100%;}
+.w1000{width: 1000px;margin: auto;position: relative;}
+.pd-lr30{padding: 0 30px;}
+.pd20-10{padding: 20px 10px;}
+.b-sizi{box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.clear{clear: both;}
+.red{background: #d61206;position: relative;top: -18px;}
+.pd-tb30{padding-top: 30px;}
+/* 公共:end */
+
+/* 头部大图:begin */
+.top-thumb img{width: 100%;}
+/* 头部大图:end */
+
+/* 购房指南:begin */
+.nav-left-bm{float: left;width: 180px;background: #D90916;position: relative;top: -18px;-moz-box-shadow:2px 2px 6px #333; -webkit-box-shadow:2px 2px 6px #333; box-shadow:2px 2px 6px #333;z-index: 99;}
+.nav-left-bm h1{color: #F4E7B7;font-size: 18px;font-weight: bold;display: block;text-align: center;}
+.nav-left-bm p{color: #FFF;font-size: 12px;display: block;text-align: center;margin-top: 5px;margin-bottom: 20px;}
+.nav-left-bm i{display: inline-block;position: absolute;right: -16px;top: 0;width: 0;height: 0;border-right: 16px solid transparent;border-bottom:18px solid #E93541}
+.nav-left-bm .input{width: 100%;background: #FFF;border-radius: 3px;height: 25px;margin-top: 15px;}
+.nav-left-bm .input label{font-size: 13px;height: 25;line-height: 25px;margin-left: 5px;color: #7d7d7d;}
+.nav-left-bm .input input[type="text"]{width: 90px;height: 25px;line-height: 25px;box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;border: none;font-size: 13px;color: #7d7d7d;padding: 0 5px;}
+.nav-left-bm input[type="submit"]{font-size: 17px;background: #D7DBAB;outline: none;border: none;margin: auto;padding: 5px 10px;color: #D80818;display: block;border-radius: 10px;-moz-box-shadow:1px 1px 6px #666; -webkit-box-shadow:1px 1px 6px #666; box-shadow:1px 1px 6px #666;}
+.nav-right-dg{width: 760px;float: left;}
+.nav-right-dg .dg-item{width: 24.87%;float: left;border-left: 1px solid #E4E4E4;height: 240px;background: #FFF;}
+.nav-right-dg .dg-item .thumb{padding: 5px;border: 1px #E68191 dashed ;border-radius: 50%;width: 100px;height: 100px;margin: auto;margin-top: 25px;}
+.dg-item .thumb img{width: 100%;height: 100%;border-radius: 50%;overflow: hidden;}
+.nav-right-dg .dg-item h1{font-weight: bold;text-align: center;font-size: 20px;margin-top: 20px;color: #302E2F;letter-spacing: 1px;}
+.nav-right-dg .dg-item p{text-align: center;font-size: 18px;margin-top: 10px;color: #5F5D5E;}
+/* 购房指南:end */
+
+/* 红底内容:begin */
+.tit-thumb {height: auto;margin: 0 auto;padding-bottom: 25px;text-align: center;}
+.daoyu{width: 90%;margin: auto;border-radius: 5px;padding: 5px 8px;border: 1px solid #FFF;}
+.dy-txt{padding: 15px 25px;color: #FFF;border-radius: 5px;background: #e98983;font-size: 18px;letter-spacing: 1px;line-height: 28px;}
+.build-item{padding-top: 15px;}
+.build-item li{padding: 15px 10px;background: #FFF;margin-top: 15px;border-radius: 5px;width: 49.2%;box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.build-item li.k1,.build-item li.k3{float: left;}
+.build-item li.k2,.build-item li.k4{float: right;}
+.build-item li .info-right{width: 100%;}
+.build-item li .info-right h1{display: block;font-size: 18px;font-weight: 550;color: #050505;letter-spacing: 1.5px;}
+.build-item li .info-right h1:hover{color: red;}
+.build-item li .info-right h1:hover i{color: #050505;}
+.build-item li .info-right h1 i{display: inline-block;font-style: normal;font-size: 12px;border: 1px solid #444445;border-radius: 50px;padding:  0 3px;position: relative;top: -2px;left: 10px;font-weight: normal;}
+.build-item li .info-right .addres{margin-top: 5px;color: #565555;margin-bottom: 8px;}
+.build-item li .info-right .addres i{margin-right: 3px;display: inline-block;width: 17px;height: 14px;background: url(/public/static/home/image/zhuanti/laber/zb_03.jpg) no-repeat;background-size: 100% 100%;}
+.build-item li .info-right .pic{color: #fd6071;font-size: 16px;font-weight: bold;}
+.build-item li .info-right .pic small{;font-weight:normal;font-size: 14px;}
+.build-item li .info-right .area{font-size: 13px;color: #4F4F4F;}
+.build-item li .info-right .hui{color: #fd6071;font-size: 15px;overflow: auto;border-top: 1px solid #eee;padding-top: 7px;margin-top: 13px;}
+.build-item li .info-right .hui .hui-bg{box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;max-width: 100%;overflow: hidden;position: relative;border-radius: 50px;float: left;padding: 3px 10px 3px 0px;background: #eae9e9;display: block;}
+.info-right .hui .hui-bg i{padding: 1px;display: inline-block;width: 20px;height: 20px;border-radius: 50%;border: 1px solid #fd6071;margin: 2px 6px 2px 5px;}
+.info-right .hui .hui-bg span.txt{display: inline-block;position: relative;top: -4px;font-size: 16px;}
+.hui-bg i span{display: block;background: #fd6071;color: #FFF;box-sizing:border-box;-moz-box-sizing:border-box; -webkit-box-sizing:border-box;border-radius: 50%;overflow: hidden;width: 100%;height: 20px;line-height: 20px;text-align: center;font-size: 12px;font-style: normal;}
+.build-item li .info-right .btn{display: block;width: 100%;margin-top: 10px;}
+.info-right .btn span{border: 1px solid #fd6071;border-radius: 5px;display: inline-block;color: #fd6071;padding: 1px 8px;text-indent: 20px;}
+.info-right .btn span.zx{background: url(/public/static/home/image/zhuanti/laber/wx_03.jpg) no-repeat;margin-right: 35px;background-size: 15px 15px;background-position: 8px 3px;}
+.info-right .btn span.call{background: url(/public/static/home/image/zhuanti/laber/dh_03.jpg) no-repeat;background-size: 15px 15px;background-position: 8px 3px;position: relative;}
+.qrcode{position: absolute;width: 140px;border: 1px solid #ddd;background: #FFF;padding: 10px 0;line-height: 18px;text-align: center;top: 110%;right: -30px;z-index: 99;-moz-box-shadow:0px 3px 5px #e1e1e1;box-shadow:0px 3px 5px #e1e1e1;border-radius:3px;}
+.qrcode>span.txt{color: #999;font-size: 12px;display: block;text-align: center;border: 0;font-weight: normal;}
+.info-right .btn>span.call:hover>.qrcode{display: block;}
+
+/* 红底内容:end */
+
+/* 随屏右:begin */
+.fiex{width: 170px;height: 490px;position: fixed;top: 15%;background: #FFF;margin-left: 1030px;border-radius: 100px;overflow: hidden;}
+.count{width: 170px;height: 490px;position: relative;}
+.fiex-thumb{width: 90%;margin: auto;margin-top: 45px;}
+.count .footer{position: absolute;bottom: 45px;left: -1px;width: 90%;}
+.count p.xl{font-size: 13px;font-weight: bold;color: #9d0d31;text-align: center;margin-top: 3px;}
+.count .sm{color: red;font-size: 14px;margin: 5px 0;text-align: center;position: relative;cursor: pointer;}
+.count .sm .qrcode{top: 100%;left: 15px;right: 0;}
+.count .sm i{display: inline-block;width: 13px;height: 13px;background: url(/public/static/home/image/zhuanti/laber/ewm_03.gif) no-repeat;background-size: 100% 100%;}
+.count p.number{color: #fa344b;font-size: 20px;text-align: center;font-weight: bold;letter-spacing: 1px;}
+.count p.btn{width: 72%;letter-spacing: 1px;padding: 5px 0;font-size: 16px;font-weight: normal;background: linear-gradient(#8f1428,#b2053e,#8f1428);;margin: auto;border-radius: 50px;text-align: center;margin-top: 10px;}
+.count p.btn a{color: #f8f400;}
+.count p.btn:hover{filter:alpha(Opacity=90);-moz-opacity:0.9;opacity: 0.9}
+/* 随屏右:end */

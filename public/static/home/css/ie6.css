@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.mian-nav{height:145px;}
+.mian-nav-s11{background-position:-287px -272px;}
+.main-s11-l{margin-left:75px;width:102px;}
+.main-nav-s13{float:right;margin-top:-45px;}
+.main-nav-ewm img{width:110px !important;height:110px;display:block;}
+.lp-content-s11 li a{width:114px;height:43px;}
+
+.owl-theme .owl-controls .owl-page{display:inline;*zoom:1;height:5px;width:30px;}
+.owl-theme .owl-controls .owl-page span{width:30px;height:5px;margin:0 2px;overflow:hidden;}
+.lp-map .lp-map-s12{width:305px;margin-left:10px;}
+
+
+
+.main-nav-ss15 li{cursor:pointer;}
+
+/*登录注册ie6兼容样式*/
+.login-b-title li a.login-b-acitve{padding-bottom:7px;}
+.ie6_img{margin-top:56px;}
+
+.index-banner-img{width:950px;height:360px;margin-left:-16px;}
+/**/
+
+.index-banner-r3{width:950px;height:360px;position:relative;z-index:2;}
+
+.index-banner-left{width:250px;z-index:2;}
+.index-banner-right{position:relative;z-index:1;}
+
+.index-hidden2-area1{z-index:222;}
+
+.index-banner-s4 li{margin-right:7px;}
+.index-banner-s2{width:248px;}
+.index-banner-s6{width:248px;height:57px; overflow:hidden;}
+.index-banner-s6 p span{margin-right:0;}
+
+
+.index-section2-left{width:900px;overflow:hidden;}
+.index-section2-right{width:300px;overflow:hidden;}
+.index-section-r4{margin-left:35px;}
+
+
+.index-section3-s5{width:210px;}
+.index-section7-column4{height:180px;}
+
+.rightShare{position:absolute;right:10px;width:38px;}
+.banner-hidden-s1{overflow:hidden}
+
+/*新盘列表页*/
+.lp-public-active{border-bottom:none;}
+.lp-pb-s1{margin-left:15px;}
+.lp-pb-px1 li{margin-top:16px;}
+
+
+.index-section3-s61{float:left;}
+.index-line1-title p{left:-9px;}
+
+
+
+.lpm-s6{margin-left:15px;}
+.lp-content-apply{margin-left:15px !important;}
+.lpm-s9-2{width:96px;}
+
+
+.lpm-section2-2{ padding-left:10px; margin-right:0;}
+.lp-news-s5 input{
+	padding:0 7px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	display:block;
+	border:0;
+    background:#5ab431;
+	position:absolute;
+	right:0;top:0;
+	font-size:12px;
+}
+
+.lp-map-s12{padding-left:26px;}
+
+
+
+
+

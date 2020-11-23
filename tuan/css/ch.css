@@ -1,0 +1,183 @@
+.main { width:1200px; margin:0 auto;}
+
+.tuan_tg_view {
+	WIDTH: 870px; FLOAT: left
+}
+.tuan_tg_view_01 {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; WIDTH: 840px; PADDING-RIGHT: 15px; BACKGROUND: #ffffff; FLOAT: left; PADDING-TOP: 15px
+}
+.tuan_tg_view_01_t {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 35px; WIDTH: 840px; FLOAT: left; HEIGHT: 35px
+}
+.tuan_tg_view_01_t H3 {
+	COLOR: #000000; FONT-SIZE: 30px; FONT-WEIGHT: bold
+}
+.tuan_tg_view_01_n {
+	WIDTH: 840px;
+}
+.tuan_tg_view_01_n_l {
+	WIDTH: 350px; FLOAT: left
+}
+.tuan_tg_view_01_n_l_01 {
+	WIDTH: 350px; BACKGROUND: #f9644e; FLOAT: left; HEIGHT: 90px
+}
+.tuan_tg_view_01_n_l_01 .sp1 {
+	LINE-HEIGHT: 90px; PADDING-LEFT: 10px; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 24px; FONT-WEIGHT: bold
+}
+.tuan_tg_view_01_n_l_01 .sp2 {
+	PADDING-RIGHT: 10px; FLOAT: right
+}
+.tuan_tg_view_01_n_l_01 .sp2 A {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 50px; MARGIN: 20px 0px 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BACKGROUND: #ffff33; FLOAT: left; HEIGHT: 50px; COLOR: #000000; FONT-SIZE: 20px; CURSOR: pointer; PADDING-TOP: 0px; BEHAVIOR: url(PIE.htc); border-radius: 5px
+}
+.tuan_tg_view_01_n_l_02 {
+	BORDER-BOTTOM: #f6ead5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #f6ead5 1px solid; LINE-HEIGHT: 50px; WIDTH: 348px; BACKGROUND: #fefcf0; FLOAT: left; HEIGHT: 50px; FONT-SIZE: 16px; BORDER-TOP: medium none; BORDER-RIGHT: #f6ead5 1px solid
+}
+.tuan_tg_view_01_n_l_02 B {
+	COLOR: #f9644e; FONT-SIZE: 18px; FONT-WEIGHT: normal
+}
+.tuan_tg_view_01_n_l_03 {
+	PADDING-BOTTOM: 10px; MARGIN: 10px 0px 0px; PADDING-LEFT: 40px; WIDTH: 310px; PADDING-RIGHT: 0px; BACKGROUND: #f4fff1; FLOAT: left; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.tuan_tg_view_01_n_l_03 .sp1 {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 35px; WIDTH: 220px; BACKGROUND: url(../images/tg_01.jpg) no-repeat left center; FLOAT: left; HEIGHT: 30px; COLOR: #000000; FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.tuan_tg_view_01_n_l_03 .sp1 .f1 {
+	COLOR: #d00206
+}
+.tuan_tg_view_01_n_l_03 .sp2 {
+	LINE-HEIGHT: 25px; WIDTH: 255px; FLOAT: left; HEIGHT: 25px; text-align:center;
+}
+.tuan_tg_view_01_n_l_03 .sp3 {
+	LINE-HEIGHT: 25px; WIDTH: 255px; FLOAT: left; HEIGHT: 25px; text-align:center;
+}
+.tuan_tg_view_01_n_l_04 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 345px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 10px
+}
+.tuan_tg_view_01_n_r {
+	WIDTH: 470px; FLOAT: right
+}
+.tuan_tg_view_01_n_r IMG {
+	WIDTH: 470px; HEIGHT: 300px
+}
+.tuan_tg_view_02 {
+	PADDING-BOTTOM: 15px; MARGIN: 20px 0px 0px; PADDING-LEFT: 15px; WIDTH: 840px; PADDING-RIGHT: 15px; BACKGROUND: #ffffff; FLOAT: left; PADDING-TOP: 15px
+}
+.tuan_tg_view_02_t {
+	LINE-HEIGHT: 40px; WIDTH: 820px; FLOAT: left; HEIGHT: 40px
+}
+.tuan_tg_view_02_t H3 {
+	COLOR: #f9644e; FONT-SIZE: 18px
+}
+.tuan_tg_view_02_n {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; WIDTH: 840px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 15px
+}
+.tuan_tg_view_02_n P {
+	LINE-HEIGHT: 25px; MARGIN-TOP: 12px; FONT-SIZE: 16px
+}
+.tuan_tg_view_03 {
+	MARGIN: 10px 0px 0px; WIDTH: 900px; FLOAT: left
+}
+.tuan_tg_view_03_t {
+	LINE-HEIGHT: 40px; WIDTH: 870px; BACKGROUND: #00adef; FLOAT: left; HEIGHT: 40px
+}
+.tuan_tg_view_03_t P {
+	TEXT-INDENT: 20px; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 18px
+}
+.tuan_tg_view_03_t .sp1 {
+	POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; MARGIN: 5px 20px 0px 0px; PADDING-LEFT: 15px; WIDTH: 80px; PADDING-RIGHT: 15px; BACKGROUND: #ffff33; FLOAT: right; HEIGHT: 30px; FONT-SIZE: 16px; CURSOR: pointer; PADDING-TOP: 0px; BEHAVIOR: url(PIE.htc); border-radius: 5px
+}
+.tuan_tg_view_03_t .sp1 A {
+	COLOR: #000000; CURSOR: pointer
+}
+.tuan_qt {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 310px; PADDING-RIGHT: 10px; FONT-FAMILY: "Microsoft Yahei"; BACKGROUND: #ffffff; FLOAT: left; OVERFLOW: hidden; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.tuan_qt_top {
+	WIDTH: 310px; BACKGROUND: #33c0d0; FLOAT: left; HEIGHT: 30px
+}
+.tuan_qt_top H3 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 16px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.tuan_qt_top SPAN {
+	LINE-HEIGHT: 30px; PADDING-RIGHT: 10px; FLOAT: right; COLOR: #ffffff; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.tuan_qt_n {
+	WIDTH: 310px; FLOAT: left
+}
+.tuan_qt_n LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 310px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 10px
+}
+.tuan_qt_n LI .tg_title {
+	LINE-HEIGHT: 30px; WIDTH: 310px; FLOAT: left; HEIGHT: 30px
+}
+.tuan_qt_n LI .tg_title H3 {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.tuan_qt_n LI .tg_title H3 A {
+	COLOR: #000000
+}
+.tuan_qt_n LI .tg_title H3 A:hover {
+	COLOR: #f9644e
+}
+.tuan_qt_n LI .tg_title H3 .f1 {
+	COLOR: #f9644e
+}
+.tuan_qt_n LI .tg_img {
+	POSITION: relative; WIDTH: 310px; FLOAT: left; HEIGHT: 160px
+}
+.tuan_qt_n LI .tg_img IMG {
+	WIDTH: 310px; HEIGHT: 160px
+}
+.tuan_qt_n LI .tg_img .tg_tt {
+	Z-INDEX: 2; POSITION: absolute; LINE-HEIGHT: 30px; WIDTH: 310px; BOTTOM: 0px; FLOAT: left; HEIGHT: 30px; COLOR: #ffffff; LEFT: 0px
+}
+.tuan_qt_n LI .tg_img .tg_tt .sp1 {
+	TEXT-INDENT: 10px; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 18px
+}
+.tuan_qt_n LI .tg_img .tg_tt .sp2 {
+	PADDING-RIGHT: 10px; FLOAT: right; FONT-SIZE: 14px
+}
+.tuan_qt_n LI .tg_img .tg_bg {
+	Z-INDEX: 1; POSITION: absolute; FILTER: alpha(opacity=60); LINE-HEIGHT: 30px; WIDTH: 310px; BOTTOM: 0px; BACKGROUND: #000000; FLOAT: left; HEIGHT: 30px; LEFT: 0px; -moz-opacity: 0.6; -khtml-opacity: 0.6; opacity: 0.6
+}
+.cha-tcbr {
+	Z-INDEX: 12; POSITION: fixed; FILTER: alpha(opacity=60); WIDTH: 100%; DISPLAY: none; BACKGROUND: #000; HEIGHT: 100%; TOP: 0px; LEFT: 0px; -moz-opacity: 0.6; -khtml-opacity: 0.6; opacity: 0.6
+}
+.cha-tc {
+	Z-INDEX: 99999; BORDER-BOTTOM: #717171 1px solid; POSITION: fixed; BORDER-LEFT: #717171 1px solid; WIDTH: 600px; DISPLAY: none; BACKGROUND: #ffffff; MARGIN-LEFT: -300px; BORDER-TOP: #717171 1px solid; TOP: 70px; BORDER-RIGHT: #717171 1px solid; LEFT: 50%
+}
+#cha_tbody {
+	WIDTH: 600px
+}
+.cha-tc .cha-top {
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 30px; PADDING-LEFT: 1px; WIDTH: 598px; PADDING-RIGHT: 1px; BACKGROUND: #ff760d; HEIGHT: 30px; COLOR: #ffffff; OVERFLOW: hidden; PADDING-TOP: 1px
+}
+.cha-tc .cha-top H3 {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 20px; FONT-FAMILY: "Microsoft Yahei"; BACKGROUND: url(../images/icon_21.jpg) no-repeat left center; FLOAT: left; COLOR: #ffffff; MARGIN-LEFT: 10px; FONT-SIZE: 16px; FONT-WEIGHT: normal
+}
+.cha-tc .cha-top SPAN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 16px; MARGIN: 7px 7px 0px 0px; WIDTH: 16px; FONT-FAMILY: Arial; BACKGROUND: #ffffff; FLOAT: right; HEIGHT: 16px; COLOR: #73bc43; FONT-SIZE: 16px; CURSOR: pointer
+}
+.cha-tc .cha-n {
+	BORDER-BOTTOM: #edf8ea 10px solid; BORDER-LEFT: #edf8ea 10px solid; MARGIN: 10px; WIDTH: 560px; BORDER-TOP: #edf8ea 10px solid; BORDER-RIGHT: #edf8ea 10px solid
+}
+.cha-n UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px
+}
+.cha-n LI {
+	LINE-HEIGHT: 40px; WIDTH: 50%; FLOAT: left
+}
+.cha-n LI LABEL {
+	LINE-HEIGHT: 40px; FONT-SIZE: 12px; VERTICAL-ALIGN: top
+}
+.cha-n LI .tex {
+	LINE-HEIGHT: 20px; WIDTH: 150px; HEIGHT: 20px
+}
+.cha-n .tex1 {
+	LINE-HEIGHT: 20px; MARGIN-TOP: 5px; WIDTH: 410px; HEIGHT: 100px
+}
+.cha-n .ch_sub {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 25px; MARGIN-TOP: 20px; WIDTH: 80px; BACKGROUND: #ff760d; HEIGHT: 25px; COLOR: #ffffff; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+

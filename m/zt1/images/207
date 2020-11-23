@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="MobileOptimized" content="240"/>
+<meta name="format-detection" content="telephone=no" />
+<title>金九银十楼盘让利</title>
+<meta name="keywords" content="金九银十楼盘让利！" />
+<meta name="description" content="金九银十楼盘让利！" />
+<link rel="stylesheet" type="text/css" href="/static/zhuanti/mgufang/mobile/jinjiuyinshi/css/public.css"/>
+<link rel="stylesheet" type="text/css" href="/static/zhuanti/mgufang/mobile/jinjiuyinshi/css/swiper.min.css"/>
+<link rel="stylesheet" type="text/css" href="/static/zhuanti/mgufang/mobile/jinjiuyinshi/css/style.css"/>
+<script src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/js/jquery-2.1.4.min.js"></script>
+<script src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/js/swiper.min.js"></script>
+<script src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/js/public.js"></script>
+  <script>
+  ! function(e, t) { var n = t.documentElement,
+      d = e.devicePixelRatio || 1;
+
+    function i() { var e = n.clientWidth / 3.75;
+      n.style.fontSize = e + "px" } if (function e() { t.body ? t.body.style.fontSize = "16px" : t.addEventListener("DOMContentLoaded", e) }(), i(), e.addEventListener("resize", i), e.addEventListener("pageshow", function(e) { e.persisted && i() }), d >= 2) { var o = t.createElement("body"),
+        a = t.createElement("div");
+      a.style.border = ".5px solid transparent", o.appendChild(a), n.appendChild(o), 1 === a.offsetHeight && n.classList.add("hairlines"), n.removeChild(o) } }(window, document)
+  </script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="headerImg">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/header1.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/header2.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/header3.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/header4.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/header5.jpg" alt="">
+                <p>截止时间：2020-10-31</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="main">
+            <div class="loupan swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5606.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan1.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5606.html">桂海高新未来城</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>总价：<span>23万</span>/套</p>
+                            <a href="tel:0770-2703753">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/1245.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan2.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/1245.html">桂海东盟商贸中心</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>5100</span>元/㎡</p>
+                            <a href="tel:0770-2703257">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/4322.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan3.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/4322.html">海韵豪庭</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6200</span>元/㎡</p>
+                            <a href="tel:0770-2703706">立即咨询</a>
+                        </div>
+                    </li>
+                   <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/1006.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan4.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/1006.html">龙光阳光海岸</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6000</span>元/㎡</p>
+                            <a href="tel:0770-2703753">立即咨询</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="baoming">
+                <div class="baomingTitle">
+                    <p>一键报名锁定优惠</p>
+                </div>
+                <form class="layer_baoming1_form" method="post" action="http://m.yuanjuw.com/ajax/addorder.html" novalidate="">
+                <div class="ctc-wrap2">
+                    <input name="type" value="26" type="hidden">
+                    <input type="hidden" name="house_title" value="">
+                    <input type="hidden" name="house_id" value="">
+                    <input name="memo" value="移动金九银十" type="hidden">
+                    <input type="hidden" value="移动金九银十" name="type_name">
+                    <input type="hidden" value="1" name="site_id">
+                    <input type="hidden" value="house" name="model">
+                </div>
+                <div class="wu_zfbt">
+                    <input type="text" placeholder="请输入您的姓名" onfocus="ohide();" onblur="oshow();" name="name">
+                    <input type="text" placeholder="请输入您的手机号" onfocus="ohide();" onblur="oshow();" name="phone">
+                    <input type="submit" value="报名看房" class="dibu_anniu js-ajax-submit button">
+                </div>
+                </form>
+            </div>
+            <div class="headerImg">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi1.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi2.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/biaoti2.jpg" alt="">
+            </div>
+            <div class="loupan swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3022.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan5.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3022.html">碧桂园滨海城</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6800</span>元/㎡</p>
+                            <a href="tel:0770-2703257">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5236.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan6.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5236.html">碧桂园梵高的海</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6200</span>元/㎡</p>
+                            <a href="tel:0770-2703706">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5092.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan7.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5092.html">恒大悦澜湾</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6800</span>元/㎡</p>
+                            <a href="tel:0770-2703753">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/4360.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan8.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/4360.html">金石公园里</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6500</span>元/㎡</p>
+                            <a href="tel:0770-2703257">立即咨询</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="headerImg">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi3.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi4.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/biaoti3.jpg" alt="">
+            </div> 
+            <div class="loupan swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5265.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan9.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5265.html">恒大御景半岛</a>
+                        </div>
+                        <div class="loupanJiage">
+                            <p>均价：<span>9500</span>元/㎡</p>
+                            <a href="tel:0770-2703257">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3073.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan10.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3073.html">恒大悦珑湾</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>11000</span>元/㎡</p>
+                            <a href="tel:0770-2703706">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3018.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan11.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/3018.html">埠上桃源</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6800</span>元/㎡</p>
+                            <a href="tel:0770-2703753">立即咨询</a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="loupanImg">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5242.html"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/loupan12.jpg" alt=""></a>
+                        </div>
+                        <div  class="loupanTitle">
+                            <a href="http://m.yuanjuw.com/fcg/loupan/5242.html">世嘉国际</a>
+                        </div>                        
+                        <div class="loupanJiage">
+                            <p>均价：<span>6580</span>元/㎡</p>
+                            <a href="tel:0770-2703257">立即咨询</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="baoming">
+                <div class="baomingTitle">
+                    <p>一键报名锁定优惠</p>
+                </div>
+                <form class="layer_baoming1_form" method="post" action="http://m.yuanjuw.com/ajax/addorder.html" novalidate="">
+                <div class="ctc-wrap2">
+                    <input name="type" value="26" type="hidden">
+                    <input type="hidden" name="house_title" value="">
+                    <input type="hidden" name="house_id" value="">
+                    <input name="memo" value="移动金九银十" type="hidden">
+                    <input type="hidden" value="移动金九银十" name="type_name">
+                    <input type="hidden" value="1" name="site_id">
+                    <input type="hidden" value="house" name="model">
+                </div>
+                <div class="wu_zfbt">
+                    <input type="text" placeholder="请输入您的姓名" onfocus="ohide();" onblur="oshow();" name="name">
+                    <input type="text" placeholder="请输入您的手机号" onfocus="ohide();" onblur="oshow();" name="phone">
+                    <input type="submit" value="报名看房" class="dibu_anniu js-ajax-submit button">
+                </div>
+                </form>
+            </div>
+            <div class="headerImg">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi5.jpg" alt="">
+                <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi6.jpg" alt="">
+                <a href="tel:0770-2702871"><img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/wenzi7.jpg" alt=""></a>
+            </div>             
+            <div class="zhushi">
+                <p>注释：</p>
+                <p>1、本网站有着严格的加密技术和访问权限，保您信息不外露，可放心填写。</p>
+                <p>2、页面所载内容、图片、价格、折扣仅供参考，实际情况以开发商公布的信息为准。</p>
+            </div>    
+        </div>
+    </main>
+    <script>
+        var swiper = new Swiper('.loupan', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 3200,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            }
+        });
+    </script>     
+    <footer>
+        <div class="wu_footer">
+            <ul class="clearfix"> 
+                <li><a onclick="openZoosUrl('chatwin');"">在线沟通</a></li>
+                <li><a href="javascript:group('');">帮我找房</a></li>
+                <li><a href="tel:0770-2702871">免费电话</a></li>
+            </ul>
+           <div class="wu_tops">
+              <img src="/static/zhuanti/mgufang/mobile/jinjiuyinshi/images/top.png">
+           </div>
+        </div>
+        <!-- 底部出现开始 -->
+         <script type="text/javascript">
+           $(function () {
+                var _doc = $(document).height(); //整个页面高度
+                var heads = $(".head").height();
+                var _height = heads;
+                window.onscroll = function () {
+                 top_s = $(document).scrollTop();
+                    if (top_s > _height) {
+                    $('.wu_footer').fadeIn(500);
+                  } else {
+                    $('.wu_footer').fadeOut(500);
+                  }
+                };
+            })
+        </script>
+        <!-- 底部出现结束 -->
+
+        <!-- 返回顶部开始 -->
+        <script type="text/javascript">
+           $(function() {
+               $(".wu_tops").click(function() {
+                   $('body,html').animate({scrollTop: 0}, 300);
+                   return false;
+               });
+           });
+        </script>
+        <!-- 返回顶部结束 -->
+    </footer>
+
+    <div class="windowes">
+        <div class="windowTopes">
+            <h1>看房报名</h1>
+            <h2>楼盘信息一步到位</h2>
+        </div>
+        <div class="windowBottomes">
+            <form class="layer_baoming1_form" method="post" action="http://m.yuanjuw.com/ajax/addorder.html" novalidate="">
+                <div class="ctc-wrapes2">
+                    <input name="type" value="26" type="hidden">
+                    <input name="memo" value="移动金九银十" type="hidden">
+                    <input type="hidden" value="移动金九银十" name="type_name">
+                    <input type="hidden" value="1" name="site_id">
+                    <input type="hidden" value="house" name="model">
+                </div>
+                <input type="hidden" name="house_title" id="loupan" value=" ">
+                <input type="hidden" name="house_id" value="" id="loupanid">
+                <input type="hidden" name="title">
+                <p class="mingzies">姓名：<span><input onfocus="move();" name="name" placeholder="请输入您的姓名" type="text"></span></p>
+                <p class="mingzies">电话：<span><input onfocus="move();" name="phone" placeholder="请输入您的手机号码" type="text"></span></p>
+                <p class="Submites"><span class="quxiaoes"><a href="javascript:delbox();">取消</a></span><span><button type="submit button" class="button sub js-ajax-submit">确定</button></span></p>
+            </form>
+        </div>
+    </div>
+    <a href="javascript:delbox();">
+    <div class="alertes"></div>
+    </a>
+<!-- 弹出报名对话框 -->
+<script src="/static/js/plugins/jquery.ajax.form.js"></script>
+<script>
+    $(function(){
+        $('form .button').bind('click',function(){
+            var params = $(this).parents("form").serializeArray();
+            
+            var values = {};
+            for( x in params ){
+                values[params[x].name] = params[x].value;
+            }
+            var idata = JSON.stringify(values);
+            var idata = JSON.parse(idata);
+            var title = idata.name;
+            console.log(idata);
+            var content = idata.phone;
+            var reg     = /1[34578][0-9]{9}$/;
+            var length = '';
+            if(title.length==0){
+//                layer.msg('请填写您的姓名',{icon:2});
+                alert('请填写您的姓名');
+                return false;
+            }
+            if(!reg.test(content)){
+//                layer.msg('请填写正确的手机号码',{icon:2});
+                alert('请填写正确的手机号码');
+                return false;
+            }
+            layer.load(1);
+            $('.layer_baoming1_form').submit();
+        });
+        $('.layer_baoming1_form').ajaxForm({success:complate,dataType:'json'});
+        function complate(result){
+            if(result.status == 1){
+                $.post("http://m.yuanjuw.com/ajax/sendmail.html",{content:result.content,haiwai:result.code},function(){});
+                alert(result.msg);
+                location.reload();
+                layer.msg(result.msg,{icon:1});
+                setTimeout(function(){
+                    var index = parent.layer.getFrameIndex(window.name);
+                    parent.layer.close(index);
+                },1500);
+            } else {
+                alert(result.msg);
+                layer.msg(result.msg,{icon:2});
+            }
+        }
+    });
+</script>
+<script>
+function group(txt,id){
+    if(txt,id){
+        document.getElementById("loupan").value = txt;
+        document.getElementById("loupanid").value = id;
+    }else{
+        var obj = document.getElementById("loupan");
+        obj.value = ' ';
+    }
+    iBoxWidth = $(".windowes").width();
+    iBoxHeight = $(".windowes").height();
+    iWinWidth = $(window).width();
+    iWinHeight = $(window).height();
+    $(".windowes").css("left", (iWinWidth / 2 - iBoxWidth / 2) + "px");
+    $(".windowes").css("top", (iWinHeight / 2 - iBoxHeight / 2) + "px");
+    $(".windowes").fadeIn();
+    $(".alertes").height(document.body.offsetHeight);
+    $(".alertes").show();
+}
+function delbox(){
+        $(".windowes").fadeOut();
+        $(".alertes").hide();
+}
+//ajax 报名
+function ajax4form(form_id, t) {
+    (function($) {
+        if (form_id != '') {
+            var D = $('#' + form_id).serialize();
+            var S = $('#' + form_id + ' input[type=submit]').val();
+            $('#' + form_id + ' input[type=submit],button').val('处理中...').attr('disabled', true);
+        }
+        $.ajax({
+            type: 'post',
+            url: 'http://zhuanti.yuanjuw.com/ajax17hjfwap.php',
+            data: 't=' + t + '&' + D,
+            dataType: 'json',
+            success: function(R) {
+                $('#' + form_id + ' input[type=submit],button').val(S).attr('disabled', false);
+                if (R.erro != 0) {
+                    alert(R.msg);
+                    if (R.url != '' && R.url != undefined) {
+                        window.location.href = R.url;
+                    }
+                    $('#' + form_id + ' input[name=' + R.name + '],#' + form_id + ' textarea[name=' + R.name + ']').focus().select();
+                } else {
+                    if (R.alert != '' && R.alert != undefined) {
+                        //eval(R.complete);
+                        alert(R.alert);
+                         $.ajax({
+                            type: 'post', 
+                            url: 'http://zhuanti.yuanjuw.com/sendmail.php',
+                            data: 'where='+R.where+'&name='+R.name+'&mobile='+R.mobile+'&house_name='+R.house_name+'&leave='+R.leave,
+                            dataType: 'json',
+                            success: function (R) {
+                                    eval(R.complete);
+                                }
+                            })
+                    }
+                    if (R.sourse != '' && R.sourse != undefined) {
+                        eval(R.sourse);
+                    }
+                    $('#' + form_id + ' input[rel*=clear],#' + form_id + ' textarea[rel*=clear]').val('');
+                    if (R.complete != '' && R.complete != undefined) {
+                        eval(R.complete);
+                    }
+                    if (R.url != '' && R.url != undefined) {
+                        window.location.href = R.url;
+                    }
+                }
+                if (R.createSendMailXmlFileName != '' && R.createSendMailXmlFileName != undefined) {
+                    var mailOptin = {
+                        'debug': 0,
+                        'goUrl': R.goUrl,
+                        'createSendMailXmlFileName': R.createSendMailXmlFileName,
+                        'complete': R.mailComplete
+                    };
+                    getMailHandle(mailOptin);
+                }
+            }
+        })
+    })(jQuery)
+}
+</script>
+<script>
+    function move(){
+        $(".windowes").css("top", 10+ "px");
+    }
+    function ohide(){
+        $(".wu_footer").hide();
+    }
+    function oshow(){
+        $(".wu_footer").show();
+    }
+</script>
+<script language="javascript" src="http://lwt.zoosnet.net/JS/LsJS.aspx?siteid=LWT26251167&float=1&lng=cn"></script>
+</body>
+</html>

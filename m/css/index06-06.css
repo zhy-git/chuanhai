@@ -1,0 +1,1080 @@
+@charset "utf-8";
+
+/*重置规划*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img {margin:0;padding:0} 
+
+fieldset,img {border:0 none;} 
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+*{
+	font-family:"微软雅黑","宋体","黑体","arial","georgia";
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+body{ 
+	font-family:"微软雅黑"; 
+	color:#333; 
+	padding:0px; 
+	max-width:640px; 
+	margin:0 auto; 
+	position: relative; 
+	overflow:scroll;
+	overflow-x:hidden;
+	overflow-y:auto; 
+	width:100%;
+	font-size: 1rem;
+}
+
+.clear{
+	clear: both;
+}
+
+.bar{
+	height: 10px;
+	background-color: #e9e9e9;
+}
+/*顶部样式*/
+
+
+
+header{
+	
+	border-bottom: solid 1px #dddddd;
+	height: 60px;
+	width: 100%;
+}
+
+header .area{
+	float: left;
+	width: 20%;
+	vertical-align: middle;
+	line-height: 60px;
+	position: relative;
+	margin-left: 10ox;
+
+
+}
+
+header .area-a{
+	overflow: hidden;
+	
+
+}
+
+header .area .area-a i{
+	width: 20px;
+	height: 20px;
+	background: url(../images/icon.png) no-repeat -11px -9px ;
+	float: left;
+	margin-top: 20px;
+	margin-right: 2px;
+	
+}
+
+header .area .area-a span{
+	font-size: 1.6rem;
+	float: left;
+}
+
+header .logo{
+	float: left;
+	
+	width: 160px;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+
+	margin-left: -80px;
+
+	text-align: center;
+	
+}
+
+header .phone{
+	float: right;
+	width: 20%;
+	margin-right: 10px;
+	margin-top: 18px;
+
+}
+
+
+header .phone a{
+	float: right;
+
+}
+
+header .city{
+	background-color: #fff;
+	display: none;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	position: absolute;
+	top: 65px;
+	left: 0px;
+}
+
+header .city li{
+	width: 23%;
+	float: left;
+	text-align: center;
+	background-color: #ededed;
+	margin: 1% 1%;
+	border-radius:5px;
+}
+
+header .city li a{
+	font-size: 1.4rem;
+	color: #333333;
+	padding: 5px 0px;
+	display: block;
+}
+/*搜索*/
+
+.search-box{
+
+	width: 94%;
+	margin: 10px auto;
+}
+
+.search-box form{
+	border: solid 1px #e9e9e9;
+	border-radius: 5px;
+	
+
+}
+
+.search-box form input{
+	float: left;
+	background-color: #fff;
+	width: 84%;
+	height: 38px;
+	outline: none;
+	border: none;
+	color: #333333;
+	text-indent: 10px;
+}
+
+.search-box form .sdfddsfsd{
+	float:right;
+	height: 20px;
+	background: url(../images/icon.png)no-repeat -31px -10px ;
+	width: 35px;
+	/*margin-left: 4%;*/
+	margin-top: 8px;
+	text-align: center; border:none;
+}
+
+/*栏目*/
+
+.nav{
+	width: 94%;
+	margin: 0px auto;
+}
+
+.nav .nav-ul{
+	
+}
+
+.nav .nav-ul li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.nav .nav-ul li a .a{
+	
+	text-align: center;
+
+}
+
+.nav .nav-ul li a p{
+	font-size: 1.6rem;
+	line-height: 30px;
+	color: #333333;
+
+}
+
+/*小户型*/
+
+.small{
+	width: 100%;
+	border-bottom: solid 1px #e9e9e9;
+}
+
+.small .small-ul{
+
+}
+
+.small .small-ul li{
+	width: 49.6%;
+	border-top: solid 1px #e9e9e9;
+	border-right: solid 1px #e9e9e9;
+	float: left;
+	height: 60px;
+}
+
+.small .small-ul li a{
+	width: 100%;
+	display: block;
+
+
+}
+
+.small .small-ul li a .a{
+	width: 7%;
+	float: left;
+	border: solid 1px #fff;
+
+
+}
+
+.small .small-ul li a dl{
+	width: 57%;
+	float: left;
+	margin-right: 2px;
+	margin-top: 1rem;
+
+}
+
+.small .small-ul li a dl dt{
+	font-size: 1.8rem;
+	color: #333333;
+	font-weight: bold;
+	
+}
+
+.small .small-ul li a dl dd{
+	font-size: 1rem;
+	color: #999;
+	
+}
+
+.small .small-ul li a .b{
+	width: 30%;
+	float: left;
+	margin-top: 1rem;
+}
+
+
+
+
+.small .small-ul li a .c{
+	width: 3%;
+	float: left;
+	border: solid 1px #fff;
+}
+
+
+/*房产头条*/
+
+.box-now{
+	width: 100%;
+	margin-top: 15px;
+}
+
+.box-now .now-1{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.box-now .now-1 .a{
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+}
+
+.box-now .now-1 img{
+	min-width: 90%;
+	max-width: 100%;
+	
+}
+
+.box-now .now-1 .b{
+	width: 75%;
+	float: left;
+}
+
+.box-now .now-1 .b li{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 2.8%;
+}
+
+.box-now .now-1 .b li a{
+	overflow: hidden;
+	display: block;
+	
+}
+
+
+.box-now .now-1 .b li a span{
+	float: left;
+	color:#ff6666 ;
+	border: solid 1px #ffe0e0;
+	padding: 1px 3px;
+	font-size: 1.2rem;
+	margin-right: 4px;
+}
+
+.box-now .now-1 .b li a p{
+	float: left;
+	width: 73%;
+	font-size: 1.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #f70a0a;
+}
+
+/*广告*/
+
+.box-advertising{
+	width: 100%;
+}
+
+.box-advertising-ul{
+	overflow: hidden;
+}
+
+.box-advertising-ul li{
+	width: 50%;
+	float: left;
+}
+
+.box-advertising-ul li a img{
+	width: 100%;
+	display: block;
+}
+
+/*推荐楼盘*/
+
+.box-recommend{
+	border-top: solid 1px #e4e4e4;
+	width: 100%;
+}
+
+.box-recommend .recommend-1{
+	border-bottom: solid 1px #e4e4e4;
+	overflow: hidden;
+	height: 4rem;
+	
+}
+
+.box-recommend .recommend-1 .ra{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	
+}
+
+.box-recommend .recommend-1 .ra h2{
+	font-size: 2rem;
+	color: #333333;
+	float: left;
+	line-height: 4rem;
+}
+
+.box-recommend .recommend-1 .ra i{
+	width: 30px;
+	height: 15px;
+	background: url(../images/icon.png) no-repeat -68px -12px ;
+	float: left;
+	display: block;
+	margin-top: 1.3rem;
+	margin-left: 1rem;
+}
+
+.box-recommend .recommend-1 .rb{
+	float: right;
+	overflow: hidden;
+	margin-right: 10px;
+	line-height: 4rem;
+}
+
+.box-recommend .recommend-1 .rb li{
+	float: left;
+	margin: 0 3px;
+}
+
+.box-recommend .recommend-1 .rb li a{
+	float: left;
+	color: #666;
+	font-size: 1.4rem;
+}
+
+.box-recommend .recommend-2{
+	width: 100%;
+}
+
+.recommend-2 .Big-li{
+	width: 96%;
+	margin: 0 auto;
+	border-bottom: dotted 1px #bcbcbc;
+	margin-top: 13px;
+	position: relative;
+	
+	
+}
+
+.Big-li .Big-li-div{
+	overflow: hidden;
+	min-height: 75px;
+	max-height: 100px;
+}
+
+.Big-li .Big-li-div .left-img{
+	float: left;
+	width: 38%;
+	margin-right: 1%;
+}
+
+.Big-li .Big-li-div .left-img div{
+	position: relative;
+}
+
+.Big-li .Big-li-div .left-img div img{
+	width: 100%;
+	display: block;
+	min-height: 80px;
+	max-height: 100px;
+	
+}
+
+.Big-li .Big-li-div .left-img div span{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding: 3px 0px;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.Big-li .Big-li-div .parameter-right{
+	float: left;
+	width: 60%;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li1 a{
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.6rem;
+	color: #333333;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li2{
+	color: #ff6600;
+	font-size: 1.6rem;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li2 span{
+	font-size: 1.4rem;
+	color: #666;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li2 b{
+	font-family: arial;
+	font-size: 1.6rem;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li3{
+	color: #333333;
+	font-size: 1.2rem;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li3 span{
+	color: #ff6600;
+	font-family: arial;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li4 .s1{
+	color: #a06fbc;
+	font-size: 1rem;
+	padding: 1px 2px;
+	border: solid 1px #A06FBC;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li4 .s2{
+	color: #2bb1fe;
+	font-size: 1rem;
+	padding: 1px 2px;
+	border: solid 1px #2bb1fe;
+}
+
+.Big-li .Big-li-div .parameter-right .p-li4 .s3{
+	color: #8fc31f;
+	font-size: 1rem;
+	padding: 1px 2px;
+	border: solid 1px #8fc31f;
+}
+
+.Big-li .Big-li-news{
+	background-color: #f6f6f6;
+	line-height: 25px;
+	margin: 8px 0px;
+	font-size: 1.4rem;
+	color: #2BB1FE;
+	width: 98%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 1%;
+}
+
+.Big-li .Big-li-news a{
+	
+	color: #2BB1FE;
+}
+
+.Big-li .number{
+	position: absolute;
+	top: 10%;
+	right:2%;
+}
+
+.recommend-2 .moer{
+	text-align: center;
+	
+}
+
+.recommend-2 .moer a{
+	line-height: 35px;
+	color: #333333;
+	text-align: center;
+	font-size: 1.4rem;
+	
+}
+
+/*别墅豪宅*/
+
+.villa-box{
+	width: 100%;
+	border-top:solid 1px #e4e4e4 ;
+}
+
+.villa-box .villa-tltte{
+	
+	border-bottom:solid 1px #e4e4e4 ;
+	
+}
+
+.villa-box .villa-tltte .va{
+	line-height: 4rem;
+	overflow: hidden;
+}
+
+.villa-box .villa-tltte h2{
+	font-size: 2rem;
+	float: left;
+	margin-right: 1rem;
+	margin-left:2% ;
+	
+}
+
+.villa-box .villa-tltte i{
+	width: 26px;
+	height: 22px;
+	background: url(../images/icon.png) no-repeat -103px -8px;
+	display: block;
+	float: left;
+	margin-top: 1rem;
+}
+
+.villa-box .villa-ul{
+	margin-bottom: 12px;
+	margin-top:15px;
+}
+
+.villa-box .villa-ul li{
+	width: 46%;
+	float: left;
+	margin: 0 2%;
+}
+
+.villa-box .villa-ul li a{
+	display: block;
+}
+
+.villa-box .villa-ul li a img{
+	width: 100%;
+	min-height: 105px;
+}
+
+.villa-box .villa-ul li a .villa-ul-a h4{
+	text-align: center;
+	color: #333333;
+	font-size: 1.6rem;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.villa-box .villa-ul li a .villa-ul-a p{
+	font-size: 1.2rem;
+	color: #666666;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+.villa-box .villa-ul li a .villa-ul-a p b{
+	font-size: 1.6rem;
+	color: #F70A0A;
+	font-weight: normal;
+}
+
+.villa-box .villa-ul li a .villa-ul-a p span{
+	
+	color: #F70A0A;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.villa-box .moer{
+	text-align: center;
+	width: 96%;
+	margin: 0 auto;
+	line-height: 30px;
+	border-top: dotted 1px #bcbcbc;
+}
+
+.villa-box .moer a{
+	font-size: 1.4rem;
+	color: #333333;
+}
+
+/*新闻资讯*/
+
+.news_box{
+	border-top:solid 1px #e4e4e4 ;
+	width: 100%;
+}
+
+.news_box .nwes-tltte{
+	overflow: hidden;
+	border-bottom:solid 1px #f0f0f0 ;
+	line-height: 4rem;
+	padding: 0 10px;
+}
+
+.news_box .nwes-tltte h2{
+	font-size: 2rem;
+	color: #333333;
+	float: left;
+}
+
+.news_box .nwes-tltte i{
+	width: 30px;
+	height: 21px;
+	background: url(../images/icon.png) no-repeat -135px -9px;
+	display: block;
+	float: left;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+.news_box .nwes-ul{
+	width: 96%;
+	margin: 0 auto;
+}
+
+.news_box .nwes-ul li{
+	border-bottom: solid 1px #e4e4e4;
+}
+
+.news_box .nwes-ul li a{
+	padding: 10px 0;
+	display: block;
+}
+
+
+.news_box .nwes-ul li a .n-left{
+	float: left;
+	width: 68%;
+}
+
+.news_box .nwes-ul li a .n-left p{
+	font-size: 1.6rem;
+	height: 46px;
+	color: #333333;
+}
+
+.news_box .nwes-ul li a .n-left b{
+	font-weight: normal;
+	color: #999;
+	font-size: 1.4rem;
+}
+
+.news_box .nwes-ul li a .n-left b span{
+	width: 18px;
+	height: 18px;
+	display: block;
+	background: url(../images/icon.png) no-repeat -169px -10px;
+	margin-top: 2px;
+	float: left;
+	margin-right: 3px;
+}
+
+
+.news_box .nwes-ul li a .n-right{
+	float: right;
+	width: 30%;
+}
+
+.news_box .nwes-ul li a .n-right img{
+	width: 100%;
+	min-height: 70px;
+	max-height: 80px;
+}
+
+.news_box .moer{
+	text-align: center;
+	width: 96%;
+	margin: 0 auto;
+	line-height: 34px;
+}
+
+.news_box .moer a{
+	font-size: 1.4rem;
+	color: #333333;
+}
+
+/*旅居生活*/
+
+.lvju-box{
+	width: 100%;
+}
+
+.lvju-box .lvju-tltte{
+	width: 96%;
+	padding: 0 2%;
+	line-height: 4rem;
+	border-bottom: solid 1px #f0f0f0;
+	overflow: hidden;
+}
+
+
+.lvju-box .lvju-tltte .lvju-a{
+	float: left;
+}
+
+.lvju-box .lvju-tltte .lvju-a h2{
+	font-size: 2rem;
+	color: #333333;
+	float: left;
+}
+
+.lvju-box .lvju-tltte .lvju-a i{
+	width: 25px;
+	height: 19px;
+	display: block;
+	background: url(../images/icon.png) no-repeat -191px -11px;
+	float: left;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+
+.lvju-box .lvju-tltte .lvju-b{
+	float: right;
+	color: #999;
+	font-size: 1.4rem;
+}
+
+.lvju-box .lvju-ul{
+	width: 96%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 12px;
+}
+
+.lvju-box .lvju-ul .lvju-li1{
+	width: 42%;
+	float: left;
+}
+
+.lvju-box .lvju-ul .lvju-li1 div{
+	margin-bottom: 13px;
+	
+}
+
+.lvju-box .lvju-ul .lvju-li1 div img{
+	width: 100%;
+	display: block;
+	height: 85px;
+	
+}
+
+.lvju-box .lvju-ul .lvju-li2{
+	width: 55%;
+	float: right;
+}
+
+.lvju-box .lvju-ul .lvju-li2 a img{
+	width: 100%;
+	height: 184px;
+}
+
+/*购房需求*/
+
+.demand h3{
+	font-size: 1.8rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.demand p{
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 3rem;
+}
+
+.demand .an{
+	margin: 1rem 0 2rem 0;
+	text-align: center;
+}
+
+/*页脚*/
+
+.footer-nav{
+	
+	padding-bottom: 50px;
+}
+
+.footer-nav ul{
+	border-bottom: solid 1px #eeeeee;
+	border-top: solid 1px #eeeeee;
+	overflow: hidden;
+}
+
+.footer-nav ul li{
+	float: left;
+	line-height: 4.5rem;
+	width: 25%;
+	text-align: center;
+
+}
+
+.footer-nav ul li a{
+	color: #999999;
+	font-size: 1.4rem;
+}
+
+.footer-nav p{
+	color: #999999;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+
+/*购房需求*/
+
+.forms-box{
+	padding-top: 50px;
+}
+
+.forms-title h2{
+	text-align: center;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height:2rem;
+}
+
+.forms-title p{
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: normal;
+	padding: 0 20px;
+	color: #666;
+}
+
+.fo {
+	width: 12rem;
+	margin: 0 auto;
+}
+
+.fo .yi{
+	overflow: hidden;
+	margin: 0.5rem 0rem;
+}
+
+.fo .yi h2{
+	float: left;
+	font-size: 0.65rem;
+	font-weight: normal;
+	width: 3rem;
+	line-height: 1.3rem;
+	
+}
+
+.fo .yi select{
+	float: left;
+	width: 9rem;
+	height: 1.3rem;
+	border-radius:5px ;
+	border: solid 1px #d4d4d4;
+}
+
+.fo .yi textarea{
+	float: left;
+	width: 8.9rem;
+	border-radius:5px ;
+	height: 2.2rem;
+	border: solid 1px #d4d4d4;
+}
+
+.fo .er{
+	width: 10rem;
+	margin:0 auto;
+
+}
+
+.fo .er .er-1{
+overflow: hidden;
+margin: 0.3rem 0rem;
+}
+
+.fo .er .er-1 label{
+	width: 1.5rem;
+	/*border: solid 1px #000;*/
+	display: block;
+	float: left;
+	line-height: 1rem;
+	font-size: 0.65rem;
+}
+
+.fo .er .er-1 input{
+	border-radius:50px ;
+	border: solid 1px #ddd;
+	width: 7rem;
+	float: left;
+	display: block;
+	height: 1rem;
+	text-indent: 10px;
+	outline: none;
+}
+
+.fo .er .er-1 span{
+	width: 1.3rem;
+	color: #FF0000;
+	font-size: 0.5rem;
+	display: block;
+	float: right;
+	line-height: 1rem;
+}
+
+.fo button{
+	width: 8rem;
+	margin: 0.8rem auto;
+	display: block;
+	line-height: 1.4rem;
+	background-color: #FF0000;
+	border-radius:5px ;
+	border: none;
+	color: #fff;
+	font-size: 0.5rem;
+}
+
+
+
+
+
+/*小屏幕（大等于320px）*/
+
+@media only screen and (min-width:320px ) {
+	
+	
+	
+	.Big-li .Big-li-div .parameter-right .p-li4{
+		margin-top: 3px;
+	}	
+	
+	.news_box .nwes-ul li a .n-left p{
+		font-size: 1.4rem;
+	}
+
+	.news_box .nwes-ul li a .n-right img{
+	width: 100%;
+	max-height: 75px;
+}
+	
+}
+
+
+/*小屏幕（大等于375px）*/
+
+@media only screen and (min-width:375px ) {
+	
+	.Big-li .Big-li-div .parameter-right .p-li3{
+		margin-top: 3px;
+	}
+	
+	.news_box .nwes-ul li a .n-left p{
+			font-size: 1.6rem;
+			
+		}
+	
+	.Big-li .Big-li-div .parameter-right .p-li4{
+		margin-top: 5px;
+	}	
+	
+}
+
+/*苹果屏幕（大等于414px）*/
+
+@media only screen and (min-width:414px ) {
+	
+	.Big-li .Big-li-div .parameter-right .p-li1 a{
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 1.8rem;
+		color: #333333;
+	}
+	
+	.Big-li .Big-li-div .parameter-right .p-li3{
+		margin-top: 3px;
+	}
+	
+	.Big-li .Big-li-div .parameter-right .p-li4{
+		margin-top: 7px;
+	}
+	
+	.Big-li .Big-li-div .parameter-right .p-li4 .s1,.Big-li .Big-li-div .parameter-right .p-li4 .s2,.Big-li .Big-li-div .parameter-right .p-li4 .s3{
+		font-size: 1.2rem;margin-right: 0.3rem;
+	}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+

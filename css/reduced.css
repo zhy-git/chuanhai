@@ -1,0 +1,24 @@
+.y_reduced{width: 600px; height: 280px; background: #fff;  border-radius: 8px;overflow:hidden;}
+.y_reduced_main{position:relative;}
+
+
+
+
+
+.m_reduced_l{width:250px;height:280px;float:left;background:#0B9DF7;position:relative;}
+.m_reduced_l .m_reduced_l_title{width:185px;display:block;margin:auto;position:relative;top:33px;}
+.m_reduced_l .m_reduced_l_bj{position:absolute;bottom:0;width:270px;display:block;}
+
+.m_reduced_r{width:325px;height:280px;float:right;}
+
+.m_reduced_r_title{text-align:center;margin-top:20px;overflow:hidden;height:50px;}
+.m_reduced_r_title em{display:block;font-size:17px;color:#E80000;}
+.m_reduced_r_title span{font-size:14px;color:#454444;display:block;margin-top:10px;}
+
+.m_reduced_r form{margin-top:15px;width:300px;}
+
+.m_form_input{border:1px solid #B4AFAF;height:40px;margin-bottom:15px; border-radius:5px;overflow:hidden;}
+.m_form_input img{margin:9px 0px 0 14px;width:18px;}
+
+.m_form_input input{float:right;width:230px;height:25px;border:0;border-left:1px solid #999;margin-top:7px;padding:0 10px;font-size:15px;color:#333;}
+.m_reduced_r form .m_form_button{width:300px;height:40px;background:#0B9DF7;display:block;border:0;margin-top:27px;font-size:18px;color:#FFF;border-radius:5px;}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+/*重置规划*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img {margin:0;padding:0} 
+
+fieldset,img {border:0 none;} 
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+*{
+	font-family:"微软雅黑","宋体","黑体","arial","georgia";
+}
+
+
+
+/*设置不同分辨率的字体大小*/
+
+/*html {
+	    font-size : 20px;
+	}
+	@media only screen and (min-width: 320px){
+	    html {
+	        font-size: 25px !important;
+	    }
+	}
+	@media only screen and (min-width: 375px){
+	    html {
+	        font-size: 26.75px !important;
+	    }
+	}
+	@media only screen and (min-width: 480px){
+	    html {
+	        font-size: 30px !important;
+	    }
+	}
+	@media only screen and (min-width: 570px){
+	    html {
+	        font-size: 35px !important;
+	    }
+	}
+	@media only screen and (min-width: 640px){
+	    html {
+	        font-size: 40px !important;
+	    }
+	}
+*/

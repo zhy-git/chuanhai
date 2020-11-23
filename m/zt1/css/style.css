@@ -1,0 +1,121 @@
+.headerImg{
+    position: relative;
+}
+.headerImg img{
+    width: 100%;
+}
+.headerImg p {
+    position: absolute;
+    z-index: 3;
+    font-size: 0.10rem;
+    left: 2%;
+    top: 1%;
+    color: #fff;
+    text-shadow: 1px 1px 1px #505050;
+}
+
+
+.main{
+    background-image: linear-gradient(to right , #b31b10,#bd371c, #b2190f);
+    padding-bottom: 100px;
+}
+.loupan{
+    padding:0.1rem;
+    background: url(../images/loupanbj.jpg);
+}
+.loupan li{
+    position: relative;
+    background: #fcf8d2;
+    padding:0.1rem 0.07rem;
+    border-radius: 0.1rem;
+    padding-bottom:0.2rem;
+}
+.loupanTitle a{
+    font-size: 0.24rem;
+    display: block;
+    line-height: 0.4rem;
+    font-weight: 600;
+    padding-left: 0.05rem;
+}
+.loupanImg img{
+    width: 100%;
+}
+.loupanJiage{
+    padding: 0 0.15rem;
+}
+.loupanJiage p{
+    font-size: 0.14rem;
+    display: inline-block;
+}
+.loupanJiage p span{
+    font-size: 0.28rem;
+    color: #c21c08;
+    font-weight: 600;
+}
+.loupanJiage a{
+    float: right;
+    font-size: 0.16rem;
+    background: #cf281f url(../images/dianhua.png) no-repeat 0.1rem center /20%;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding:0.07rem 0.1rem;
+    padding-left: 0.35rem;
+}
+.loupan .swiper-pagination{
+    bottom: 0.15rem;
+}
+.loupan .swiper-pagination-bullet-active{
+    background: #c21c08;
+}
+.zhushi{
+    margin-top: 0.4rem;
+}
+.zhushi p{
+    color: #fff;
+    font-size: 0.12rem;
+    transform:scale(0.9);
+    margin:0 auto;
+}
+
+
+
+
+/*报名框*/
+.baoming{
+    background: #cb3d33;
+    border:2px solid #fbf28d;
+    width: 94%;
+    margin:0.2rem auto;
+    box-shadow: 2px 2px 4px #70190f;
+    border-radius: 0.1rem;
+}
+.baomingTitle p {
+    font-size: 0.26rem;
+    color: #f7da64;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.wu_zfbt {
+   padding: 0.12rem 10% 0.2rem 10%;
+}
+.wu_zfbt input {
+    display: block;
+    width: 100%;
+    font-size: 0.14rem;
+    color: #929292;
+    padding: 0.11rem 0;
+    border-radius: 0.06rem;
+    margin-bottom: 0.1rem;
+    text-indent: 5%;
+}
+.wu_zfbt input:last-child {
+    background: #f49e11;
+    color: #fff;
+    font-size: 0.18rem;
+    font-weight: 600;
+    text-indent: 0;
+    padding: 0.065rem 0;
+}
+
+/*报名框END*/
