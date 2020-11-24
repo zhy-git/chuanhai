@@ -9,9 +9,9 @@ function SendMail($to, $title, $content) {
     $mail->IsSMTP(); // 启用SMTP
     $mail->Host='smtp.163.com'; //smtp服务器的名称（这里以QQ邮箱为例）
     $mail->SMTPAuth = TRUE; //启用smtp认证
-    $mail->Username = 'linyouqun@163.com'; //你的邮箱名
-    $mail->Password = '15120774622'; //邮箱密码
-    $mail->From = 'linyouqun@163.com'; //发件人地址（也就是你的邮箱地址）
+    $mail->Username = 'zhaihuanyan520@163.com'; //你的邮箱名
+    $mail->Password = 'Zhonghui520'; //邮箱密码
+    $mail->From = 'zhaihuanyan520@163.com'; //发件人地址（也就是你的邮箱地址）
     $mail->FromName = '通知'; //发件人姓名
     $mail->AddAddress($to,"尊敬的客户");
     $mail->WordWrap = 50; //设置每行字符长度
@@ -71,10 +71,10 @@ if ($action=="baoming"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
@@ -148,10 +148,10 @@ if ($action=="dz"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
@@ -209,10 +209,10 @@ if ($action=="baomingyj"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
@@ -270,10 +270,10 @@ if ($action=="baoming2"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
@@ -340,10 +340,10 @@ if ($action=="wendatj"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
@@ -427,11 +427,11 @@ if ($action=="bmtj"){
 				//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
-				$smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "468928049@qq.com,420998627@qq.com";//发送给谁
+				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+				$smtpemailto = "420998627@qq.com";//发送给谁
 				// $smtpemailto = "420998627@qq.com";//发送给谁
-				$smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-				$smtppass = "yanyan38";//SMTP服务器的用户密码
+				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
 				$mailcontent = "<h1>{$uname}电话：{$utel}{$lpname}{$ly}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
