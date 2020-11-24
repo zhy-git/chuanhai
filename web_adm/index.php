@@ -108,7 +108,7 @@ $(function() {
                 <SPAN><A href="config.php" target=c>--系统基本设置</A></SPAN>
                 <SPAN><A href="admin_list.php" target=c>--管理员管理</A></SPAN>
                 <SPAN><A href="ip_list.php" target=c>--查看访问IP</A></SPAN>
-                <!--SPAN><A href="srot.php" target=c>--栏目管理</A></SPAN-->
+                <SPAN><A href="srot.php" target=c>--栏目管理</A></SPAN>
             </DD>
         </DL>
       <?php }?>
