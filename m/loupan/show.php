@@ -47,7 +47,7 @@ if($lpid<>""){
     <link href="/public/static/home/css/video-js.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="/public/static/home/js/lp/video.js"></script>
     <script src="/public/static/phone/js/swiper-3.4.2.min.js"></script> 
-    <script src="//msite.baidu.com/sdk/c.js?appid=1599154404206584"></script>
+    <!-- <script src="//msite.baidu.com/sdk/c.js?appid=1599154404206584"></script> -->
 <?php include("../sq2.php");?>     
 </head>
 <style>

@@ -1,1 +1,1 @@
-<?php echo $config['text2'];?>
+<link rel="shortcut icon" href="/image/favicon.ico" /><?php echo $config['text2'];?>
