@@ -31,7 +31,7 @@ echo "</script>";
 </head>
 <body> 
 <!-- 首页广告弹窗 -->
-  <style>
+	<style>
     .s11{
         position: fixed;
         top: 0;
@@ -79,116 +79,6 @@ echo "</script>";
         font-weight: bold;
         color: #48bf01;
     }
-    /*首页专家团 2020-11-23 zhy*/
-    .index-header2 {
-    position: relative;
-    box-sizing: border-box;
-    background: url(/image/top_bg.jpg) no-repeat;
-    background-size: 100% 100%;
-    height: 5.30rem;
-    }
-    .index-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10rem;
-    margin: .366667rem auto 0;
-    z-index: 20;
-    background: inherit
-    }
-    .index-header .search {
-    width: 48%;
-}
-.index-header .header-top .city-change {
-    float:right;padding-right:0.3rem;padding-top: 0.1rem;
-}
-.city{
-   color: #ffffff;font-size:.426667rem;
-}
-.index-nav-ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    /*position: absolute;*/
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: .53rem;
-    padding-top: .02rem;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background: #efefef;
-    z-index: 10;
-}
-.index-nav-ul li {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -moz-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
-    font-size: .27rem;
-    color: #48bf01;
-}
-.index-nav-ul a {
-    display: block;
-    color: #48bf01;
-}
- .index-nav-ul .icon-pp {
-    background: url(/public/static/phone/image/hg.png) no-repeat -1px -2px;
-    background-size: 13px 15px;
-}
-.index-nav-ul .icon-ry {
-    background: url(/public/static/phone/image/jiang.png) no-repeat -1px -1px;
-    background-size: 13px 15px;
-}
-.index-nav-ul .icon-xl {
-    background: url(/public/static/phone/image/ren.png) no-repeat 0 -1px;
-    background-size: 12px 13px;
-}
-.index-nav-ul .icon-bz {
-    background: url(/public/static/phone/image/bz.png) no-repeat 0 -1px;
-    background-size: 12px 13px;
-}
-.city-change .ico-down {
-  padding: 5px;
-    background: url(/public/static/phone/image/down4.png) no-repeat 0 -1px;
-    background-size: 14px 9px;
-}
-.index-nav-ul .icon {
-    display: inline-block;
-    vertical-align: text-bottom;
-    padding: 7px 6px;
-}
-.index-header h3 {
-    padding-left: 1.1em;width: 20%;
-}
-.index-header h3 img {
-    width: 100%;
-}
-
-.hot-men h3 {
-  height:1.35em;
-     font-weight: normal; 
-     color: #000000; 
-     font-size: .48rem; 
-     line-height: 1.3; 
-     margin: 0px !important; 
-}
-.priority {
-     padding-top:0rem; 
-}
-.index-header .header-top {
-    width: auto;
-}
-.index-header h3 img {
-    margin-top: .14rem;
-}
 </style>
 <?php
       $row = $mysql->query("select * from `web_link` where `ad_id`='89' and `city_id` = '{$city_id}' order by px asc limit 1");
@@ -196,9 +86,9 @@ echo "</script>";
   ?>
 <div class="s11" style="<?php if($list['st']==0){ echo "display:none";}?>">
     <span class="time">倒计时： <em class="cou">1</em> 秒</span>
-        <a href="<?php echo $list['link_url'];?>" class="s11-ref">
-            <img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>">
-        </a>
+		    <a href="<?php echo $list['link_url'];?>" class="s11-ref">
+		        <img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>">
+		    </a>
     <span class="skin">跳过活动</span>
 </div>
 <?php } ?>
@@ -223,8 +113,7 @@ echo "</script>";
         window.clearInterval(yy);
     });
 </script>
-  <!-- 首页广告弹窗 end -->
-  
+	<!-- 首页广告弹窗 end -->
   <?php if($sitecityid==45){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14397&companyId=416&channelid=14397&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
   <?php if($sitecityid==43){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14396&companyId=416&channelid=14396&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
   <?php if($sitecityid==44){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14395&companyId=416&channelid=14395&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
@@ -232,7 +121,6 @@ echo "</script>";
 <div class="container">
   <!--nav begin-->
   <div class="rows">
-     <!-- logo city search -->
       <div class="index-header">
                     <h3><img src="/public/static/phone/image/logo2.png"></h3>
                     <div class="header-top"><div class="city-change">
@@ -254,17 +142,33 @@ echo "</script>";
                   </div>
               </div>
           </div>    
-      </div><!-- logo city search -->
-      <div class="index-header2"></div>
-      <ul class="index-nav-ul">
-        <li><a href="javascript:;"><i class="icon icon-pp"></i><span>卓越品牌</span></a></li>
-        <li><a href="javascript:;"><i class="icon icon-ry"></i><span>权威荣誉</span></a></li>
-        <li><a href="javascript:;"><i class="icon icon-xl"></i><span>万千信赖</span></a></li>
-        <li><a href="javascript:;"><i class="icon icon-bz"></i><span>服务保障</span></a></li>
-      </ul>
-
+      </div>
   </div>
 <!--入口链接-->
+ <!--热门活动-->
+        <div class="rows">
+            <div class="index-slider-c" style="padding:0;">
+                  <div class="block_home_slider">
+                    <div id="home_slider" class="flexslider">               
+                        <ul class="slides">
+                        <?php
+            $row = $mysql->query("select * from `web_link` where `ad_id`='40' and `city_id` = '{$city_id}' order by px asc");
+            foreach($row as $k=>$list){
+            ?>
+            <li><a href="<?php echo $list['link_url'];?>"><div class="slide"><img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>" width="100%" height="222" /></div></a></li>
+            <?php
+            }
+            ?>
+                                                  </ul>
+                    </div>
+                    <script type="text/javascript">
+                      $(function () {
+                        $('#home_slider').flexslider({animation : 'slide',controlNav : true,directionNav : true,animationLoop : true,slideshow : false,useCSS : false});                 
+                      });
+                     </script>
+                  </div>
+            </div>
+        </div>
         <!-- 轮播滑动效果开始 -->
     <div class="entry" style="height: 178px;float: left;clear: both;">        
               <div class="m-slider m-slider-bos" data-ydui-slider="">
@@ -404,7 +308,8 @@ echo "</script>";
               </div>    
     </div>
     <!-- 轮播滑动效果开始 -->
-    <div class="lb rows">
+     
+        <div class="lb rows">
             <div class="dynamic">
                 <div class=" dyn-left">
                     <div class="dyn-left-content">
@@ -418,48 +323,24 @@ echo "</script>";
 
                                 $row = $mysql->query("select * from `web_content` where `path`='0-5' and `flag` like '%j2%' order by addtime desc limit 0,6");
                                 foreach($row as $k=>$list){
-                  if($list['pid']==28){
-                  $url="/m/loupan/news_show/{$list['id']}.html";
-                  }else{
-                  $url="/m/news/show_{$list['id']}.html";
-                    }
+									if($list['pid']==28){
+									$url="/m/loupan/news_show/{$list['id']}.html";
+									}else{
+									$url="/m/news/show_{$list['id']}.html";
+										}
                                 ?>
             <li><a href="<?php echo $url;?>" title="<?php echo $list['title'];?>"><?php echo $list['title'];?></a></li>
                     <?php
-            }
-          ?>  
+						}
+					?>  
                     </ul>
                     </div>
                 </div>                
                 <div class="reading"><span onClick="openwid4('订阅动态','我们会保证您的个人信息安全，并第一时间通知您最新楼盘动态。','【<?php echo $sitecityname;?>】移动首页_订阅动态',9);">订阅动态</span></div>
             </div>
-        </div> 
-     <!--热门活动-->
-        <div class="rows">
-          <div class="hot-men" style="padding:1.1em"><div class="title"><h3>热门活动</h3></div></div>
-            <div class="index-slider-c" style="padding:0 1.1em 0em 1.1em;">
-                  <div class="block_home_slider">
-                    <div id="home_slider" class="flexslider">               
-                        <ul class="slides">
-                        <?php
-            $row = $mysql->query("select * from `web_link` where `ad_id`='40' and `city_id` = '{$city_id}' order by px asc");
-            foreach($row as $k=>$list){
-            ?>
-            <li><a href="<?php echo $list['link_url'];?>"><div class="slide"><img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>" width="100%" height="222" /></div></a></li>
-            <?php
-            }
-            ?>
-                                                  </ul>
-                    </div>
-                    <script type="text/javascript">
-                      $(function () {
-                        $('#home_slider').flexslider({animation : 'slide',controlNav : true,directionNav : true,animationLoop : true,slideshow : false,useCSS : false});                 
-                      });
-                     </script>
-                  </div>
-            </div>
-        </div><!--热门活动 end-->
-       
+        </div>            
+             
+          
         <div class="rows priority">
           <div class="hd">                
               <div class="title"><h3>买房优选</h3></div>
