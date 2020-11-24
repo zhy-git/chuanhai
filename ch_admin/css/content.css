@@ -1,0 +1,444 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#content {
+	PADDING-BOTTOM: 70px; MARGIN-TOP: 30px; WIDTH: 100%; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; COLOR: #333; FONT-SIZE: 14px
+}
+#content H1 {
+	BORDER-BOTTOM: #ddd 1px solid; TEXT-ALIGN: left; LINE-HEIGHT: 30px; TEXT-INDENT: 30px; WIDTH: 100%; BACKGROUND: url(../../image/home/home.png) no-repeat left center; HEIGHT: 30px; COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: 400
+}
+#content H2 {
+	POSITION: relative; TEXT-ALIGN: left; LINE-HEIGHT: 40px; MARGIN-TOP: 10px; WIDTH: 100%; HEIGHT: 40px; COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: 400
+}
+#content H2 .h2_left {
+	WIDTH: auto; FLOAT: left; HEIGHT: 40px
+}
+#content H2 .h2_left A {
+	BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1px solid; LINE-HEIGHT: 58px; WIDTH: 40px; DISPLAY: block; FLOAT: left; HEIGHT: 40px; COLOR: #333; BORDER-TOP: #fff 1px solid; MARGIN-RIGHT: 10px; BORDER-RIGHT: #fff 1px solid; TEXT-DECORATION: none; border-radius: 4px
+}
+#content H2 .h2_left A:hover {
+	BORDER-BOTTOM: #09f 1px solid; BORDER-LEFT: #09f 1px solid; COLOR: #09f; BORDER-TOP: #09f 1px solid; BORDER-RIGHT: #09f 1px solid
+}
+#content H2 .h2_left .f5 {
+	BACKGROUND: url(../../image/home/arrow_refresh.png) no-repeat center 4px
+}
+#content H2 .h2_left .add {
+	BACKGROUND: url(../../image/home/add.png) no-repeat center 4px
+}
+#content H2 .h2_left .edit {
+	BACKGROUND: url(../../image/home/edit.png) no-repeat center 4px
+}
+#content H2 .h2_left .whole {
+	BACKGROUND: url(../../image/home/whole.png) no-repeat center 4px
+}
+#content H2 .h2_left .Retreat {
+	BACKGROUND: url(../../image/home/Retreat.png) no-repeat center 4px
+}
+#content H2 .h2_left .Advance {
+	BACKGROUND: url(../../image/home/Advance.png) no-repeat center 4px
+}
+#content H2 .h2_left .umove {
+	BACKGROUND: url(../../image/home/move.png) no-repeat center 4px
+}
+#content H2 .h2_left .uclass {
+	BACKGROUND: url(../../image/home/class.png) no-repeat center 4px
+}
+#content H2 .h2_left .uadd {
+	BACKGROUND: url(../../image/home/uadd.png) no-repeat center 4px
+}
+#content H2 .h2_left .ulist {
+	BACKGROUND: url(../../image/home/list.png) no-repeat center 4px
+}
+#content H3 {
+	MARGIN-TOP: 10px; WIDTH: 100%; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; HEIGHT: 28px; FONT-SIZE: 12px; FONT-WEIGHT: 400
+}
+#content H3 A {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 28px; PADDING-LEFT: 14px; WIDTH: auto; PADDING-RIGHT: 14px; DISPLAY: block; BACKGROUND: #666; FLOAT: left; HEIGHT: 28px; COLOR: #fff; MARGIN-LEFT: 15px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#content H3 A:hover {
+	BACKGROUND: #090; COLOR: #fff
+}
+#content H3 .h3a {
+	BACKGROUND: #090; COLOR: #fff
+}
+#content H4 {
+	MARGIN-TOP: 18px; WIDTH: 100%; HEIGHT: 24px; FONT-SIZE: 12px; FONT-WEIGHT: 400
+}
+#content H4 .list {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; COLOR: #333; MARGIN-RIGHT: 4px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+#content H4 .list:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+#content H4 .lista {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; COLOR: #f00; MARGIN-RIGHT: 4px; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+SELECT {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ"
+}
+INPUT {
+	TEXT-INDENT: 4px; COLOR: #111; FONT-SIZE: 12px
+}
+TEXTAREA {
+	TEXT-INDENT: 4px; COLOR: #111; FONT-SIZE: 12px
+}
+SELECT {
+	TEXT-INDENT: 4px; COLOR: #111; FONT-SIZE: 12px
+}
+#content H2 .search {
+	POSITION: absolute; WIDTH: auto; HEIGHT: 40px; TOP: -2px; RIGHT: 340px
+}
+#content H2 .search FONT {
+	POSITION: absolute; WIDTH: 300px; COLOR: #666; TOP: 30px
+}
+#content .text {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 26px; WIDTH: 220px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; HEIGHT: 26px; COLOR: #555; BORDER-TOP: #ccc 1px solid; TOP: 10px; BORDER-RIGHT: #ccc 1px solid; LEFT: 0px
+}
+#content .so {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; LINE-HEIGHT: 28px; WIDTH: 60px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: #090; HEIGHT: 28px; COLOR: #fff; BORDER-TOP: medium none; TOP: 10px; BORDER-RIGHT: medium none; LEFT: 220px
+}
+#content .so:hover {
+	BACKGROUND: #080; COLOR: #fff; CURSOR: pointer
+}
+#content .Wdate {
+	BORDER-BOTTOM: #c1c1c1 1px solid; BORDER-LEFT: #c1c1c1 1px solid; LINE-HEIGHT: 22px; WIDTH: 184px; HEIGHT: 22px; BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 1px solid
+}
+#content .qtext {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 24px; WIDTH: 300px; HEIGHT: 24px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .ctext {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 24px; WIDTH: auto; HEIGHT: 24px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .dtext {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 24px; WIDTH: 60px; HEIGHT: 24px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .textarea {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 20px; WIDTH: 380px; HEIGHT: 80px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .button {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; TEXT-INDENT: 0px; PADDING-LEFT: 10px; WIDTH: auto; PADDING-RIGHT: 10px; BACKGROUND: url(../../image/home/poph1.jpg) repeat-x center top; HEIGHT: 26px; COLOR: #fff; MARGIN-LEFT: 20px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+#content .submit {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; TEXT-INDENT: 0px; PADDING-LEFT: 18px; WIDTH: auto; PADDING-RIGHT: 18px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: #f60; HEIGHT: 30px; COLOR: #fff; MARGIN-LEFT: 30px; FONT-SIZE: 14px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+#content .submit:hover {
+	BACKGROUND: #f90
+}
+#content .select {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 4px; HEIGHT: 26px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 1px
+}
+#content .select OPTION {
+	LINE-HEIGHT: 20px; TEXT-INDENT: 4px; PADDING-RIGHT: 14px; HEIGHT: 20px
+}
+#content #table {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN-TOP: 15px; WIDTH: 99%; BORDER-COLLAPSE: collapse; HEIGHT: auto; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#content #table TR {
+	LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+#content #table TR TH {
+	BORDER-BOTTOM: #333 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #333 1px solid; BACKGROUND: #333; COLOR: #fff; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid
+}
+#content #table .tr {
+	LINE-HEIGHT: 30px; BACKGROUND: #fff; HEIGHT: 30px
+}
+#content #table .tr TD A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#content #table .tr TD A:hover {
+	COLOR: #090; TEXT-DECORATION: underline
+}
+#content #table .tr2 {
+	BACKGROUND: #f1f1f1
+}
+#content #table .tr:hover {
+	BACKGROUND: #e1f4ff
+}
+#content #table .tr TD {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: left; BORDER-LEFT: medium none; TEXT-INDENT: 5px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#content #table .tr .add {
+	POSITION: relative; MARGIN-LEFT: 8px; TOP: 3px; CURSOR: pointer
+}
+#content #table .tr TD .de1 {
+	COLOR: #390
+}
+#content #table .tr TD .de2 {
+	COLOR: #c30000
+}
+#content #table .tr .tc {
+	TEXT-ALIGN: center; TEXT-INDENT: 0px
+}
+#content #table .tr .tc A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#content #table .tr .tc A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+#content #table .tr .tc IMG {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 0px
+}
+#content #table .tr .tl {
+	TEXT-ALIGN: left; TEXT-INDENT: 8px
+}
+#content #table .tr .tl IMG {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; TOP: 4px; PADDING-TOP: 0px
+}
+#content #table .tr .fixed_w {
+	WIDTH: 100px
+}
+#content #table .tr .fixed_w .oper {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; COLOR: #060; PADDING-TOP: 0px
+}
+#content #table .tr FONT {
+	COLOR: #f00
+}
+#content #client {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px auto 0px; WIDTH: 800px; BORDER-COLLAPSE: collapse; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content #client .tr {
+	LINE-HEIGHT: 38px; BACKGROUND: #fff
+}
+#content #client .tr2 {
+	BACKGROUND: #f1f1f1
+}
+#content #client .tr TD {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ccc 1px solid; TEXT-INDENT: 8px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content #client .tr TD.left {
+	TEXT-ALIGN: right; TEXT-INDENT: 0px; WIDTH: 90px; PADDING-RIGHT: 4px; BACKGROUND: #eee
+}
+#content #client .tr FONT {
+	COLOR: #666; MARGIN-LEFT: 15px
+}
+#content #dl {
+	MARGIN: 0px auto; WIDTH: 95%; HEIGHT: auto
+}
+#content #dl DT {
+	LINE-HEIGHT: 28px; WIDTH: 100%; MARGIN-BOTTOM: 12px; FLOAT: left; HEIGHT: 28px; FONT-SIZE: 14px; FONT-WEIGHT: 900
+}
+#content #dl DD {
+	POSITION: relative; LINE-HEIGHT: 24px; WIDTH: 100%; MARGIN-BOTTOM: 12px; FLOAT: left; HEIGHT: auto
+}
+#content #dl DD .dd_left {
+	TEXT-ALIGN: right; LINE-HEIGHT: 24px; WIDTH: 120px; DISPLAY: block; FLOAT: left; COLOR: #444; FONT-WEIGHT: 900; MARGIN-RIGHT: 6px
+}
+#content #dl DD .dd_right {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; PADDING-LEFT: 6px; WIDTH: auto; DISPLAY: block; FLOAT: left
+}
+#content #dl DD .dd_right LABEL {
+	DISPLAY: block; FLOAT: left; MARGIN-RIGHT: 15px
+}
+#content #dl DD .dd_right LABEL:hover {
+	COLOR: #f00
+}
+#content #dl DD FONT {
+	COLOR: #777; MARGIN-LEFT: 10px
+}
+#content #dl DD .dd_right #ximg {
+	BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 24px; WIDTH: 70px; BACKGROUND: #f5f5f5; HEIGHT: 24px; BORDER-TOP: #ddd 1px solid; TOP: 0px; BORDER-RIGHT: #ddd 1px solid; LEFT: 130px
+}
+#content #dl DD .dd_right #ximg:hover {
+	BACKGROUND: #fff; CURSOR: pointer
+}
+#content #cdl {
+	POSITION: relative; MARGIN-TOP: 20px; WIDTH: 100%; HEIGHT: auto
+}
+#content #cdl DT {
+	LINE-HEIGHT: 28px; WIDTH: 100%; MARGIN-BOTTOM: 12px; FLOAT: left; HEIGHT: 28px; FONT-SIZE: 14px; FONT-WEIGHT: 900
+}
+#content #cdl DD {
+	POSITION: relative; LINE-HEIGHT: 24px; WIDTH: 100%; MARGIN-BOTTOM: 12px; FLOAT: left; HEIGHT: auto
+}
+#content #cdl DD .dd_left {
+	TEXT-ALIGN: right; LINE-HEIGHT: 24px; WIDTH: 110px; DISPLAY: block; FLOAT: left; COLOR: #444; FONT-WEIGHT: 900; MARGIN-RIGHT: 6px
+}
+#content #cdl DD .dd_right {
+	TEXT-ALIGN: left; LINE-HEIGHT: 24px; PADDING-LEFT: 6px; WIDTH: auto; DISPLAY: block; FLOAT: left
+}
+#content #cdl DD .dd_right LABEL {
+	MARGIN-RIGHT: 15px
+}
+#content #cdl DD .dd_right LABEL:hover {
+	COLOR: #f00
+}
+#content #cdl DD FONT {
+	COLOR: #777; MARGIN-LEFT: 10px
+}
+#content #cdl DD FONT SPAN {
+	FONT-FAMILY: "Georgia"; COLOR: #444; FONT-SIZE: 22px; FONT-WEIGHT: 900
+}
+#content #cdl DD .clearfile {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; WIDTH: 100px; BACKGROUND: url(../../image/home/button3.png) repeat-x left top; HEIGHT: 34px; COLOR: #fff; FONT-SIZE: 13px; BORDER-TOP: medium none; TOP: 0px; FONT-WEIGHT: 900; BORDER-RIGHT: medium none; LEFT: 130px; border-radius: 16px
+}
+#content #cdl DD .clearlist {
+	BORDER-BOTTOM: medium none; POSITION: absolute; BORDER-LEFT: medium none; WIDTH: 100px; BACKGROUND: url(../../image/home/button3.png) repeat-x left top; HEIGHT: 34px; COLOR: #fff; FONT-SIZE: 13px; BORDER-TOP: medium none; TOP: 0px; FONT-WEIGHT: 900; BORDER-RIGHT: medium none; LEFT: 260px; border-radius: 16px
+}
+#content #cdl DD .clearlist:hover {
+	BACKGROUND: url(../../image/home/button3.png) repeat-x left bottom; CURSOR: pointer
+}
+#content #cdl DD .clearfile:hover {
+	BACKGROUND: url(../../image/home/button3.png) repeat-x left bottom; CURSOR: pointer
+}
+#content #cdl DD #progress {
+	POSITION: absolute; LINE-HEIGHT: 34px; WIDTH: auto; HEIGHT: 34px; COLOR: #06f; FONT-SIZE: 14px; TOP: 0px; FONT-WEIGHT: 900; LEFT: 400px
+}
+#content #cdl .dlinfo {
+	POSITION: absolute; LINE-HEIGHT: 22px; WIDTH: auto; COLOR: #333; FONT-SIZE: 12px; TOP: 120px; LEFT: 400px
+}
+#content #cdl .dlinfo STRONG {
+	COLOR: #c30000
+}
+#content .dir {
+	BORDER-BOTTOM: #fff 1px solid; POSITION: relative; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 6px; MARGIN: 30px 15px 0px; PADDING-LEFT: 8px; WIDTH: 80px; PADDING-RIGHT: 6px; BACKGROUND: #fff; FLOAT: left; HEIGHT: 104px; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 8px
+}
+#content .dir .bj {
+	POSITION: absolute; LINE-HEIGHT: 18px; WIDTH: 104px; DISPLAY: none; FONT-FAMILY: Arial; HEIGHT: 18px; TOP: -18px; LEFT: 0px
+}
+#content .dir .bj A {
+	COLOR: #666; MARGIN-LEFT: 6px; TEXT-DECORATION: none
+}
+#content .dir .bj A:hover {
+	COLOR: #f00
+}
+#content .dir DT {
+	POSITION: relative; TEXT-ALIGN: center; WIDTH: 80px; HEIGHT: 80px; OVERFLOW: hidden
+}
+#content .dir DT IMG {
+	MARGIN: 0px auto; DISPLAY: block; MAX-WIDTH: 80px; MAX-HEIGHT: 80px
+}
+#content .dir DT .g {
+	POSITION: absolute; DISPLAY: none; TOP: 4px; RIGHT: 14px
+}
+#content .dir DD {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px; WIDTH: 80px; HEIGHT: 24px; OVERFLOW: hidden
+}
+#content .dir:hover {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: #f5f5f5; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .dir:hover .bj {
+	DISPLAY: block
+}
+#content .dirh {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: #f5f5f5; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .dird {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: #f5f5f5; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#content .dira {
+	COLOR: #333
+}
+#content .cerr {
+	TEXT-ALIGN: center; LINE-HEIGHT: 50px; MARGIN-TOP: 30px; WIDTH: 100%; HEIGHT: 50px; COLOR: #f00
+}
+#content #page {
+	POSITION: fixed; LINE-HEIGHT: 40px; TEXT-INDENT: 46px; WIDTH: 99%; BOTTOM: 0px; BACKGROUND: url(../../image/home/arrow.gif) #fff no-repeat 10px center; HEIGHT: 40px; BORDER-TOP: #ccc 1px solid; LEFT: 0px
+}
+#content #page A {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #090; COLOR: #fff; MARGIN-RIGHT: 6px; TEXT-DECORATION: none; PADDING-TOP: 4px
+}
+#content #page A:hover {
+	BACKGROUND: #333; COLOR: #fff
+}
+#content #page .current {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #333; COLOR: #fff; FONT-WEIGHT: 900; MARGIN-RIGHT: 6px; PADDING-TOP: 4px
+}
+#content #page .pn {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #ddd; MARGIN-RIGHT: 4px; PADDING-TOP: 4px
+}
+#content #page .pn IMG {
+	POSITION: relative; TOP: 4px
+}
+#con1 {
+	BORDER-BOTTOM: #ccc 1px solid; MIN-WIDTH: 440px; BORDER-LEFT: #ccc 1px solid; MARGIN: 10px; WIDTH: 47%; FLOAT: left; HEIGHT: 400px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#con1 H6 {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 30px; TEXT-INDENT: 36px; WIDTH: 100%; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: url(../../image/home/h2bg.png) #eee no-repeat 10px center; HEIGHT: 30px; COLOR: #444; FONT-SIZE: 14px; FONT-WEIGHT: 400
+}
+#con1 UL {
+	LIST-STYLE-TYPE: none; MARGIN: 6px auto 0px; WIDTH: 98%; HEIGHT: auto; FONT-SIZE: 13px; LIST-STYLE-IMAGE: none
+}
+#con1 UL LI {
+	BORDER-BOTTOM: #ddd 1px dashed; TEXT-ALIGN: left; LINE-HEIGHT: 30px; WIDTH: 100%; HEIGHT: 30px; COLOR: #444
+}
+#con1 UL LI:hover {
+	COLOR: #060
+}
+#con1 UL LI SPAN {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 160px; DISPLAY: block; FLOAT: left; HEIGHT: 30px; MARGIN-RIGHT: 20px
+}
+#con1 UL LI FONT {
+	COLOR: #d30000; FONT-SIZE: 13px
+}
+#con2 {
+	BORDER-BOTTOM: #ccc 1px solid; MIN-WIDTH: 440px; BORDER-LEFT: #ccc 1px solid; MARGIN: 10px; WIDTH: 47%; FLOAT: left; HEIGHT: 400px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#con2 H6 {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 30px; TEXT-INDENT: 36px; WIDTH: 100%; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: url(../../image/home/h2bg.png) #eee no-repeat 10px center; HEIGHT: 30px; COLOR: #444; FONT-SIZE: 14px; FONT-WEIGHT: 400
+}
+#con2 UL {
+	LIST-STYLE-TYPE: none; MARGIN: 6px auto 0px; WIDTH: 98%; HEIGHT: auto; FONT-SIZE: 13px; LIST-STYLE-IMAGE: none
+}
+#con2 UL DT {
+	TEXT-ALIGN: left; LINE-HEIGHT: 30px; TEXT-INDENT: 20px; WIDTH: 100%
+}
+#con2 UL LI {
+	BORDER-BOTTOM: #ddd 1px dashed; TEXT-ALIGN: left; LINE-HEIGHT: 30px; WIDTH: 100%; HEIGHT: 30px; COLOR: #444
+}
+#con2 UL LI:hover {
+	COLOR: #060
+}
+#con2 UL LI SPAN {
+	TEXT-ALIGN: right; LINE-HEIGHT: 30px; WIDTH: 160px; DISPLAY: block; FLOAT: left; HEIGHT: 30px; MARGIN-RIGHT: 20px
+}
+#con2 UL LI A {
+	COLOR: #444; TEXT-DECORATION: none
+}
+#con2 UL LI A:hover {
+	COLOR: #060; TEXT-DECORATION: underline
+}
+#con3 {
+	BORDER-BOTTOM: #ccc 1px solid; MIN-WIDTH: 440px; BORDER-LEFT: #ccc 1px solid; MARGIN: 5px 0px 0px 10px; WIDTH: 96%; FLOAT: left; HEIGHT: 370px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#con3 H6 {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 30px; WIDTH: 100%; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; BACKGROUND: #eee; HEIGHT: 30px; COLOR: #444; FONT-SIZE: 14px; FONT-WEIGHT: 400
+}
+#con3 H6 SPAN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; TEXT-INDENT: 0px; WIDTH: 80px; DISPLAY: block; BACKGROUND: #fff; FLOAT: left; HEIGHT: 27px; BORDER-TOP: #090 3px solid
+}
+#con3 H6 A {
+	FLOAT: right; COLOR: #666; MARGIN-RIGHT: 10px; TEXT-DECORATION: none
+}
+#con3 H6 A:hover {
+	COLOR: #d30000; TEXT-DECORATION: none
+}
+#con3 UL {
+	MIN-WIDTH: 420px; MARGIN: 6px auto 0px; WIDTH: 98%; HEIGHT: auto
+}
+#con3 UL LI {
+	BORDER-BOTTOM: #ddd 1px dashed; MIN-WIDTH: 420px; LINE-HEIGHT: 30px; TEXT-INDENT: 24px; WIDTH: 100%; BACKGROUND: url(../../image/home/next.gif) no-repeat 4px center; HEIGHT: 30px; COLOR: #666; FONT-SIZE: 13px; OVERFLOW: hidden
+}
+#con3 UL LI A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#con3 UL LI A:hover {
+	COLOR: #d30000; TEXT-DECORATION: underline
+}
+#con3 UL LI SPAN {
+	FLOAT: right
+}
+#article {
+	MARGIN: 0px auto; WIDTH: 95%; HEIGHT: auto
+}
+#article .title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; WIDTH: 100%; COLOR: #333; FONT-SIZE: 20px; FONT-WEIGHT: 900
+}
+#article .title .all {
+	COLOR: #666; FONT-SIZE: 14px; FONT-WEIGHT: 400
+}
+#article .article {
+	LINE-HEIGHT: 22px; MARGIN-TOP: 10px
+}

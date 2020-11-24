@@ -1,0 +1,51 @@
+<?php
+error_reporting(0);
+$home=$_SERVER['HTTP_HOST'];
+$action = $_GET['act'];
+
+if($action=='delimg7'){
+	$filename = $_POST['imagename'];
+	if(!empty($filename)){
+		unlink('../../upload/video/'.$filename);
+		echo '1';
+	}else{
+		echo '删除失败.';
+	}
+}else{
+	$picname = $_FILES['mypic']['name'];
+	//echo $picname;
+	//exit;
+	$picsize = $_FILES['mypic']['size'];
+	if ($picname != "") {
+		if ($picsize > 100) {
+			//echo '图片大小11不能超过1M';
+			//exit;
+		}
+
+		//echo $picsize;
+		//exit;
+		
+		$type = strstr($picname, '.');
+		if ($type != ".mp4") {// && $type != ".jpg" && $type != ".png"
+			echo '视频格式不对！';
+			exit;
+		}
+		$rand = rand(100, 999);
+		$pics = date("YmdHis") . $rand . $type;
+		//上传路径
+		$pic_path = "../../upload/video/". $pics;
+		move_uploaded_file($_FILES['mypic']['tmp_name'], $pic_path);
+	}
+	$size = round($picsize/1024,2);
+	$image_size = getimagesize($pic_path);
+	$arr = array(
+		'name'=>$picname,
+		'pic'=>$pics,
+		'size'=>$size,
+		'width'=>$image_size[0],
+		'height'=>$image_size[1]
+	);
+	echo json_encode($arr);
+}
+
+?>
