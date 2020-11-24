@@ -442,7 +442,7 @@ include("function.php");
                     <div id="home_slider" class="flexslider">               
                         <ul class="slides">
                         <?php
-            $row = $mysql->query("select * from `web_link` where `ad_id`='40' and `city_id` = '{$city_id}' order by px asc");
+            $row = $mysql->query("select * from `web_link` where `ad_id`='40' and `city_id` = 41' order by px asc");
             foreach($row as $k=>$list){
             ?>
             <li><a href="<?php echo $list['link_url'];?>"><div class="slide"><img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>" width="100%" height="222" /></div></a></li>
