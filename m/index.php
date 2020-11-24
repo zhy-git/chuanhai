@@ -437,7 +437,7 @@ echo "</script>";
      <!--热门活动-->
         <div class="rows">
           <div class="hot-men" style="padding:1.1em"><div class="title"><h3>热门活动</h3></div></div>
-            <div class="index-slider-c" style="padding:0 1.1em 0em 1.1em;">
+            <div class="index-slider-c" style="padding: 0 0.95em 0em 0.95em;">
                   <div class="block_home_slider">
                     <div id="home_slider" class="flexslider">               
                         <ul class="slides">
