@@ -94,7 +94,7 @@ if(!empty($_POST['mobile']) || !empty($_POST['data']['tel'])) {
     				// $smtpemailto = "420998627@qq.com";//发送给谁
     				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
     				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
-    				$mailtitle = "您有新的报名信息";//邮件主题
+    				$mailtitle = "川海房产您有新的报名信息";//邮件主题
     				$mailcontent = "<h1>{$uname}电话：{$utel}-{$lpname}{$ly}</h1>";//邮件内容
     				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
     				//************************ 配置信息 ****************************
