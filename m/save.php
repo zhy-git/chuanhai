@@ -9,9 +9,9 @@ function SendMail($to, $title, $content) {
     $mail->IsSMTP(); // 启用SMTP
     $mail->Host='smtp.163.com'; //smtp服务器的名称（这里以QQ邮箱为例）
     $mail->SMTPAuth = TRUE; //启用smtp认证
-    $mail->Username = 'linyouqun@163.com'; //你的邮箱名
-    $mail->Password = '15120774622'; //邮箱密码
-    $mail->From = 'linyouqun@163.com'; //发件人地址（也就是你的邮箱地址）
+    $mail->Username = 'zhaihuanyan520@163.com'; //你的邮箱名
+    $mail->Password = 'Zhonghui520'; //邮箱密码
+    $mail->From = 'zhaihuanyan520@163.com'; //发件人地址（也就是你的邮箱地址）
     $mail->FromName = '通知'; //发件人姓名
     $mail->AddAddress($to,"尊敬的客户");
     $mail->WordWrap = 50; //设置每行字符长度
