@@ -428,7 +428,7 @@ if ($action=="bmtj"){
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
 				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "420998627@qq.com";//发送给谁
+				$smtpemailto = "3285826289@qq.com";//发送给谁
 				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
 				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				$mailtitle = "您有新的报名信息";//邮件主题
@@ -436,7 +436,7 @@ if ($action=="bmtj"){
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
 				//************************ 配置信息 ****************************
 				$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
-				$smtp->debug = true;//是否显示发送的调试信息
+				$smtp->debug = false;//是否显示发送的调试信息
 				$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
 		
 			echo '{"status":1,"info":"提交成功","url":""}';
