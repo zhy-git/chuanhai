@@ -416,7 +416,7 @@ echo "</script>";
                         <ul style="margin-top: 0px;">
                         <?php
 
-                                $row = $mysql->query("select * from `web_content` where `path`='0-5' and `flag` like '%j2%' order by addtime desc limit 0,6");
+                                $row = $mysql->query("select * from `web_content` where `path`='0-5' and cityall_id=41 and `flag` like '%j2%' order by addtime desc limit 0,6");
                                 foreach($row as $k=>$list){
                   if($list['pid']==28){
                   $url="/m/loupan/news_show/{$list['id']}.html";
