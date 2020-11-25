@@ -2,13 +2,13 @@
 <?php
 require("../conn/conn.php");
 include("function.php");
-if($sitecityid==""){
-	//header("location:city.html");
-	echo "<script language='javascript'
-type='text/javascript'>"; 
-echo "window.location.href='http://beihai.chuanhai.".$siteasd."/m/'"; 
-echo "</script>";  
-	}
+// if($sitecityid==""){
+// 	//header("location:city.html");
+// 	echo "<script language='javascript'
+// type='text/javascript'>"; 
+// echo "window.location.href='http://beihai.chuanhai.".$siteasd."/m/'"; 
+// echo "</script>";  
+// 	}
 ?>
   <head>
     <meta charset="UTF-8">
