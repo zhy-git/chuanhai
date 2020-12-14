@@ -49,7 +49,7 @@ var cityList = ['-防城港-fangchenggang-fcg-fangchenggang','-北海-beihai-bh-
     <div class="header_home">
       <div class="w1200">
         <div class="logo_index">
-          <img src="/public/static/home/image/logo/227_86.png" alt="logo图">
+          <!-- <img src="/public/static/home/image/logo/227_86.png" alt="logo图"> -->
         </div>
         
         <div class="entry_home">
