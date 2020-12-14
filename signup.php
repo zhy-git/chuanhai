@@ -90,7 +90,7 @@ if(!empty($_POST['mobile']) || !empty($_POST['data']['tel'])) {
     				$smtpserver = "smtp.163.com";//SMTP服务器
     				$smtpserverport =25;//SMTP服务器端口
     				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
-    				$smtpemailto = "420998627@qq.com";//发送给谁
+    				$smtpemailto = "420998627@qq.com,594931354@qq.com";//发送给谁
     				// $smtpemailto = "420998627@qq.com";//发送给谁
     				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
     				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
