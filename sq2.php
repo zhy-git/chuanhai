@@ -1,1 +1,1 @@
-<?php //echo $config['text1'];?>
+<?php echo $config['text1'];?>
