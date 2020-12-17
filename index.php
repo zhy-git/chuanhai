@@ -23,6 +23,7 @@ if($yescity[0]==''){
 	}
 ?>
 <head>
+  <meta name="baidu-site-verification" content="code-3529LhkNrR" />
 	<meta charset="UTF-8">  
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?php echo $config['site_name'];?></title>
