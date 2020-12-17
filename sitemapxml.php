@@ -2,11 +2,11 @@
 error_reporting(0);
 header("Content-type: text/xml");
 echo "<?xml version='1.0' encoding='UTF-8'?>";
-$dbname = 'gxloushitong';
+$dbname = 'www_beihai_chuan';
 $host = '127.0.0.1';
 $port = '';
-$user = 'gxloushitong';
-$pwd = 'zou200812';
+$user = 'www_beihai_chuan';
+$pwd = 'www_beihai_chuan';
 require('conn/mysql_class.php');
 $mysql = new MySQL($host,$user,$pwd,$dbname,$port);
 ?>
@@ -16,7 +16,7 @@ $mysql = new MySQL($host,$user,$pwd,$dbname,$port);
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://www.gxloushitong.com</loc>
+        <loc>http://www.chuanhai.jtr168.cn</loc>
         <priority>1.00</priority>
         <lastmod><?php echo date('y-m-d',time());?></lastmod>
         <changefreq>weekly</changefreq>
@@ -24,7 +24,7 @@ $mysql = new MySQL($host,$user,$pwd,$dbname,$port);
 	<?php
 	$rowshow = $mysql->query("select * from `web_content` where `pid`='9' order by px desc,addtime desc");
 	foreach($rowshow as $k=>$s_list){
-	$url="http://www.gxloushitong.com/loupan/{$s_list['id']}.html";
+	$url="http://www.chuanhai.jtr168.cn/loupan/{$s_list['id']}.html";
 	?>
      <url>
         <loc><?php echo $url;?></loc>
