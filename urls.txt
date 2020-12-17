@@ -1,0 +1,1 @@
+curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=www.chuanhai.jtr168.cn&token=ZwNpx0ZdCqSQMVEB"
