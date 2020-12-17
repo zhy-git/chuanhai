@@ -7,18 +7,18 @@ require("function.php");
 if($pingyi=='www'){
 	header('HTTP/1.1 301 Moved Permanently');
     //跳转到你希望的地址格式 
-  	header('Location: http://chuanhai.'.$siteasd.'/');
+  	header('Location: http://beihai.chuanhai.'.$siteasd.'/');
    //header('Location: http://haikou.'.$siteasd.'');
    echo "<script language='javascript'
 type='text/javascript'>"; 
-echo "window.location.href='http://chuanhai.".$siteasd."/'"; 
+echo "window.location.href='http://beihai.chuanhai.".$siteasd."/'"; 
 echo "</script>";  
 	}
 $yescity = $mysql->query("select * from `web_city` where `city_pingyin`='$pingyi' and `city_st`=1 and `pid`<>0 limit 0,1");
 if($yescity[0]==''){
 	//header('HTTP/1.1 301 Moved Permanently');
     //跳转到你希望的地址格式 
-  header('Location: http://chuanhai.'.$siteasd.'/');
+  header('Location: http://beihai.chuanhai.'.$siteasd.'/');
    //header('Location: http://haikou.'.$siteasd.'');
 	}
 ?>
