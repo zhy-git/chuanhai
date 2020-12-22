@@ -10,29 +10,20 @@
       <div class="aboutcopy">
             <ul class="clearfix">
             <?php 
-		$row = $mysql->query("select * from `web_srot` where `pid`='1' and `startus` = '1' order by px asc limit 0,10");
-		foreach($row as $k=>$list){
-		?>
+    $row = $mysql->query("select * from `web_srot` where `pid`='1' and `startus` = '1' order by px asc limit 0,10");
+    foreach($row as $k=>$list){
+    ?>
        <li><a href="/about/<?php echo $list['id'];?>.html" target="_blank" ><?php echo $list['title'];?></a></li>
         <?php
-		}
-		?> 
+    }
+    ?> 
                 <li><a href="/map/" target="_blank">网站地图</a></li>  
                 <li><a href="/sitemap.xml" target="_blank">XML地图</a></li>
             </ul>
         </div>
         <div class="links-v5" style="position:relative;">
-          <!--城市导航 start-->
-			<div style="position:absolute; top:50px; right:200px; width:100px; text-align:center; color:#FFF;">
-            	<img src="/image/wxrwm.jpg"  style="width:100%;"/>
-                微信公众号
-            </div>
-			<div style="position:absolute; top:50px; right:80px; width:100px; text-align:center; color:#FFF;">
-            	<img src="/image/ydrwm.jpg"  style="width:100%;"/>
-                手机网站
-            </div>
-          <!--热门城市 start-->
           <!-- 展开添加样式on -->
+          <div  style="display:none;">
                     <div class="linkrow">
             <div class="ftlinkswrap">
                   <span class="linkstit-v5">热门城市</span>
@@ -119,7 +110,7 @@
                   </div>
                   <i class="footmore"></i>
                 </div>
-            </div>
+            </div></div>
                      <!--热门城市 end-->
           <!--周边城市 start-->
                     <!--周边城市 end-->
@@ -131,14 +122,14 @@
                   <div class="linkscont-v5">
                     <ul class="alinklist clearfix" id="roundcityUl">
                         <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='69' order by addtime desc limit 0,8");
-			foreach($rownews as $k=>$lists){
-			$url='/louan/'.$lists['id'].'.html';
-		
-		?>
-                <li> <a href="<?php echo $lists['get_url'];?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='9' order by addtime desc limit 0,8");
+      foreach($rownews as $k=>$lists){
+      $url='/louan/'.$lists['id'].'.html';
+    
+    ?>
+                <li> <a href="<?php echo $lists['get_url'];?>" target="_blank"><?php echo $lists['title'];?></a></li> 
         <?php
-			}?>
+      }?>
                                           
                                         </ul>
                   </div>
@@ -153,13 +144,13 @@
                 <div class="linkscont-v5">
                  <ul class="alinklist clearfix">
                       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='20' order by px asc");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='20' order by px asc");
+        foreach($row as $k=>$list){
+        ?>
                 <li><a href="<?php echo $list['link_url'];?>" target="_blank"><?php echo $list['title'];?></a></li>
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
                 </ul>
                 </div>
               <i class="footmore"></i>
@@ -170,7 +161,7 @@
   .conyfiv p{margin: 0}
 </style>
 <div class="conyfiv">
-     <p>版权所有：<?php echo $config['company_name'];?>&nbsp;&nbsp;Copyright&nbsp;©&nbsp;<ins id="cur-year">2017</ins>&nbsp;&nbsp;<a href="http://www.gxloushitong.com/" title="<?php echo $config['site_name'];?>">www.gxloushitong.com</a>&nbsp;&nbsp;&nbsp;<a href="http://www.gxloushitong.com/" title="<?php echo $config['site_name'];?>"><?php echo $config['site_name'];?></a>
+     <p>版权所有：<?php echo $config['company_name'];?>&nbsp;&nbsp;Copyright&nbsp;©&nbsp;<ins id="cur-year">2020</ins>&nbsp;&nbsp;<a href="http://chuanhai.jtr168.cn/" title="<?php echo $config['site_name'];?>">chuanhai.jtr168.cn</a>&nbsp;&nbsp;&nbsp;<a href="http://www.chuanhai.jtr168.cn/" title="<?php echo $config['site_name'];?>"><?php echo $config['site_name'];?></a>
       <a href="http://beian.miit.gov.cn" target="_blank" rel="nofollow"><?php echo $config['site_icp'];?></a></p>
 </div>
     </div>
@@ -259,52 +250,52 @@
     </a>   
 </div>
 <div class="slider-down-nav">
-	<div class="slider-down-main">
-		<a href="javascript:;" class="slider-pic-close"><img src="/public/static/home/image/icons/close2.png"></a>
-		<span class="slider-info">广告</span>
-		<!-- 报名 -->
+  <div class="slider-down-main">
+    <a href="javascript:;" class="slider-pic-close"><img src="/public/static/home/image/icons/close2.png"></a>
+    <span class="slider-info">广告</span>
+    <!-- 报名 -->
       
-		 <form class="submit_area">
+     <form class="submit_area">
             <input type="hidden" name="pid" value="33">              <!-- 0 为公共报名，其它为楼盘ID-->
                     <input type="hidden" name="lpid" value="0">              <!-- 0 为公共报名，其它为楼盘ID-->
                     <input type="hidden" name="ly" value="底部_随屏">     <!--报名来源 具体查看applyVerify.js文件中source 标识说明-->
                     <input type="hidden" name="equipment" value="2">        <!--来源设备 （ PC端  2,手机端   1 ）-->
-			
-			<div class="slider-bm-box">
-	        	<span class="slider-txt">
-	        		<img class="imd" src="/public/static/home/image/icons/ico_phone.png" alt="">
-	        		<input class="sl-moblie" type="text" name="mobile" id="lp-wd-mobile" placeholder="您的手机号码" maxlength="11">
-	        	</span>
-	        	<input type="button" value="预约看房" class="slider-submit apply_submit">
-	        	<i class="commonality3">免费咨询热线：<span style="font-size: 18px;"><?php echo $config['company_tel'];?></span></i>
-	        </div>
+      
+      <div class="slider-bm-box">
+            <span class="slider-txt">
+              <img class="imd" src="/public/static/home/image/icons/ico_phone.png" alt="">
+              <input class="sl-moblie" type="text" name="mobile" id="lp-wd-mobile" placeholder="您的手机号码" maxlength="11">
+            </span>
+            <input type="button" value="预约看房" class="slider-submit apply_submit">
+            <i class="commonality3">免费咨询热线：<span style="font-size: 18px;"><?php echo $config['company_tel'];?></span></i>
+          </div>
         </form>
-		<!-- 报名：end -->
-		  <div class="swiper-container2">
-		    <div class="swiper-wrapper">
+    <!-- 报名：end -->
+      <div class="swiper-container2">
+        <div class="swiper-wrapper">
             <?php
             $row = $mysql->query("select * from `web_link` where `ad_id`='85' and `city_id`='{$sitecityid}' order by px asc");
             foreach($row as $k=>$list){
             ?>
           
             <div class="swiper-slide">
-			      	  <div class="pic">
-			      	  	<a href="<?php echo $list['link_url'];?>" target="_blank"><img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>"></a>
-			      	  </div>
-			      </div>
+                <div class="pic">
+                  <a href="<?php echo $list['link_url'];?>" target="_blank"><img src="/<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>"></a>
+                </div>
+            </div>
             <?php
             }
             ?>
-					
-			     			
-			     		    </div>
-		    <!-- Add Pagination -->
-		    <div class="swiper-pagination"></div>
-		    <!-- Add Arrows -->
-		    <div class="swiper-button-next"></div>
-		    <div class="swiper-button-prev"></div>
-		  </div>
-	</div>
+          
+                
+                  </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+  </div>
 </div>
   <script src="/public/static/swiper/swiper.min.js"></script>
   <script>
@@ -326,16 +317,12 @@
       },
     });
     $('.slider-down-main').on('click','.slider-pic-close',function(){  
-    	$('.slider-down-nav').css('display','none');
-    	$('.slider_small_l').css('display','block');
+      $('.slider-down-nav').css('display','none');
+      $('.slider_small_l').css('display','block');
     }); 
-	$(".slider_small_l").click(function(){
-		$('.slider-down-nav').css('display','block');
-    	$('.slider_small_l').css('display','none');
-	});
+  $(".slider_small_l").click(function(){
+    $('.slider-down-nav').css('display','block');
+      $('.slider_small_l').css('display','none');
+  });
   </script>
   <?php }?>
-  <?php if($sitecityid==45){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14397&companyId=416&channelid=14397&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==43){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14396&companyId=416&channelid=14396&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==44){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14395&companyId=416&channelid=14395&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==42){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14394&companyId=416&channelid=14394&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
