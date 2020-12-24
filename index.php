@@ -51,6 +51,174 @@ if($yescity[0]==''){
 
 </head>
 <body style="font-size: 14px;">
+
+
+<!-- 右侧边栏 -->  
+<style type="text/css">
+.sidebar .s-item .bg-img{float:left;width:38px;height:34px;cursor:pointer;text-indent:-9999px;background:url(/img/bg-icon-s.png) no-repeat 10px 7px}
+.sidebar .s-footprint .bg-img{background-position:8px -22px}
+.sidebar .s-login .bg-img{background-position:8px -240px}
+.sidebar .s-look .bg-img{background-position:8px -52px}
+.sidebar .s-customer .bg-img{background-position:8px -82px}
+.sidebar .s-erweima .bg-img{background-position:10px -112px}
+.sidebar .s-top .bg-img{background-position:8px -148px}
+.sidebar .s-survey .bg-img{background-position:10px -184px}
+.sidebar .s-feedback .bg-img{background-position:10px -213px}
+.sidebar .s-item .hover{background-color:#666}
+.sidebar .s-item .checked{background-color:#666}
+.sidebar .des{display:none;position:absolute;right:45px;width:80px;height:34px;line-height:34px;text-align:center;font-size:12px;color:#fffefe;padding:0 10px;background-color:#62ab00;cursor:pointer}
+.sidebar .des:after{position:absolute;left:100%;top:14px;width:0;height:0;border-top:4px solid transparent;border-left:5px solid #62ab00;border-bottom:4px solid transparent;content:""}
+.sidebar .s-erweima .des{width:85px;height:auto;line-height:26px;padding:10px 10px 0 10px}
+.sidebar .s-erweima .erweima{display:block;width:66px;height:66px;background:url(/img/bg-code.png)}
+.sidebar .s-line{width:26px;margin:10px 0 10px 6px;border:0;border-bottom:solid 1px #666}
+.s-look-house{position:absolute;width:250px;height:100%;background-color:#434343;padding:0 20px;float:left;overflow:hidden}
+.s-look-house1{display:block}
+.s-look-house .hd{padding:24px 0}
+.s-look-house .img-area{text-align:center;margin-bottom:24px}
+.s-look-house .img-area img{width:76px;height:76px}
+.s-look-house .ipt-area{text-align:center;margin-bottom:20px}
+.s-look-house .ipt-area .ipt-btn,.s-look-house .ipt-area .phone{width:160px;text-align:center;color:#fff;border:none;border-radius:2px;height:30px;line-height:30px;cursor:pointer}
+.s-look-house .ipt-area .phone{font-size:12px;margin-bottom:20px;background-color:#888}
+.s-look-house .ipt-area .ipt-btn{font-size:16px;font-weight:700;background-color:#e85045}
+.s-look-house .hot-line{font-size:14px;color:#fff}
+.s-look-house .bd{width:184px;text-align:center;padding:24px 0;margin:auto;border-top:dashed 1px #888}
+.s-look-house .bd .service-list{height:360px}
+.s-look-house .bd .title{font-size:16px;color:#fff}
+.s-look-house .bd .item:first-child .icon-down{display:none}
+.s-look-house .bd .item{margin-bottom:38px}
+.s-look-house .bd .item .img-area{position:relative;margin:15px auto;width:96px;height:60px;border:solid 1px #888}
+.s-look-house .bd .item .icon-down{height:12px;width:12px;margin:-15px auto;background:url(/img/bg-down.png) no-repeat}
+.s-look-house .bd .item .name{position:absolute;bottom:-8px;width:60px;left:18px;color:#fff;font-size:14px;background-color:#434343}
+.s-look-house .bd .item .item-des{font-size:12px;color:#fff;max-width:190px;overflow:hidden}
+.s-look-house .bd .item .img-area img{width:36px;height:36px;margin-top:10px}
+</style>
+<div class="right-flow" style="right: -240px;">
+    <div class="sidebar">
+        <div class="upper">
+            <div class="s-item s-login" style="height: 100px;">
+                <a href="http://beihai.chuanhai.jtr168.cn/news/index_22.html" target="_blank" class="bg-img"></a>
+                <p class="center white">买房必看</p>                    
+                <div class="des" style="display: none; opacity: 0; right: 48px;width: 160px;top: 0">
+                <a href="http://beihai.chuanhai.jtr168.cn/news/index_22.html" target="_blank">买房为什么找【川海房产】？</a></div> 
+            </div>
+            <div class="s-item s-look" style="height: 100px;">
+                <a href="javascript:;" class="bg-img"></a>
+                <p class="center white">预约看房</p>              
+                <div class="des" style="display: none; opacity: 0; right: 48px;top: 0">预约看房</div>
+            </div>
+            <hr class="s-line">
+            <div class="s-item s-customer">
+                <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608786341791" target="_blank" class="bg-img"></a>
+                <p class="center white">在线咨询</p>
+                <div class="des" style="display: none; opacity: 0; right: 48px;top: 0">
+                  <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608786341791" target="_blank">在线客服</a>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="s-item s-erweima" style="height: 90px;">
+                <a href="javascript:;" class="bg-img">微信二维码</a>
+                <p class="center white">手机找房</p>
+                <div class="des" style="display: none; opacity: 1; right: 48px;top: 0">
+                    <img class="lazy" src="../img/code.png" alt="二维码">
+                    <span class="text"></span><br>
+                    <span class="text">手机找房</span>
+                </div>
+            </div>
+            <div class="s-item s-top">
+                <a href="javascript:;" class="bg-img index-top"></a>
+                <div class="des" style="display: none; opacity: 0; right: 48px;top: 0">返回顶部</div>
+            </div>
+            <div class="s-item s-survey">
+                <a href="http://beihai.chuanhai.jtr168.cn/about/gfbz.html" target="_blank" class="bg-img">购房保障</a>
+                <p class="center white">购房保障</p>
+                <a style="text-decoration:none;width: 80px;top: 0" target="_blank" href="http://beihai.chuanhai.jtr168.cn/about/gfbz.html" class="des">购房保障</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-sh">
+        <div class="s-look-house animated" style="height: 100%; z-index: 1;">
+            <div class="hd">
+                <div class="img-area">
+                    <img class="lazy" src="/img/img-head.png" alt="头像">
+                </div>
+                <div class="ipt-area">
+                  <form method="post" id="from-up6" class="submit_area">
+                    <input type="hidden" name="pid" value="33">              <!-- 0 为公共报名，其它为楼盘ID-->
+                    <input type="hidden" name="lpid" value="0">              <!-- 0 为公共报名，其它为楼盘ID-->
+                    <input type="hidden" name="ly" value="北海分站首页_右侧_我要预约">     <!--报名来源 具体查看applyVerify.js文件中source 标识说明-->
+                    <input type="hidden" name="equipment" value="2">        <!--来源设备 （ PC端  2,手机端   1 ）-->
+                    <input type="text" class="phone common-free-call-input common-free-mobile-ipt" id="lp-wyyy-mobile" name="mobile" placeholder="请输入您的手机号">
+                    <button class="ipt-btn  btn-cons common-free-mobile-btn apply_submit" type="button">我要预约</button>
+                  </form>
+                </div>
+                <p class="hot-line">咨询：<span class="com-tel"><?php echo $config['company_tel'];?></span></p>
+            </div>
+            <div class="bd">
+                <h2 class="title">新房全程服务您看房</h2>
+                <div class="service-list mCustomScrollbar _mCS_1" style="height: 494.5px;">
+                    <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" style="max-height: none;" tabindex="0">
+                    <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px;" dir="ltr">
+                    <div class="item">
+                        <div class="icon-down"></div>
+                        <div class="img-area">
+                            <img class="lazy" src="/img/img-look1.png" alt="咨询">
+                            <div class="name">报名咨询</div>
+                        </div>
+                        <div class="item-des">倾听你的买房需求</div>
+                    </div>
+                    <div class="item">
+                        <div class="icon-down"></div>
+                        <div class="img-area">
+                            <img class="lazy" src="/img/img-look2.png" alt="咨询">
+                            <div class="name">专车看房</div>
+                        </div>
+                        <div class="item-des">一对一免费专车全程接送</div>
+                    </div>
+                    <div class="item">
+                        <div class="icon-down"></div>
+                        <div class="img-area">
+                            <img class="lazy" src="/img/img-look3.png" alt="咨询">
+                            <div class="name">楼盘解析</div>
+                        </div>
+                        <div class="item-des">市场、区域、政策、楼盘全面解析</div>
+                    </div>
+                    <div class="item">
+                        <div class="icon-down"></div>
+                        <div class="img-area">
+                            <img class="lazy" src="/img/img-look4.png" alt="咨询">
+                            <div class="name">签约把关</div>
+                        </div>
+                        <div class="item-des">合同解读免你后顾之忧</div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$('.s-look').click(function() {    
+  var r=$('.right-flow').css('right'); 
+  if(r=='0px'){
+      $('.right-flow').css('right',-240);
+  }else{
+      $('.right-flow').css('right',0);
+  }
+});
+$('.lower .s-erweima .bg-img').click(function(){
+   $('.lower .s-erweima .des').toggle();
+});
+  $(".index-top").click(function() {
+          var speed=200;//滑动的速度
+          $('body,html').animate({ scrollTop: 0 }, speed);
+          return false;
+       });
+
+</script>
+<!-- 右侧边栏 end--> 
+
 <?php include("top.php");?>
 <script type="text/javascript" src="/public/static/home/js/huanping.js"></script> 
 <div class="index-banner-menu">
