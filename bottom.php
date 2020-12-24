@@ -124,10 +124,10 @@
                         <?php
       $rownews = $mysql->query("select * from `web_content` WHERE `pid`='9' order by addtime desc limit 0,8");
       foreach($rownews as $k=>$lists){
-      $url='/louan/'.$lists['id'].'.html';
+      $url='/loupan/'.$lists['id'].'.html';
     
     ?>
-                <li> <a href="<?php echo $lists['get_url'];?>" target="_blank"><?php echo $lists['title'];?></a></li> 
+                <li> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li> 
         <?php
       }?>
                                           
