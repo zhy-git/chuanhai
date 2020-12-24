@@ -123,5 +123,5 @@ $(function() {
       <?php }?>
     </DIV>
 <DIV class="check_button">收起</DIV></DIV>
-<DIV class="footer"><DIV>技术支持：<A style="COLOR: #fff" href="###" target=_blank>创想传媒</A></DIV></DIV>
+<DIV class="footer"></DIV>
 <SCRIPT type=text/javascript src="js/class.js"></SCRIPT></BODY></HTML>
