@@ -673,7 +673,7 @@ if ($action=="bmtj"){
 				// $smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
 				// $smtppass = "yanyan38";//SMTP服务器的用户密码
 				$mailtitle = "网站抓取到新的手机号码";//邮件主题
-				$mailcontent = "<h1>电话：{setf::getPhoneNumber()}</h1>";//邮件内容
+				$mailcontent = "<h1>电话："setf::getPhoneNumber()"</h1>";//邮件内容
 				$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
 				//************************ 配置信息 ****************************
 				$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
