@@ -479,7 +479,7 @@ if ($action=="bmtj"){
 		    //抓取访问者手机号码
 		$isphone = $_GET['isphone'];
         $rows = $mysql->query("select * from `web_zqmobile` where `mobile`='{$isphone}' order by id desc");
-        if (empty($rows)) {
+        if (!empty($rows)) {
         	 $mysql->query("insert into `web_zqmobile`(`mobile`,`addtime`) values ('{$isphone}','{$addtime}')");
 	        	//******************** 配置信息 ********************************
 					$smtpserver = "smtp.163.com";//SMTP服务器
