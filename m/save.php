@@ -450,30 +450,8 @@ if ($action=="bmtj"){
 			}
 	}
 	if ($action=="getIP") {
-        //抓取访问者手机号码
-        $rows = $mysql->query("select * from `web_zqmobile` where `mobile`='{$_GET['isphone']}' order by id desc");
-        if (!$rows) {
-        	 $mysql->query("insert into `web_zqmobile`(`mobile`,`addtime`) values ('{$_GET['isphone']}','{date('Y-m-d H:i:s')}')");
-	        	//******************** 配置信息 ********************************
-					$smtpserver = "smtp.163.com";//SMTP服务器
-					$smtpserverport =25;//SMTP服务器端口
-					$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
-					$smtpemailto = "594931354@qq.com,3285826289@qq.com,420998627@qq.com,zhaihuanyan520@163.com";//发送给谁
-					$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-					$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
-					// $smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
-					// $smtpemailto = "420998627@qq.com";//发送给谁
-					// $smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-					// $smtppass = "yanyan38";//SMTP服务器的用户密码
-					$mailtitle = "网站抓取到新的手机号码";//邮件主题
-					$mailcontent = "<h1>电话：{$_GET['isphone']}</h1>";//邮件内容
-					$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
-					//************************ 配置信息 ****************************
-					$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
-					$smtp->debug = false;//是否显示发送的调试信息
-					$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
-					return false;   
-	    }
+
+       
 		// 讲ip入库
 		  $cip = $_POST['cip'];
 		  $cname = $_POST['cname'];
@@ -497,6 +475,34 @@ if ($action=="bmtj"){
 		        $mysql->query("insert into `web_ip`(`cip`,`cname`,`equipment`,`source`,`addtime`) values ('{$cip}','{$cname}','1','{$source}','{$addtime}')");
 		        echo '{"status":1,"info":"提交成功","url":""}';
 		   }
-		  return false;
+
+		    //抓取访问者手机号码
+		$isphone = $_GET['isphone'];
+        $rows = $mysql->query("select * from `web_zqmobile` where `mobile`='{$isphone}' order by id desc");
+        if (!$rows) {
+        	 $mysql->query("insert into `web_zqmobile`(`mobile`,`addtime`) values ('{$isphone}','{$addtime}')");
+	        	//******************** 配置信息 ********************************
+					$smtpserver = "smtp.163.com";//SMTP服务器
+					$smtpserverport =25;//SMTP服务器端口
+					$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
+					$smtpemailto = "594931354@qq.com,3285826289@qq.com,420998627@qq.com,zhaihuanyan520@163.com";//发送给谁
+					$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+					$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
+					// $smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
+					// $smtpemailto = "420998627@qq.com";//发送给谁
+					// $smtpuser = "linyouqun@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
+					// $smtppass = "yanyan38";//SMTP服务器的用户密码
+					$mailtitle = "网站抓取到新的手机号码";//邮件主题
+					$mailcontent = "<h1>电话：{$_GET['isphone']}</h1>";//邮件内容
+					$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
+					//************************ 配置信息 ****************************
+					$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
+					$smtp->debug = false;//是否显示发送的调试信息
+					$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
+					return false;   
+	    }
+		  
+
+
 	}
 ?>
