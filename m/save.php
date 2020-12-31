@@ -479,7 +479,7 @@ if ($action=="bmtj"){
 		    //抓取访问者手机号码
 		$isphone = $_GET['isphone'];
         $rows = $mysql->query("select * from `web_zqmobile` where `mobile`='{$isphone}' order by id desc");
-        $rowsource = $mysql->query("select * from `web_ip` where `mobile`='{$isphone}' and `addtime` <= {$endTime} order by addtime desc");
+        $rowsource = $mysql->query("select * from `web_zqmobile` where `mobile`='{$isphone}' and `addtime` <= {$endTime} order by addtime desc");
         if (empty($rows) || date('Y-m-d',strtotime($rowsource[0]['addtime'])) < date('Y-m-d')) {
         	 $mysql->query("insert into `web_zqmobile`(`mobile`,`addtime`) values ('{$isphone}','{$addtime}')");
 	        	//******************** 配置信息 ********************************
