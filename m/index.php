@@ -554,7 +554,7 @@ echo "</script>";
                         </div>
                           <ul class="tags">
                            <?php
-                $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc limit 0,10");
+                $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc limit 0,8");
                 foreach($flag as $k=>$flagall){
                     echo '<li class="tag-'.($k+1).'"><a href="/loupan/t'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a></li>';
                 }
@@ -569,7 +569,7 @@ echo "</script>";
             <div class="bd">              
                   <!-- 列表 -->
 					<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px10 desc limit 0,8");// and `city_id`='57'
+		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px10 desc limit 0,10");// and `city_id`='57'
 		foreach($row as $k=>$list){
 		$url="/m/loupan/{$list['id']}.html";
 		?>
