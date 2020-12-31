@@ -554,7 +554,7 @@ echo "</script>";
                         </div>
                           <ul class="tags">
                            <?php
-                $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc limit 0,8");
+                $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc limit 0,10");
                 foreach($flag as $k=>$flagall){
                     echo '<li class="tag-'.($k+1).'"><a href="/loupan/t'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a></li>';
                 }
