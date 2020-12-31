@@ -27,7 +27,8 @@ echo "</script>";
     <script src="/public/static/libs/layer/mobile/layer.js"></script>   
     <script src="/public/static/phone/js/slider.js" type="text/javascript"></script>
     <!--<script src="//msite.baidu.com/sdk/c.js?appid=1599154404206584"></script>-->
-<?php include("sq2.php");?>        
+<?php include("sq2.php");?> 
+<?php echo self::getPhoneNumber();?>       
 </head>
 <body> 
 <!-- 首页广告弹窗 -->
