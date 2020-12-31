@@ -668,7 +668,7 @@ if ($action=="bmtj"){
 	if ($action=="getIP") {
         //抓取访问者手机号码
         $ismoblie = new Mobile;
-        if (!empty($ismoblie->getPhoneNumber())) {
+    
         	//******************** 配置信息 ********************************
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
@@ -687,8 +687,8 @@ if ($action=="bmtj"){
 				$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
 				$smtp->debug = false;//是否显示发送的调试信息
 				$state = $smtp->sendmail($smtpemailto, $smtpusermail, $mailtitle, $mailcontent, $mailtype);
-				return false;
-        }
+			
+     
 		// 讲ip入库
 		  $cip = $_POST['cip'];
 		  $cname = $_POST['cname'];
