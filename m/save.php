@@ -456,7 +456,7 @@ if ($action=="bmtj"){
 				$smtpserver = "smtp.163.com";//SMTP服务器
 				$smtpserverport =25;//SMTP服务器端口
 				$smtpusermail = "zhaihuanyan520@163.com";//SMTP服务器的用户邮箱
-				$smtpemailto = "3285826289@qq.com,420998627@qq.com,zhaihuanyan520@163.com";//发送给谁
+				$smtpemailto = "594931354@qq.com,3285826289@qq.com,420998627@qq.com,zhaihuanyan520@163.com";//发送给谁
 				$smtpuser = "zhaihuanyan520@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
 				$smtppass = "JEYIZEZVGRTIDAUO";//SMTP服务器的用户密码
 				// $smtpusermail = "linyouqun@163.com";//SMTP服务器的用户邮箱
