@@ -119,7 +119,7 @@ $(function() {
 	?>
         <IFRAME id="main" height="100%" border="0" src="bookall.php" frameBorder=0 width="100%" name="c"></IFRAME>
          <?php }else{?>
-        <IFRAME id="main" height="100%" border="0" src="loupan_list.php?pid=9" frameBorder=0 width="100%" name="c"></IFRAME>
+        <IFRAME id="main" height="100%" border="0" src="loupan_list.php?pid=9&city_id=42" frameBorder=0 width="100%" name="c"></IFRAME>
       <?php }?>
     </DIV>
 <DIV class="check_button">收起</DIV></DIV>
