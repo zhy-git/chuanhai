@@ -3,12 +3,12 @@
 require("../conn/conn.php");
 include("function.php");
 if($sitecityid==""){
-	//header("location:city.html");
-	echo "<script language='javascript'
+  //header("location:city.html");
+  echo "<script language='javascript'
 type='text/javascript'>"; 
-echo "window.location.href='http://beihai.chuanhai.".$siteasd."/m/'"; 
+echo "window.location.href='http://beihai.".$siteasd."/m/'"; 
 echo "</script>";  
-	}
+  }
 ?>
   <head>
     <meta charset="UTF-8">
@@ -233,9 +233,9 @@ echo "</script>";
                     <div class="header-top"><div class="city-change">
                       <a href="city.html">
                           <span class="city"><?php if($sitecityname<>''){echo $sitecityname;}else{
-							  $sitecityid=44;
-							  echo '防城港';
-							  }?></span>
+                $sitecityid=44;
+                echo '防城港';
+                }?></span>
                           <span class="ico ico-down">展开</span>
                       </a>
                   </div>
@@ -274,7 +274,7 @@ echo "</script>";
                                         <h2>新房查询</h2>
                                     </div>
                                 </a>
-								<a href="/m/loupan/index_0_0_0_tsa1_1.html" class="aui-palace-grid">
+                <a href="/m/loupan/index_0_0_0_tsa1_1.html" class="aui-palace-grid">
                                       <div class="aui-palace-grid-icon">
                                           <img src="/public/static/phone/img/nav/nav_02.png" alt="海景房">
                                       </div>
@@ -568,24 +568,24 @@ echo "</script>";
             <div class="hd"><h2 style="margin-top: 10px;">新房推荐</h2></div>
             <div class="bd">              
                   <!-- 列表 -->
-					<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px10 desc limit 0,10");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/m/loupan/{$list['id']}.html";
-		?>
+          <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px10 desc limit 0,10");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/m/loupan/{$list['id']}.html";
+    ?>
         
          <div class="build-list">
                     <div class="item-new ">
                          <a href="<?php echo $url;?>">
                               <div class="img-area pr">
-								<img alt="<?php echo $list['title'];?>" src="<?php echo $site.$list['img'];?>">
-							</div>
+                <img alt="<?php echo $list['title'];?>" src="<?php echo $site.$list['img'];?>">
+              </div>
                               <div class="des">
                                   <div class="tr">
                                       <div class="place"><?php echo $list['title'];?></div>
                                       <div class="price" style="font-size: .35rem;">约
                                       <?php if($list['all_price']==0){?>
-										<?php if($list['jj_price']==0){?>
+                    <?php if($list['jj_price']==0){?>
                                             <i style="color: #ffffff;font-style: normal;font-size: .5rem">待定</i>
                                         <?php }else{?>
                                             <i style="color: #ffffff;font-style: normal;font-size: .5rem"><?php echo $list['jj_price'];?></i>元/㎡
@@ -598,13 +598,13 @@ echo "</script>";
                           </a>
                         <div class="lb-area"><span class="lbs lbs-hot"><?php
             $flagztz='';
-			  $rowflag = $mysql->query("select * from `web_flag` where `flag_fl`='8' and `flag_st`='1' order by `flag_px` asc ");
-			foreach($rowflag as $listflag){
-				if(preg_match("#".$listflag['flag_bm']."#", $list['ztz'])){
-					echo ''.$listflag['flag'].'';
-				}
-			}
-			?></span></div>    
+        $rowflag = $mysql->query("select * from `web_flag` where `flag_fl`='8' and `flag_st`='1' order by `flag_px` asc ");
+      foreach($rowflag as $listflag){
+        if(preg_match("#".$listflag['flag_bm']."#", $list['ztz'])){
+          echo ''.$listflag['flag'].'';
+        }
+      }
+      ?></span></div>    
                                               
                         <div class="Discounts">
                            <div class="Discounts-l">
@@ -629,19 +629,19 @@ echo "</script>";
                     </div>     
                   </div>
                  <div class="both"></div> 
-		<?php
-		}
-		?>                         
+    <?php
+    }
+    ?>                         
                                                                        
                   <!-- 列表 end -->                                                    
             </div>
             <style>
-			.bounce {
+      .bounce {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-	color: white;
+  color: white;
   height: 100%;
   font: normal bold 0.4rem "Product Sans", sans-serif;
   white-space: nowrap;
@@ -686,7 +686,7 @@ echo "</script>";
     text-shadow: rgba(255, 255, 255, 0.4) 0 1em 0.35em;
   }
 }
-			</style>
+      </style>
             <div class="more">
             <div class="bounce">
                 <a href="loupan/"><span class="letter">查</span>

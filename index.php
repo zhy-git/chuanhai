@@ -4,49 +4,50 @@
 require("conn/conn.php");
 require("function.php");
 //echo $pingyi;
+$siteasd = 'chuanhai168.com';
 if($pingyi=='www'){
-	header('HTTP/1.1 301 Moved Permanently');
+  header('HTTP/1.1 301 Moved Permanently');
     //跳转到你希望的地址格式 
-  	header('Location: http://beihai.chuanhai.'.$siteasd.'/');
+    header('Location: http://beihai.'.$siteasd.'/');
    //header('Location: http://haikou.'.$siteasd.'');
    echo "<script language='javascript'
 type='text/javascript'>"; 
-echo "window.location.href='http://beihai.chuanhai.".$siteasd."/'"; 
+echo "window.location.href='http://beihai.".$siteasd."/'"; 
 echo "</script>";  
-	}
+  }
 $yescity = $mysql->query("select * from `web_city` where `city_pingyin`='$pingyi' and `city_st`=1 and `pid`<>0 limit 0,1");
 if($yescity[0]==''){
-	//header('HTTP/1.1 301 Moved Permanently');
+  //header('HTTP/1.1 301 Moved Permanently');
     //跳转到你希望的地址格式 
-  header('Location: http://beihai.chuanhai.'.$siteasd.'/');
+  header('Location: http://beihai.'.$siteasd.'/');
    //header('Location: http://haikou.'.$siteasd.'');
-	}
+  }
 ?>
 <head>
   <meta name="baidu-site-verification" content="code-3529LhkNrR" />
-	<meta charset="UTF-8">  
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title><?php echo $config['site_name'];?></title>
+  <meta charset="UTF-8">  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><?php echo $config['site_name'];?></title>
 
 
     <meta name=keywords content="<?php echo $config['site_keyword'];?>">
     <meta name=description content="<?php echo $config['site_desc'];?>">
-	<meta http-equiv="Cache-Control" content="no-transform" />
-        	<link rel="shortcut icon" href="../image/favicon.ico" />
-	<link rel="stylesheet" href="/public/static/home/css/css.css">  
-	<link rel="stylesheet" href="/public/assets/css/style.css">
-	<link rel="stylesheet" href="/public/static/home/css/home.css">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+          <link rel="shortcut icon" href="../image/favicon.ico" />
+  <link rel="stylesheet" href="/public/static/home/css/css.css">  
+  <link rel="stylesheet" href="/public/assets/css/style.css">
+  <link rel="stylesheet" href="/public/static/home/css/home.css">
     <link href="/css/alert.css" rel="stylesheet">
-	<!--[if IE 6]>
-	<link rel="stylesheet" href="/public/static/home/css/ie6.css?v=1.0">
-	<script src="/public/static/home/js/DD_belatedPNG_0.0.8a.js?v=1.0" type="text/javascript" ></script> 
-	<script type="text/javascript"> 
-	DD_belatedPNG.fix('*'); 
-	</script>  
-	<![endif]-->
-	<script type="text/javascript" src="/public/static/common/js/jquery.min.js"></script>
-	<script type="text/javascript" src="/public/static/common/js/jquery.form.js"></script>
-	<script type="text/javascript" src="/public/static/layer/layer.js"></script>
+  <!--[if IE 6]>
+  <link rel="stylesheet" href="/public/static/home/css/ie6.css?v=1.0">
+  <script src="/public/static/home/js/DD_belatedPNG_0.0.8a.js?v=1.0" type="text/javascript" ></script> 
+  <script type="text/javascript"> 
+  DD_belatedPNG.fix('*'); 
+  </script>  
+  <![endif]-->
+  <script type="text/javascript" src="/public/static/common/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/public/static/common/js/jquery.form.js"></script>
+  <script type="text/javascript" src="/public/static/layer/layer.js"></script>
 <?php include("sq2.php");?>
 
 </head>
@@ -96,10 +97,10 @@ if($yescity[0]==''){
     <div class="sidebar">
         <div class="upper">
             <div class="s-item s-login" style="height: 100px;">
-                <a href="http://beihai.chuanhai.jtr168.cn/news/index_22.html" target="_blank" class="bg-img"></a>
+                <a href="http://beihai.chuanhai168.com/news/index_22.html" target="_blank" class="bg-img"></a>
                 <p class="center white">买房必看</p>                    
                 <div class="des" style="display: none; opacity: 0; right: 48px;width: 160px;top: 0">
-                <a href="http://beihai.chuanhai.jtr168.cn/news/index_22.html" target="_blank">买房为什么找【川海房产】？</a></div> 
+                <a href="http://beihai.chuanhai168.com/news/index_22.html" target="_blank">买房为什么找【川海房产】？</a></div> 
             </div>
             <div class="s-item s-look" style="height: 100px;">
                 <a href="javascript:;" class="bg-img"></a>
@@ -108,10 +109,10 @@ if($yescity[0]==''){
             </div>
             <hr class="s-line">
             <div class="s-item s-customer">
-                <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608786341791" target="_blank" class="bg-img"></a>
+                <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai168.com/&rf1=&rf2=&msg=&d=1608786341791" target="_blank" class="bg-img"></a>
                 <p class="center white">在线咨询</p>
                 <div class="des" style="display: none; opacity: 0; right: 48px;top: 0">
-                  <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608786341791" target="_blank">在线客服</a>
+                  <a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai168.com/&rf1=&rf2=&msg=&d=1608786341791" target="_blank">在线客服</a>
                 </div>
             </div>
         </div>
@@ -130,9 +131,9 @@ if($yescity[0]==''){
                 <div class="des" style="display: none; opacity: 0; right: 48px;top: 0">返回顶部</div>
             </div>
             <div class="s-item s-survey">
-                <a href="http://beihai.chuanhai.jtr168.cn/about/gfbz.html" target="_blank" class="bg-img">购房保障</a>
+                <a href="http://beihai.chuanhai168.com/about/gfbz.html" target="_blank" class="bg-img">购房保障</a>
                 <p class="center white">购房保障</p>
-                <a style="text-decoration:none;width: 80px;top: 0" target="_blank" href="http://beihai.chuanhai.jtr168.cn/about/gfbz.html" class="des">购房保障</a>
+                <a style="text-decoration:none;width: 80px;top: 0" target="_blank" href="http://beihai.chuanhai168.com/about/gfbz.html" class="des">购房保障</a>
             </div>
         </div>
     </div>
@@ -246,24 +247,24 @@ $('.lower .s-erweima .bg-img').click(function(){
                 }
                 ?>
             </div>
-			<div class="sort">
-            	<span class="lab">价格</span>
-				<?php
+      <div class="sort">
+              <span class="lab">价格</span>
+        <?php
                 $flag=$mysql->query("select * from `web_flag` where `flag_fl`='7' and `flag_st`='1' order by `flag_px` asc");
                 foreach($flag as $flagall){
                     echo '<a href="/loupan/p'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                 }
                 ?>
-			</div>
-        	<div class="sort">
+      </div>
+          <div class="sort">
               <span class="lab">特色</span>
-				<?php
+        <?php
                 $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc");
                 foreach($flag as $flagall){
                     echo '<a href="/loupan/t'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                 }
                 ?>
-			</div>
+      </div>
         </div>
       </li>
             <!-- 海景房 -->
@@ -288,26 +289,26 @@ $('.lower .s-erweima .bg-img').click(function(){
                 }
                 ?>
             </div>
-			<div class="sort">
-            	<span class="lab">价格</span>
-				<?php
+      <div class="sort">
+              <span class="lab">价格</span>
+        <?php
                 $flag=$mysql->query("select * from `web_flag` where `flag_fl`='7' and `flag_st`='1' order by `flag_px` asc");
                 foreach($flag as $flagall){
                     echo '<a href="/loupan/ttsa1_p'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                 }
                 ?>
-			</div>
+      </div>
         </div>
       </li>
       <!-- 海景房 -->
       <!-- 别墅 -->
       <li class="">
-		<a href="/loupan/tts6" class="aitem" >
+    <a href="/loupan/tts6" class="aitem" >
           <i class="iconfont icon-dudongbieshu"></i>
           <span>别墅</span>
           <ins></ins>
         </a>
-			<div class="detail-box esf-detail-box">
+      <div class="detail-box esf-detail-box">
               <div class="btns">
                <!-- <a href="/map/" target="_blank" class="jwbtn tomap"><i></i>地图找房</a>
                 &nbsp;&nbsp;或&nbsp;&nbsp;-->
@@ -322,26 +323,26 @@ $('.lower .s-erweima .bg-img').click(function(){
                 }
                 ?>
             </div>
-			<div class="sort">
-            	<span class="lab">价格</span>
-				<?php
+      <div class="sort">
+              <span class="lab">价格</span>
+        <?php
                 $flag=$mysql->query("select * from `web_flag` where `flag_fl`='7' and `flag_st`='1' order by `flag_px` asc");
                 foreach($flag as $flagall){
                     echo '<a href="/loupan/tts6_p'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                 }
                 ?>
-			</div>
+      </div>
         </div>
       </li>
       <!-- 别墅 end-->
       <!-- 别墅 -->
       <li class="">
-		<a href="/loupan/tts7" class="aitem" >
+    <a href="/loupan/tts7" class="aitem" >
           <i class="iconfont icon-dudongbieshu"></i>
           <span>公寓/写字楼</span>
           <ins></ins>
         </a>
-			<div class="detail-box esf-detail-box">
+      <div class="detail-box esf-detail-box">
               <div class="btns">
             <!--    <a href="/map/" target="_blank" class="jwbtn tomap"><i></i>地图找房</a>
                 &nbsp;&nbsp;或&nbsp;&nbsp;-->
@@ -356,15 +357,15 @@ $('.lower .s-erweima .bg-img').click(function(){
                 }
                 ?>
             </div>
-			<div class="sort">
-            	<span class="lab">价格</span>
-				<?php
+      <div class="sort">
+              <span class="lab">价格</span>
+        <?php
                 $flag=$mysql->query("select * from `web_flag` where `flag_fl`='7' and `flag_st`='1' order by `flag_px` asc");
                 foreach($flag as $flagall){
                     echo '<a href="/spxzl/tts7_p'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                 }
                 ?>
-			</div>
+      </div>
         </div>
       </li>
       <!-- 别墅 end-->
@@ -372,12 +373,12 @@ $('.lower .s-erweima .bg-img').click(function(){
     </ul>
   </div>
 <div class="banner-box full-banner-box">
-	<div class="banner-imgs" id="bannerSlider">
-		<div class="slidecon">
+  <div class="banner-imgs" id="bannerSlider">
+    <div class="slidecon">
       <!-- 延迟加载的图片请注意图片路径写在data-original上 -->
-		<div class="tempWrap">
-			<ul class="clearfix" id="loopAdUl">
-			<?php
+    <div class="tempWrap">
+      <ul class="clearfix" id="loopAdUl">
+      <?php
             $row = $mysql->query("select * from `web_link` where `ad_id`='19' and `city_id`='{$sitecityid}' order by px asc");
             foreach($row as $k=>$list){
             ?>
@@ -387,19 +388,19 @@ $('.lower .s-erweima .bg-img').click(function(){
             <?php
             }
             ?>
-			</ul>
+      </ul>
         </div>
     </div>
     <ul class="slide-controls">
     <?php
-	$row = $mysql->query("select * from `web_link` where `ad_id`='19' and `city_id`='{$sitecityid}' order by px asc");
-	foreach($row as $k=>$list){
-	?>
-		<li <?php if($k==0){ echo 'class="on"';}?>><?php echo $k+1;?></li>
-	<?php
-	}
-	?>
-	</ul>
+  $row = $mysql->query("select * from `web_link` where `ad_id`='19' and `city_id`='{$sitecityid}' order by px asc");
+  foreach($row as $k=>$list){
+  ?>
+    <li <?php if($k==0){ echo 'class="on"';}?>><?php echo $k+1;?></li>
+  <?php
+  }
+  ?>
+  </ul>
   <a href="javascript:;" class="prev" style="left: 683.5px;"></a>
   <a href="javascript:;" class="next" style="right: 463.5px;"></a></div>
 </div>
@@ -427,7 +428,7 @@ $('.lower .s-erweima .bg-img').click(function(){
                     $city=$mysql->query("select * from `web_city` where `pid`='{$sitecitybid}' and `city_st`='1' order by `city_px` asc");
                     foreach($city as $cityall){
                        // echo '<a href="/loupan/?city_id='.$cityall['id'].'" target="_blank">'.$cityall['city_name'].'</a>';
-						 echo '<a href="http://'.$cityall['city_pingyin'].'.'.$siteasd.'/" target="_blank">'.$cityall['city_name'].'</a>';
+             echo '<a href="http://'.$cityall['city_pingyin'].'.'.$siteasd.'/" target="_blank">'.$cityall['city_name'].'</a>';
                     }
                     ?>
           </li>
@@ -439,25 +440,25 @@ $('.lower .s-erweima .bg-img').click(function(){
                         echo '<a href="/loupan/p'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
                     }
                     ?>
-			</li>
+      </li>
           <li class="clearfix">
             <span>户型</span>
-			<?php
+      <?php
             $flag=$mysql->query("select * from `web_flag` where `flag_fl`='4' and `flag_st`='1' order by `flag_px` asc");
-			foreach($flag as $flagall){
-				echo '<a href="/loupan/h'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
-			}
-			?>
-			</li>
+      foreach($flag as $flagall){
+        echo '<a href="/loupan/h'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
+      }
+      ?>
+      </li>
           <li class="clearfix">
             <span>特色</span>
-			<?php
+      <?php
             $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc");
-			foreach($flag as $flagall){
-				echo '<a href="/loupan/t'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
-			}
-			?>
-			</li>
+      foreach($flag as $flagall){
+        echo '<a href="/loupan/t'.$flagall['flag_bm'].'" target="_blank">'.$flagall['flag'].'</a>';
+      }
+      ?>
+      </li>
         </ul>
       </div>
     </div>
@@ -472,11 +473,11 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="h10"></div>
     <div class="w1200">
       <div class="index-tab-container active" style="width: 1300px;" >
-      	<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px1 desc limit 0,4");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+        <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px1 desc limit 0,4");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <div class="index-house__pic">
           <a href="<?php echo $url;?>" target="_blank">
           <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" title ="<?php echo $list['title'];?>">
@@ -490,27 +491,27 @@ $('.lower .s-erweima .bg-img').click(function(){
             <div class="w-info__right">
               <h3><?php echo $list['xmts'];?></h3>
               <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <p>待定</p>
                     <?php }else{?>
                         <p>均价<?php echo $list['jj_price'];?>元/㎡</p>
                     <?php }?>
-				<?php }else{?>
-             	 <p>总价<?php echo $list['all_price'];?>万/套</p>
-				<?php }?>
+        <?php }else{?>
+               <p>总价<?php echo $list['all_price'];?>万/套</p>
+        <?php }?>
             </div>
           </div>
         </div>
-		<?php
-		}
-		?>
+    <?php
+    }
+    ?>
         </div>
       <div class="index-tab-container"  style="width: 1300px;">
       <?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px16 desc limit 0,4");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px16 desc limit 0,4");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <div class="index-house__pic tenrtd">
             <a href="<?php echo $url;?>" target="_blank">
                          <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" title="<?php echo $list['title'];?>" >
@@ -520,32 +521,32 @@ $('.lower .s-erweima .bg-img').click(function(){
             <div class="w-info">
               <div class="text2">
               <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <b>待定</b>
                     <?php }else{?>
                         <b>均价<?php echo $list['jj_price'];?>元/㎡</b>
                     <?php }?>
-				<?php }else{?>
-             	 <b>总价<?php echo $list['all_price'];?>万/套</b>
-				<?php }?>
+        <?php }else{?>
+               <b>总价<?php echo $list['all_price'];?>万/套</b>
+        <?php }?>
                 <em><?php echo $list['xmts'];?></em>
               </div>
               <div class="text3">
                  <!-- 1603 -->
                  <?php echo loupanflagtsit($list['flagts'],6,3);?>
-				</div>
+        </div>
             </div>
           </div>
-		<?php
-		}
-		?>
-		</div>
+    <?php
+    }
+    ?>
+    </div>
       <div class="index-tab-container"  style="width: 1300px;">
          <?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px17 desc limit 0,4");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px17 desc limit 0,4");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <div class="index-house__pic tenrtd">
             <a href="<?php echo $url;?>" target="_blank">
                          <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" title="<?php echo $list['title'];?>" >
@@ -555,26 +556,26 @@ $('.lower .s-erweima .bg-img').click(function(){
             <div class="w-info">
               <div class="text2">
               <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <b>待定</b>
                     <?php }else{?>
                         <b>均价<?php echo $list['jj_price'];?>元/㎡</b>
                     <?php }?>
-				<?php }else{?>
-             	 <b>总价<?php echo $list['all_price'];?>万/套</b>
-				<?php }?>
+        <?php }else{?>
+               <b>总价<?php echo $list['all_price'];?>万/套</b>
+        <?php }?>
                 <em><?php echo $list['xmts'];?></em>
               </div>
               <div class="text3">
                  <!-- 1603 -->
                  <?php echo loupanflagtsit($list['flagts'],6,3);?>
-				</div>
+        </div>
             </div>
           </div>
-		<?php
-		}
-		?>
-		</div>
+    <?php
+    }
+    ?>
+    </div>
     </div>
   </div>
 </div>
@@ -588,42 +589,42 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="w-search-link">
       <button class="btn btn-success">热销楼盘TOP</button>
       <ul class="hot-house-price">
-		<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px2 desc limit 0,8");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px2 desc limit 0,8");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <li>
               <a href="<?php echo $url;?>" target="_blank" title="<?php echo $list['title'];?>">
                 <span class="name"><?php echo $list['title'];?></span>
                 <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <span class="price">待定</span>
                     <?php }else{?>
                         <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
                     <?php }?>
-				<?php }else{?>
+        <?php }else{?>
                  <span class="price"><?php echo $list['all_price'];?>万/套</span>
-				<?php }?>
+        <?php }?>
               </a>
         </li>
-		<?php
-		}
-		?>
+    <?php
+    }
+    ?>
         </ul>
       <!-- 报名 -->
       <div style="height: 10px;"></div>
       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
+        foreach($row as $k=>$list){
+        ?>
                 <div>
                     <!-- 取消了广告图片链接 -->
       <img class="lazy" src="<?php echo $list['img'];?>"  width="210" height="75">
       </div>
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
      
       <!--<div class="tgbox">
       <p>买新房为什么选我们？</p>
@@ -651,54 +652,54 @@ $('.lower .s-erweima .bg-img').click(function(){
       <div class="w-main">
         <!-- 优选房源tab -->
         <div class="index-house-tab-item active">
-			<div class="swiper-container w-view-swiper J_viewSwiper1">
+      <div class="swiper-container w-view-swiper J_viewSwiper1">
                 <div class="swiper-wrapper">
                 <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
-				foreach($row as $k=>$list){
-				?>
-				<div class="swiper-slide">
-					<a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
-				</div>
-				<?php
-				}
-				?>
-				</div>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
+        foreach($row as $k=>$list){
+        ?>
+        <div class="swiper-slide">
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+        </div>
+        <?php
+        }
+        ?>
+        </div>
                 <div class="swiper-pagination"></div>
-			</div>
+      </div>
           <!-- Swiper -->
-		<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px3 desc limit 0,6");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px3 desc limit 0,6");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <div class="w-view-house">
               <a href="<?php echo $url;?>" target="_blank">
-				<img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
+        <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
                 <p><?php echo $list['title'];?></p>
               </a>
               <div class="w-info">
                 <div class="price-bar">
                 <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <span class="price">待定</span>
                     <?php }else{?>
                         <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
                     <?php }?>
-				<?php }else{?>
+        <?php }else{?>
                  <span class="price"><?php echo $list['all_price'];?>万/套</span>
-				<?php }?>
+        <?php }?>
                 <span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
                 <p class="address"><?php echo $list['xmts'];?></p>
               </div>
           </div>
-		<?php
-		}
-		?>
-		</div>
+    <?php
+    }
+    ?>
+    </div>
         <!-- 品牌地产 -->
-		<div class="index-house-tab-item active">
-			<?php
+    <div class="index-house-tab-item active">
+      <?php
             $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px4 desc limit 0,8");// and `city_id`='57'
             foreach($row as $k=>$list){
             $url="/loupan/{$list['id']}.html";
@@ -729,7 +730,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         </div>
         <!-- 小户型 -->
         <div class="index-house-tab-item active">
-			<?php
+      <?php
             $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px7 desc limit 0,8");// and `city_id`='57'
             foreach($row as $k=>$list){
             $url="/loupan/{$list['id']}.html";
@@ -758,9 +759,9 @@ $('.lower .s-erweima .bg-img').click(function(){
             }
             ?>
         </div>
-		<!-- 低总价 -->
+    <!-- 低总价 -->
         <div class="index-house-tab-item active">
-			<?php
+      <?php
             $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px5 desc limit 0,8");// and `city_id`='57'
             foreach($row as $k=>$list){
             $url="/loupan/{$list['id']}.html";
@@ -789,9 +790,9 @@ $('.lower .s-erweima .bg-img').click(function(){
             }
             ?>
         </div>
-		<!-- 精装洋房 -->
+    <!-- 精装洋房 -->
         <div class="index-house-tab-item active">
-			<?php
+      <?php
             $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px6 desc limit 0,8");// and `city_id`='57'
             foreach($row as $k=>$list){
             $url="/loupan/{$list['id']}.html";
@@ -820,9 +821,9 @@ $('.lower .s-erweima .bg-img').click(function(){
             }
             ?>
         </div>
-		<!-- 特价优惠 -->
+    <!-- 特价优惠 -->
         <div class="index-house-tab-item active">
-			<?php
+      <?php
             $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px8 desc limit 0,8");// and `city_id`='57'
             foreach($row as $k=>$list){
             $url="/loupan/{$list['id']}.html";
@@ -851,9 +852,9 @@ $('.lower .s-erweima .bg-img').click(function(){
             }
             ?>
         </div>
-		<!-- 温泉 -->
+    <!-- 温泉 -->
         
-		</div>
+    </div>
     </div>
   </div>
   
@@ -861,17 +862,17 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="index-bar__small">
       <a href="/loupan/" class="t-1" >团购优惠看房</a>
       
-	<a href="/loupan/" class="more" >更多&raquo;</a>
+  <a href="/loupan/" class="more" >更多&raquo;</a>
     </div>
     <div id="index-splash-block" class="huan300">
     <style>
-	.ind_kfbm { width:246px; margin-left:30px;}
-	.ind_kfbm p { line-height:30px;}
-	.ind_kfbm p font { font-size:18px; color:#00A0EA;}
-	.ind_kfbm input { width:246px;}
-	</style>
+  .ind_kfbm { width:246px; margin-left:30px;}
+  .ind_kfbm p { line-height:30px;}
+  .ind_kfbm p font { font-size:18px; color:#00A0EA;}
+  .ind_kfbm input { width:246px;}
+  </style>
      <div class="ind_kfbm">
-     	<img src="image/tgv1_03.png" width="246" height="79" style="margin-bottom:10px;">
+      <img src="image/tgv1_03.png" width="246" height="79" style="margin-bottom:10px;">
         <p>全程免费接机、住宿安排</p>
         <p>报名热线：<font><?php echo $config['company_tel'];?></font></p>
          <form class="submit_area">
@@ -887,56 +888,56 @@ $('.lower .s-erweima .bg-img').click(function(){
                
             </form>
      </div>
-	</div>
+  </div>
   </div>
     
 </div>
 <!-- 一线海景 -->
 <div class="clearfix w1200 index_house__view J_indexHouseTab" style=" height:470px;">
-	<div class="w-view__left" style="position:relative;">
+  <div class="w-view__left" style="position:relative;">
         <div class="index-bar__small">       
             <a href="/loupan/ttsa1" class="t-1">一线海景</a><span class="icon-map"><a  href="/map/">地图找房</a></span>
         </div>
         <div class="w-search-link">
       <button class="btn btn-success">热销海景项目</button>
       <ul class="hot-house-price">
-		<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px9 desc limit 0,8");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px9 desc limit 0,8");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <li>
               <a href="<?php echo $url;?>" target="_blank" title="<?php echo $list['title'];?>">
                 <span class="name"><?php echo $list['title'];?></span>
                 <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <span class="price">待定</span>
                     <?php }else{?>
                         <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
                     <?php }?>
-				<?php }else{?>
+        <?php }else{?>
                  <span class="price"><?php echo $list['all_price'];?>万/套</span>
-				<?php }?>
+        <?php }?>
               </a>
         </li>
-		<?php
-		}
-		?>
+    <?php
+    }
+    ?>
         </ul>
       <!-- 报名 -->
       <div style="height: 10px;"></div>
       
       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 1,1");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 1,1");
+        foreach($row as $k=>$list){
+        ?>
                 <div>
                <!-- 取消广告图片链接-->
       <img class="lazy" src="<?php echo $list['img'];?>"  width="210" height="75">
       </div>
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
       <!-- 报名 end-->
     </div>
 </div>
@@ -944,7 +945,7 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="w-view-center-bar">
       <dl>
         <dd class="active" ><a href="javascript:;">畅销楼盘</a></dd>
-	</dl>
+  </dl>
                
     </div>
     <div class="clearfix" style="position:relative;">
@@ -954,50 +955,50 @@ $('.lower .s-erweima .bg-img').click(function(){
           <div class="swiper-container w-view-swiper J_viewSwiper2">
             <div class="swiper-wrapper">
                 <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 1,1");
-				foreach($row as $k=>$list){
-				?>
-				<div class="swiper-slide">
-					<a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
-				</div>
-				<?php
-				}
-				?>
-				</div>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 1,1");
+        foreach($row as $k=>$list){
+        ?>
+        <div class="swiper-slide">
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+        </div>
+        <?php
+        }
+        ?>
+        </div>
             <div class="swiper-pagination"></div>
           </div>
           <!-- Swiper -->  
           <?php
-			$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px18 desc limit 0,6");// and `city_id`='57'
-			foreach($row as $k=>$list){
-			$url="/loupan/{$list['id']}.html";
-			?>
-			<div class="w-view-house">
-				  <a href="<?php echo $url;?>" target="_blank">
-					<img class="lazy" src="<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>" >
-					<p><?php echo $list['title'];?></p>
-				  </a>
-				  <div class="w-info">
-					<div class="price-bar">
-					<?php if($list['all_price']==0){?>
-						<?php if($list['jj_price']==0){?>
-							<span class="price">待定</span>
-						<?php }else{?>
-							<span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
-						<?php }?>
-					<?php }else{?>
-					 <span class="price"><?php echo $list['all_price'];?>万/套</span>
-					<?php }?>
-					<span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
-					<p class="address"><?php echo $list['xmts'];?></p>
-				  </div>
-			  </div>
-			<?php
-			}
-			?>
-		</div>
+      $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px18 desc limit 0,6");// and `city_id`='57'
+      foreach($row as $k=>$list){
+      $url="/loupan/{$list['id']}.html";
+      ?>
+      <div class="w-view-house">
+          <a href="<?php echo $url;?>" target="_blank">
+          <img class="lazy" src="<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>" >
+          <p><?php echo $list['title'];?></p>
+          </a>
+          <div class="w-info">
+          <div class="price-bar">
+          <?php if($list['all_price']==0){?>
+            <?php if($list['jj_price']==0){?>
+              <span class="price">待定</span>
+            <?php }else{?>
+              <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
+            <?php }?>
+          <?php }else{?>
+           <span class="price"><?php echo $list['all_price'];?>万/套</span>
+          <?php }?>
+          <span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
+          <p class="address"><?php echo $list['xmts'];?></p>
+          </div>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
 
-	</div>
+  </div>
     </div>
   </div>
   
@@ -1005,7 +1006,7 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="index-bar__small">
       <a href="/loupan/" class="t-1" >最新特惠楼盘</a>
       
-	<a href="/loupan/" class="more" >更多&raquo;</a>
+  <a href="/loupan/" class="more" >更多&raquo;</a>
     </div>
     <div id="index-splash-block" class="huan300">
       <div class="h20"></div>
@@ -1023,19 +1024,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                                 <ul class="ul01" id="dsy_D04_36">                    
                     <!--  getFangListRight03 -->
                     <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='28' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
-			foreach($rownews as $k=>$lists){
-			$url='/loupan/news_show/'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='28' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
+      foreach($rownews as $k=>$lists){
+      $url='/loupan/news_show/'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?>              
+      }?>              
                 </ul>
                 <!-- 轮播需要的js -->
             </div>
@@ -1045,19 +1046,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                 <div class="a200nrbt"><a href="/news/index_6.html" id="dsy_D04_115" target="_blank">楼盘导购</a></div>
                                 <ul class="ul01" id="dsy_D04_127">
                                <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
-			foreach($rownews as $k=>$lists){
-			$url='/news/show_'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
+      foreach($rownews as $k=>$lists){
+      $url='/news/show_'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?> 
+      }?> 
                                   </ul>
             </div>
         </div>
@@ -1066,19 +1067,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                 <div class="a200nrbt" id="dsy_D04_117"><a href="/news/index_22.html" target="_blank">购房指南</a></div>                
                                 <ul class="ul01" id="dsy_D04_131">
                               <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='22' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
-			foreach($rownews as $k=>$lists){
-			$url='/news/show_'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='22' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
+      foreach($rownews as $k=>$lists){
+      $url='/news/show_'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?> 
+      }?> 
                                   </ul>
             </div>
         </div>
@@ -1100,103 +1101,103 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="w-search-link">
       <button class="btn btn-success">热销别墅排名</button>
       <ul class="hot-house-price">
-		<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px19 desc limit 0,8");// and `city_id`='57'
-	//	print_r($row);
+    <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px19 desc limit 0,8");// and `city_id`='57'
+  //  print_r($row);
         foreach($row as $k=>$list){
-		$url="/loupan/{$list['id']}.html";
-		?>
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <li>
               <a href="<?php echo $url;?>" target="_blank" title="<?php echo $list['title'];?>">
                 <span class="name"><?php echo $list['title'];?></span>
                 <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <span class="price">待定</span>
                     <?php }else{?>
                         <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
                     <?php }?>
-				<?php }else{?>
+        <?php }else{?>
                  <span class="price"><?php echo $list['all_price'];?>万/套</span>
-				<?php }?>
+        <?php }?>
               </a>
         </li>
-		<?php
-		}
-		?>
+    <?php
+    }
+    ?>
         </ul>
       <!-- 报名 -->
       <div style="height: 10px;"></div>
       
       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 2,1");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 2,1");
+        foreach($row as $k=>$list){
+        ?>
                 <div>
                     <!-- 取消广告图片链接-->
       <img class="lazy" src="<?php echo $list['img'];?>" width="210" height="75">
       </div>
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
       <!-- 报名 end-->
     </div>
   </div>
     <div class="w-view__center clearfix" >
-		<div class="w-view-center-bar">
-		<dl>
+    <div class="w-view-center-bar">
+    <dl>
             <dd class="active"><a href="javascript:;">精品推荐</a></dd>
-		</dl>
-		</div>
+    </dl>
+    </div>
     <div class="clearfix">
       <div class="w-main" style="width: 674px;margin-left: 6px;">
         <!-- 精品推荐tab -->
         <div class="index-house-tab-item active">
           <div class="swiper-container w-view-swiper J_viewSwiper3">
             <div class="swiper-wrapper">             
-				<?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 2,1");
-				foreach($row as $k=>$list){
-				?>
-				<div class="swiper-slide">
-					<a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
-				</div>
-				<?php
-				}
-				?>
-			</div>
+        <?php
+        $row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 2,1");
+        foreach($row as $k=>$list){
+        ?>
+        <div class="swiper-slide">
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+        </div>
+        <?php
+        }
+        ?>
+      </div>
             <div class="swiper-pagination"></div>
           </div>
           <!-- Swiper -->          
           <?php
-			$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px20 desc limit 0,4");// and `city_id`='57'
-			foreach($row as $k=>$list){
-			$url="/loupan/{$list['id']}.html";
-			?>
-			<div class="w-view-house">
-				  <a href="<?php echo $url;?>" target="_blank">
-					<img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
-					<p><?php echo $list['title'];?></p>
-				  </a>
-				  <div class="w-info">
-					<div class="price-bar">
-					<?php if($list['all_price']==0){?>
-						<?php if($list['jj_price']==0){?>
-							<span class="price">待定</span>
-						<?php }else{?>
-							<span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
-						<?php }?>
-					<?php }else{?>
-					 <span class="price"><?php echo $list['all_price'];?>万/套</span>
-					<?php }?>
-					<span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
-					<p class="address"><?php echo $list['xmts'];?></p>
-				  </div>
-			  </div>
-			<?php
-			}
-			?>
-		</div>
-	  </div>
+      $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px20 desc limit 0,4");// and `city_id`='57'
+      foreach($row as $k=>$list){
+      $url="/loupan/{$list['id']}.html";
+      ?>
+      <div class="w-view-house">
+          <a href="<?php echo $url;?>" target="_blank">
+          <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
+          <p><?php echo $list['title'];?></p>
+          </a>
+          <div class="w-info">
+          <div class="price-bar">
+          <?php if($list['all_price']==0){?>
+            <?php if($list['jj_price']==0){?>
+              <span class="price">待定</span>
+            <?php }else{?>
+              <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
+            <?php }?>
+          <?php }else{?>
+           <span class="price"><?php echo $list['all_price'];?>万/套</span>
+          <?php }?>
+          <span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
+          <p class="address"><?php echo $list['xmts'];?></p>
+          </div>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
+    </div>
       
     </div>
   </div>
@@ -1204,7 +1205,7 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="index-bar__small">
       <a href="/news/index_6.html" class="t-1" >楼盘导购</a>
       
-	<a href="/news/index_6.html" class="more" >更多&raquo;</a>
+  <a href="/news/index_6.html" class="more" >更多&raquo;</a>
     </div>
     <div id="index-splash-block" class="huan300">
       <div class="h20"></div>
@@ -1222,19 +1223,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                                 <ul class="ul01" id="dsy_D04_36">                    
                     <!--  getFangListRight03 -->
                     <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
-			foreach($rownews as $k=>$lists){
-			$url='/news/show_'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 0,12");
+      foreach($rownews as $k=>$lists){
+      $url='/news/show_'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?>
+      }?>
                                       
                 </ul>
                 <!-- 轮播需要的js -->
@@ -1245,19 +1246,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                 <div class="a200nrbt"><a href="/news/" id="dsy_D04_115" target="_blank"></a></div>
                                 <ul class="ul01" id="dsy_D04_127">
                                   <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 12,12");
-			foreach($rownews as $k=>$lists){
-			$url='/news/show_'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 12,12");
+      foreach($rownews as $k=>$lists){
+      $url='/news/show_'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?>
+      }?>
                                   </ul>
             </div>
         </div>
@@ -1266,19 +1267,19 @@ $('.lower .s-erweima .bg-img').click(function(){
                 <div class="a200nrbt" id="dsy_D04_117"><a href="/news/" target="_blank"></a></div>                
                                 <ul class="ul01" id="dsy_D04_131">
                                  <?php
-			$rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 24,12");
-			foreach($rownews as $k=>$lists){
-			$url='/news/show_'.$lists['id'].'.html';
-			if($k==0 or $k==5){
-		?>
+      $rownews = $mysql->query("select * from `web_content` WHERE `pid`='6' and `city_id`='{$sitecityid}' order by addtime desc limit 24,12");
+      foreach($rownews as $k=>$lists){
+      $url='/news/show_'.$lists['id'].'.html';
+      if($k==0 or $k==5){
+    ?>
         <li><div class="bigtit" style="word-wrap:normal;text-overflow: ellipsis;font-size:18px;">  
                       <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a>
                     </div>
                     </li>
         <?php }else{?>
-                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>	
+                <li class="f14"> <a href="<?php echo $url;?>" target="_blank"><?php echo $lists['title'];?></a></li>  
         <?php }
-			}?>
+      }?>
                                   </ul>
             </div>
         </div>
@@ -1301,103 +1302,103 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="w-search-link">
       <button class="btn btn-success">热销商业项目</button>
       <ul class="hot-house-price">
-		<?php
-		$row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px21 desc limit 0,8");// and `city_id`='57'
-		foreach($row as $k=>$list){
-		$url="/spxzl/{$list['id']}.html";
-		?>
+    <?php
+    $row = $mysql->query("select * from `web_content` where `pid`='9' and `city_id`='{$sitecityid}' order by px21 desc limit 0,8");// and `city_id`='57'
+    foreach($row as $k=>$list){
+    $url="/loupan/{$list['id']}.html";
+    ?>
         <li>
               <a href="<?php echo $url;?>" target="_blank" title="<?php echo $list['title'];?>">
                 <span class="name"><?php echo $list['title'];?></span>
                 <?php if($list['all_price']==0){?>
-					<?php if($list['jj_price']==0){?>
+          <?php if($list['jj_price']==0){?>
                         <span class="price">待定</span>
                     <?php }else{?>
                         <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
                     <?php }?>
-				<?php }else{?>
+        <?php }else{?>
                  <span class="price"><?php echo $list['all_price'];?>万/套</span>
-				<?php }?>
+        <?php }?>
               </a>
         </li>
-		<?php
-		}
-		?>
+    <?php
+    }
+    ?>
         </ul>
       <!-- 报名 -->
       <div style="height: 10px;"></div>
       
       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 3,1");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='36' and `city_id`='{$sitecityid}' order by px asc limit 3,1");
+        foreach($row as $k=>$list){
+        ?>
                 <div>
                     <!-- 取消广告图片链接-->
       <img class="lazy" src="<?php echo $list['img'];?>" width="210" height="75">
       </div>
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
       <!-- 报名 end-->
     </div>
   </div>
     <div class="w-view__center clearfix" >
-		<div class="w-view-center-bar">
-		<dl>
+    <div class="w-view-center-bar">
+    <dl>
             <dd class="active"><a href="javascript:;">精品推荐</a></dd>
-		</dl>
-		</div>
+    </dl>
+    </div>
     <div class="clearfix">
       <div class="w-main" style="width: 674px;margin-left: 6px;">
         <!-- 精品推荐tab -->
         <div class="index-house-tab-item active">
           <div class="swiper-container w-view-swiper J_viewSwiper3">
             <div class="swiper-wrapper">             
-				<?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 3,1");
-				foreach($row as $k=>$list){
-				?>
-				<div class="swiper-slide">
-					<a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
-				</div>
-				<?php
-				}
-				?>
-			</div>
+        <?php
+        $row = $mysql->query("select * from `web_link` where `ad_id`='37' and `city_id`='{$sitecityid}' order by px asc limit 3,1");
+        foreach($row as $k=>$list){
+        ?>
+        <div class="swiper-slide">
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+        </div>
+        <?php
+        }
+        ?>
+      </div>
             <div class="swiper-pagination"></div>
           </div>
           <!-- Swiper -->          
           <?php
-			$row = $mysql->query("select * from `web_content` where `pid`='9'  and `city_id`='{$sitecityid}' order by px22 desc limit 0,4");// and `city_id`='57'
-			foreach($row as $k=>$list){
-			$url="/spxzl/{$list['id']}.html";
-			?>
-			<div class="w-view-house">
-				  <a href="<?php echo $url;?>" target="_blank">
-					<img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
-					<p><?php echo $list['title'];?></p>
-				  </a>
-				  <div class="w-info">
-					<div class="price-bar">
-					<?php if($list['all_price']==0){?>
-						<?php if($list['jj_price']==0){?>
-							<span class="price">待定</span>
-						<?php }else{?>
-							<span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
-						<?php }?>
-					<?php }else{?>
-					 <span class="price"><?php echo $list['all_price'];?>万/套</span>
-					<?php }?>
-					<span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
-					<p class="address"><?php echo $list['xmts'];?></p>
-				  </div>
-			  </div>
-			<?php
-			}
-			?>
-		</div>
+      $row = $mysql->query("select * from `web_content` where `pid`='9'  and `city_id`='{$sitecityid}' order by px22 desc limit 0,4");// and `city_id`='57'
+      foreach($row as $k=>$list){
+      $url="/loupan/{$list['id']}.html";
+      ?>
+      <div class="w-view-house">
+          <a href="<?php echo $url;?>" target="_blank">
+          <img class="lazy" src="<?php echo $list['img'];?>"  alt="<?php echo $list['title'];?>" >
+          <p><?php echo $list['title'];?></p>
+          </a>
+          <div class="w-info">
+          <div class="price-bar">
+          <?php if($list['all_price']==0){?>
+            <?php if($list['jj_price']==0){?>
+              <span class="price">待定</span>
+            <?php }else{?>
+              <span class="price"><?php echo $list['jj_price'];?>元/㎡</span>
+            <?php }?>
+          <?php }else{?>
+           <span class="price"><?php echo $list['all_price'];?>万/套</span>
+          <?php }?>
+          <span class="w-number"><b><?php if($list['esfcx']<>'' and $list['esfcx']<>'0'){echo (int)$list['esfcx'];}else{ echo rand(350,820);}?></b>人报名</span></div>
+          <p class="address"><?php echo $list['xmts'];?></p>
+          </div>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
         <!-- 海口tab -->
-	  </div>
+    </div>
       
     </div>
   </div>
@@ -1405,21 +1406,21 @@ $('.lower .s-erweima .bg-img').click(function(){
     <div class="index-bar__small">
       <a href="/loupan/" class="t-1" >热门项目</a>
       
-	<a href="/loupan/" class="more" >更多&raquo;</a>
+  <a href="/loupan/" class="more" >更多&raquo;</a>
     </div>
     <div id="index-splash-block" class="huan300">
     
       <?php
-				$row = $mysql->query("select * from `web_link` where `ad_id`='38' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
-				foreach($row as $k=>$list){
-				?>
+        $row = $mysql->query("select * from `web_link` where `ad_id`='38' and `city_id`='{$sitecityid}' order by px asc limit 0,1");
+        foreach($row as $k=>$list){
+        ?>
                
                 <a href="<?php echo $list['link_url'];?>" target="_blank">
       <img class="lazy" src="<?php echo $list['img'];?>"    width="290" height="410" style="margin-left:5px;"></a>
      
-				<?php
-				}
-				?>
+        <?php
+        }
+        ?>
 </div>
   </div>
   
@@ -1445,9 +1446,9 @@ height: 28px;">更多»</a></span>
     </div>
     <ul class="zy-ul">
     <?php
-			$row = $mysql->query("select * from `web_content` where `pid`='68' order by px desc limit 0,6");// and `city_id`='57'
-			foreach($row as $k=>$list){
-			?>
+      $row = $mysql->query("select * from `web_content` where `pid`='68' order by px desc limit 0,6");// and `city_id`='57'
+      foreach($row as $k=>$list){
+      ?>
               <li>
                   <div class="zy-pic pr">
                     <img src="<?php echo $list['img'];?>" width="172" height="224" alt="<?php echo $list['title'];?>">
@@ -1462,7 +1463,7 @@ height: 28px;">更多»</a></span>
                       <p class="tag">
                       <?php
                         $xgg=$list['get_url'];
-						$xgg = str_replace( '，', ",", $xgg);
+            $xgg = str_replace( '，', ",", $xgg);
                         $xgg = explode(",", $xgg);
                         foreach ($xgg as $i => $value) {
                             echo '<span class="b'.($i+1).'">'.$value.'</span>';
@@ -1475,9 +1476,9 @@ height: 28px;">更多»</a></span>
                     </div>
                   </div>
               </li>
-			<?php
-			}
-			?>
+      <?php
+      }
+      ?>
           
         </ul>
 </div>
@@ -1489,27 +1490,27 @@ height: 28px;">更多»</a></span>
     </div>
     
         <style>
-		.pipais { width:1239px;}
-		.pipais li{ width:144px; height:135px; float:left; border:#eeeeee solid 3px;margin-right: 32px;margin-bottom: 15px;}
-		.pipais li:hover{ border:#40c0c1 solid 3px;}
-		.pipais li img{ width:100%; height:100%;}
-		</style>
+    .pipais { width:1239px;}
+    .pipais li{ width:144px; height:135px; float:left; border:#eeeeee solid 3px;margin-right: 32px;margin-bottom: 15px;}
+    .pipais li:hover{ border:#40c0c1 solid 3px;}
+    .pipais li img{ width:100%; height:100%;}
+    </style>
         <div style="width:1200px; margin:0 auto; margin-top:20px; height:150px;">
             <ul class="pipais">
-            	<li><a target="_blank" href="/loupan/?key=碧桂园"><img src="pinpai/bgy.gif"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=恒大"><img src="pinpai/hd.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=华润"><img src="pinpai/huarun.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=融创"><img src="pinpai/rongchuang.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=雅居乐"><img src="pinpai/yjl.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=鲁能"><img src="pinpai/ln.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=保利"><img src="pinpai/bl.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=万科"><img src="pinpai/wk.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=远洋"><img src="pinpai/yuanyang.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=中信"><img src="pinpai/zx.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
-            	<li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=碧桂园"><img src="pinpai/bgy.gif"></a></li>
+              <li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=恒大"><img src="pinpai/hd.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=华润"><img src="pinpai/huarun.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=融创"><img src="pinpai/rongchuang.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=雅居乐"><img src="pinpai/yjl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=鲁能"><img src="pinpai/ln.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=保利"><img src="pinpai/bl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=万科"><img src="pinpai/wk.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=远洋"><img src="pinpai/yuanyang.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=中信"><img src="pinpai/zx.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
             </ul>
         </div>
 </div>
@@ -1546,10 +1547,10 @@ height: 28px;">更多»</a></span>
                   <p></p>
                 </div>
               </a>
-        	</div>
+          </div>
                     <?php
-						}
-					?>  
+            }
+          ?>  
       </div>
     </div>
     <div class="tt-list">
@@ -1557,16 +1558,16 @@ height: 28px;">更多»</a></span>
 
                                 $row = $mysql->query("select * from `web_content` where `path`='0-5' and `city_id`='{$sitecityid}' order by addtime desc limit 0,6");
                                 foreach($row as $k=>$list){
-									if($list['pid']==28){
-									$url="/loupan/news_show/{$list['id']}.html";
-									}else{
-									$url="/news/show_{$list['id']}.html";
-										}
+                  if($list['pid']==28){
+                  $url="/loupan/news_show/{$list['id']}.html";
+                  }else{
+                  $url="/news/show_{$list['id']}.html";
+                    }
                                 ?>
             <a href="<?php echo $url;?>" target="_blank" style="position:relative;height: 54px; padding:0px; margin:9px 0px;"><samp style="background:#F00; color:#FFF; padding:1px 5px;"><?php echo $k+1;?></samp>　<?php echo $list['title'];?>　<samp style="color:#999;position: absolute;right: 0px;bottom: 6px;background:#FFF;padding-left: 4px;">[<?php echo date('Y-m-d',strtotime($list['addtime']));?>]</samp></a>
                     <?php
-						}
-					?>  
+            }
+          ?>  
           
         </div>
   </div>
@@ -1575,11 +1576,11 @@ height: 28px;">更多»</a></span>
     <div class="ques-list-wrap ps-container ps-theme-default ps-active-y" id="scroll-list">
       <ul class="ques-list">
        <?php
-		
-		$row = $mysql->query("select * from `web_book` WHERE `pid`='30' and `city_id`='{$sitecityid}' and `cl`='1' order by id desc limit 0,15");// WHERE `adminid`='{$_SESSION['admin_id']}'
+    
+    $row = $mysql->query("select * from `web_book` WHERE `pid`='30' and `city_id`='{$sitecityid}' and `cl`='1' order by id desc limit 0,15");// WHERE `adminid`='{$_SESSION['admin_id']}'
 
-		foreach($row as $k=>$list){
-			$url='/loupan/wenda/show_'.$list['id'].'.html';
+    foreach($row as $k=>$list){
+      $url='/loupan/wenda/show_'.$list['id'].'.html';
 ?>
              <li>
                   <span class="answ-lab"><b>1</b><div class="h10"></div>回答</span>                    
@@ -1588,7 +1589,7 @@ height: 28px;">更多»</a></span>
           <p class="date"><?php echo date('Y-m-d',strtotime($list['addtime']));?></p>
         </li>     
 <?php
-		}
+    }
 ?>
           
              </ul>
@@ -1723,10 +1724,10 @@ $num3 = count($ddarr3);
 <div class="header2" style="display: none;">
   <div class="header2-wrap">
     <ul class="menu">
-		<li><a href="/" class="act">首页</a></li>
-		<li ><a href="/loupan/">新房</a></li>           
-		<li ><a href="/loupan/tsa1">海景房</a></li>    
-		<li ><a href="/loupan/ts6">别墅</a></li>
+    <li><a href="/" class="act">首页</a></li>
+    <li ><a href="/loupan/">新房</a></li>           
+    <li ><a href="/loupan/tsa1">海景房</a></li>    
+    <li ><a href="/loupan/ts6">别墅</a></li>
          <li  ><a href="/news/">楼市</a></li>       
     </ul>
     <div class="fr" style="width: 610px">
@@ -1898,8 +1899,8 @@ $(function () {
     $(".zzsc").hover(function(){
         $(".imgtext",this).slideToggle(500);
     });
-	
-	$('.new_remetstop li').click(function () {
+  
+  $('.new_remetstop li').click(function () {
     $('.new_remetstop li').removeClass('dianj');
     $('.new_remetsbt ul').hide();
     $('.new_remetstop li').eq($(this).index()).addClass('dianj');
