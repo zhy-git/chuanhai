@@ -619,13 +619,13 @@ if ($action=="ad_add"){
 			`px`='".$edit_px."'
 			 where `id`='".$edit_id."'";
 			if($mysql->execute($sql)){
-				echo "<script>alert('修改成功');window.location.href=\"ad.php?pid={$p_pid}\";</script>";
+				echo "<script>alert('修改成功');window.location.href=\"ad.php?pid={$p_pid}&city_id=42\";</script>";
 				
 			 //记录日志
 		 $mysql->query("insert into `web_log`(`log_content`,`log_day`,`log_datetime`) values ('管理员：".$_SESSION["admin_real"]."帐号：".$_SESSION["admin_name"]."修改了广告图[".$edit_title."]','".date("Y-m-d",time())."','".time()."')");
 				exit();
 				}else{
-					echo "<script>alert('修改成功2');window.location.href=\"ad_add.php?id={$edit_id}&pid={$p_pid}\";</script>";
+					echo "<script>alert('修改成功2');window.location.href=\"ad_add.php?id={$edit_id}&pid={$p_pid}&city_id=42\";</script>";
 					exit();
 					}
 			}
