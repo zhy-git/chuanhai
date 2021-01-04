@@ -24,7 +24,7 @@ $mysql = new MySQL($host,$user,$pwd,$dbname,$port);
 	<?php
 	$rowshow = $mysql->query("select * from `web_content` where `pid`='9' order by px desc,addtime desc");
 	foreach($rowshow as $k=>$s_list){
-	$url="http://www.chuanhai.jtr168.cn/loupan/{$s_list['id']}.html";
+	$url="http://www.chuanhai168.com/loupan/{$s_list['id']}.html";
 	?>
      <url>
         <loc><?php echo $url;?></loc>

@@ -161,7 +161,7 @@
   .conyfiv p{margin: 0}
 </style>
 <div class="conyfiv">
-     <p>版权所有：<?php echo $config['company_name'];?>&nbsp;&nbsp;Copyright&nbsp;©&nbsp;<ins id="cur-year">2020</ins>&nbsp;&nbsp;<a href="http://chuanhai.jtr168.cn/" title="<?php echo $config['site_name'];?>">chuanhai.jtr168.cn</a>&nbsp;&nbsp;&nbsp;<a href="http://www.chuanhai.jtr168.cn/" title="<?php echo $config['site_name'];?>"><?php echo $config['site_name'];?></a>
+     <p>版权所有：<?php echo $config['company_name'];?>&nbsp;&nbsp;Copyright&nbsp;©&nbsp;<ins id="cur-year">2020</ins>&nbsp;&nbsp;<a href="http://chuanhai168.com/" title="<?php echo $config['site_name'];?>">chuanhai.jtr168.cn</a>&nbsp;&nbsp;&nbsp;<a href="http://chuanhai168.com/" title="<?php echo $config['site_name'];?>"><?php echo $config['site_name'];?></a>
       <a href="http://beian.miit.gov.cn" target="_blank" rel="nofollow"><?php echo $config['site_icp'];?></a></p>
 </div>
     </div>
