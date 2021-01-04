@@ -97,10 +97,10 @@ $(function() {
             ?>
                 <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'].'&city_id=42';?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
             <?php 
-              else{
+              }else{
             ?>
                <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'];?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
-             }}?>
+             }?>
             <?php
 				}
 			?>
