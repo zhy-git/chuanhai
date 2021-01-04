@@ -16,7 +16,7 @@ $mysql = new MySQL($host,$user,$pwd,$dbname,$port);
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://www.chuanhai.jtr168.cn</loc>
+        <loc>http://www.chuanhai168.com</loc>
         <priority>1.00</priority>
         <lastmod><?php echo date('y-m-d',time());?></lastmod>
         <changefreq>weekly</changefreq>
