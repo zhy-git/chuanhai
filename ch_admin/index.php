@@ -93,7 +93,7 @@ $(function() {
 				foreach($result2 as $row2){//循环记录集
 			?>
             <?php 
-               if ($row2['id'] == '9') {
+               if ($row2['id'] == '9' || $row2['id'] == '17') {
             ?>
                 <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'].'&city_id=42';?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
             <?php 
