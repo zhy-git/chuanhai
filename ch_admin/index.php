@@ -92,7 +92,15 @@ $(function() {
 				$result2=$mysql->query("SELECT * FROM `web_srot` WHERE `pid` = '{$row['id']}' and `startus`='1' order by `px` asc");
 				foreach($result2 as $row2){//循环记录集
 			?>
-                <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'];?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
+            <?php 
+               if ($row2['id'] == '9') {
+            ?>
+                <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'].'&city_id=42';?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
+            <?php 
+              else{
+            ?>
+               <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'];?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
+             }}?>
             <?php
 				}
 			?>
