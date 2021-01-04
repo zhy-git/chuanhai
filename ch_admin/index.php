@@ -62,7 +62,7 @@ $(function() {
 <META name=GENERATOR content="MSHTML 8.00.7601.18934"></HEAD>
 <BODY>
 <DIV class="header c">
-	<DIV class="logo fl"><IMG src="images/logo.png" ></DIV>
+	<DIV class="logo fl"> <!--<IMG src="images/logo.png" >--></DIV>
     <DIV class="menu fr">
         <UL>
           <LI><A href="/index.php" target="_blank"><SPAN class="home"></SPAN>网站首页</A></LI>
