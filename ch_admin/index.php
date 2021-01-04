@@ -100,7 +100,7 @@ $(function() {
               }else{
             ?>
                <SPAN><A href="<?php echo $row2['b_url'].'?pid='.$row2['id'];?>" target=c>|--<?php echo $row2['title'];?></A></SPAN>
-             }?>
+             <?php } ?>
             <?php
 				}
 			?>
