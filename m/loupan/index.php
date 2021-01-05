@@ -11,22 +11,22 @@ for($i=0;$i<$gcnum;$i++){
  // echo "{$i}==>{$gc2[$i]}<br/>";  //注意php中双引号内使用花括号包裹变量的写法
  // $frist = substr( $gc2[$i],0,1);
   if(substr($gc2[$i],0,1)=='p'){
-	  $flagjw=substr($gc2[$i],1);
-	//  echo ltrim($gc2[$i], "p");
-	  }
+      $flagjw=substr($gc2[$i],1);
+    //  echo ltrim($gc2[$i], "p");
+      }
   if(substr($gc2[$i],0,1)=='h'){
-	  $flaghx=substr($gc2[$i],1);
-	 // echo ltrim($gc2[$i], "h");
-	  }
+      $flaghx=substr($gc2[$i],1);
+     // echo ltrim($gc2[$i], "h");
+      }
   if(substr($gc2[$i],0,1)=='t'){
-	  $flagts=substr($gc2[$i],1);
-	  }
+      $flagts=substr($gc2[$i],1);
+      }
   if(substr($gc2[$i],0,1)=='z'){
-	  $flagzx=substr($gc2[$i],1);
-	  }
+      $flagzx=substr($gc2[$i],1);
+      }
   if(substr($gc2[$i],0,1)=='o'){
-	  $page=substr($gc2[$i],1);
-	  }
+      $page=substr($gc2[$i],1);
+      }
   
  }
  
@@ -36,16 +36,16 @@ $key=$_GET['key'];
 $flaglp=$_GET['flaglp'];
 $flaglb=$_GET['flaglb'];
 if($gc==''){
-	/*$flagjw=$_GET['flagjw'];
-	$flaghx=$_GET['flaghx'];
-	$flagzx=$_GET['flagzx'];
-	$flagts=$_GET['flagts'];*/
-	$page=$_GET['page'];	
-	(string)$flagjw = $_GET['flagjw'] ? $_GET['flagjw'] : '0';
+    /*$flagjw=$_GET['flagjw'];
+    $flaghx=$_GET['flaghx'];
+    $flagzx=$_GET['flagzx'];
+    $flagts=$_GET['flagts'];*/
+    $page=$_GET['page'];    
+    (string)$flagjw = $_GET['flagjw'] ? $_GET['flagjw'] : '0';
 (string)$flaghx = $_GET['flaghx'] ? $_GET['flaghx'] : '0';
 (string)$flagts = $_GET['flagts'] ? $_GET['flagts'] : '0';
 (string)$flagzx = $_GET['flagzx'] ? $_GET['flagzx'] : '0';
-	}
+    }
 //$flagjw=$_GET['flagjw'];
 //$flaghx=$_GET['flaghx'];
 //$flagzx=$_GET['flagzx'];
@@ -62,8 +62,8 @@ $cityall_id = isset($_GET['cityall_id']) ? intval($_GET['cityall_id']) : 0;
 
 
 if($city_id<>0){
-	$cityall_id=cityallid($city_id);
-	}
+    $cityall_id=cityallid($city_id);
+    }
 $city_id;
 $key=$_GET['key'];
 $pid=9;
@@ -71,104 +71,163 @@ $page = isset($page) ? intval($page) : 1;
 
 $sql="WHERE `pid`='{$pid}' ";
 $pagecs='';
+
+// 按字母来搜索 楼盘
+$zimu=$_GET['zimu'];
+if (!empty($zimu)) {
+//php获取中文字符拼音首字母
+    function getFirstCharter($str){
+    if(empty($str)){return '';}
+    $fchar=ord($str{0});
+    if($fchar>=ord('A')&&$fchar<=ord('z')) return strtoupper($str{0});
+    $s1=iconv('UTF-8','gb2312',$str);
+    $s2=iconv('gb2312','UTF-8',$s1);
+    $s=$s2==$str?$s1:$str;
+    $asc=ord($s{0})*256+ord($s{1})-65536;
+    if($asc>=-20319&&$asc<=-20284) return 'A';
+    if($asc>=-20283&&$asc<=-19776) return 'B';
+    if($asc>=-19775&&$asc<=-19219) return 'C';
+    if($asc>=-19218&&$asc<=-18711) return 'D';
+    if($asc>=-18710&&$asc<=-18527) return 'E';
+    if($asc>=-18526&&$asc<=-18240) return 'F';
+    if($asc>=-18239&&$asc<=-17923) return 'G';
+    if($asc>=-17922&&$asc<=-17418) return 'H';
+    if($asc>=-17417&&$asc<=-16475) return 'J';
+    if($asc>=-16474&&$asc<=-16213) return 'K';
+    if($asc>=-16212&&$asc<=-15641) return 'L';
+    if($asc>=-15640&&$asc<=-15166) return 'M';
+    if($asc>=-15165&&$asc<=-14923) return 'N';
+    if($asc>=-14922&&$asc<=-14915) return 'O';
+    if($asc>=-14914&&$asc<=-14631) return 'P';
+    if($asc>=-14630&&$asc<=-14150) return 'Q';
+    if($asc>=-14149&&$asc<=-14091) return 'R';
+    if($asc>=-14090&&$asc<=-13319) return 'S';
+    if($asc>=-13318&&$asc<=-12839) return 'T';
+    if($asc>=-12838&&$asc<=-12557) return 'W';
+    if($asc>=-12556&&$asc<=-11848) return 'X';
+    if($asc>=-11847&&$asc<=-11056) return 'Y';
+    if($asc>=-11055&&$asc<=-10247) return 'Z';
+    return 'Z';
+    }
+    $r = $mysql->query("select title,id from `web_content` where `pid`='{$pid}' and `cityall_id`='{$cityall_id}'");
+    foreach ($r as $k => $value) {
+       $arr[$value['id']] = trim(mb_substr($value['title'],0,1,"utf-8"));
+    }
+    foreach ($arr as $k => $value) {
+      $aa[$k] =  getFirstCharter($value);
+    }
+    foreach ($aa as $k => $v) {
+          if($v==$zimu){
+             $rowf = $mysql->query("select id,title from `web_content` where `id`=$k order by id asc");
+             foreach ($rowf as $ke => $value) {
+               $sum_data[] = $ke;
+               $sum_id[] =(int)$value['id'];
+             }
+          }
+      }
+    $fenge = implode(',',$sum_id);  
+    // $rowg = $mysql->query("select * from `web_content` where id in($fenge) order by px desc,id desc limit $offset,$page_num");
+    $sql.=" and `id` in($fenge)";
+}// 按字母来搜索 楼盘 end
+
 if($key!=""){
-	$sql.=" and `title` like '%{$key}%'";
-	$pagecs.="&key={$flaggn}";
-	}
+    $sql.=" and `title` like '%{$key}%'";
+    $pagecs.="&key={$flaggn}";
+    }
 if($cityall_id!=""){
-	if($key==""){
-	$sql.=" and `cityall_id` = '{$cityall_id}'";
-	$pagecs.="&cityall_id={$cityall_id}";
-	}
-	}
-	if($flagjw==""){
-		$flagjw="0";
-		}
-	if($flaghx==""){
-		$flaghx="0";
-		}
-	if($flagts==""){
-		$flagts="0";
-		}
-	if($flagzx==""){
-		$flagzx="0";
-		}
-		
-	if($flaghx!="0"){
-		$sql.=" and `flaghx` like '%{$flaghx}%'";
-		$pagecs.="&flaghx={$flaghx}";
-		}
-	if($flagts!="0"){
-		$sql.=" and `flagts` like '%{$flagts}%'";
-		$pagecs.="&flagts={$flagts}";
-		}
-		if($flagzx!="0"){
-		$sql.=" and `flagzx` like '%{$flagzx}%'";
-		$pagecs.="&flagzx={$flagzx}";
-		}
-	if($city_id!="0"){
-			
-			if($key==""){
-			$sql.=" and `city_id` = '{$city_id}'";
-			$pagecs.="&city_id={$city_id}";
-			}
-		}
-	if($flagjw!="0"){
-		$sql.=" and `flagjw` like '%{$flagjw}%'";
-		$pagecs.="&flagjw={$flagjw}";
-		}
-	if($flaghx!="0"){
-		$sql.=" and `flaghx` like '%{$flaghx}%'";
-		$pagecs.="&flaghx={$flaghx}";
-		}
-	if($flagts!="0"){
-		$sql.=" and `flagts` like '%{$flagts}%'";
-		$pagecs.="&flagts={$flagts}";
-		}
-		if($flagzx!="0"){
-		$sql.=" and `flagzx` like '%{$flagzx}%'";
-		$pagecs.="&flagzx={$flagzx}";
-		}
+    if($key==""){
+    $sql.=" and `cityall_id` = '{$cityall_id}'";
+    $pagecs.="&cityall_id={$cityall_id}";
+    }
+    }
+    if($flagjw==""){
+        $flagjw="0";
+        }
+    if($flaghx==""){
+        $flaghx="0";
+        }
+    if($flagts==""){
+        $flagts="0";
+        }
+    if($flagzx==""){
+        $flagzx="0";
+        }
+        
+    if($flaghx!="0"){
+        $sql.=" and `flaghx` like '%{$flaghx}%'";
+        $pagecs.="&flaghx={$flaghx}";
+        }
+    if($flagts!="0"){
+        $sql.=" and `flagts` like '%{$flagts}%'";
+        $pagecs.="&flagts={$flagts}";
+        }
+        if($flagzx!="0"){
+        $sql.=" and `flagzx` like '%{$flagzx}%'";
+        $pagecs.="&flagzx={$flagzx}";
+        }
+    if($city_id!="0"){
+            
+            if($key==""){
+            $sql.=" and `city_id` = '{$city_id}'";
+            $pagecs.="&city_id={$city_id}";
+            }
+        }
+    if($flagjw!="0"){
+        $sql.=" and `flagjw` like '%{$flagjw}%'";
+        $pagecs.="&flagjw={$flagjw}";
+        }
+    if($flaghx!="0"){
+        $sql.=" and `flaghx` like '%{$flaghx}%'";
+        $pagecs.="&flaghx={$flaghx}";
+        }
+    if($flagts!="0"){
+        $sql.=" and `flagts` like '%{$flagts}%'";
+        $pagecs.="&flagts={$flagts}";
+        }
+        if($flagzx!="0"){
+        $sql.=" and `flagzx` like '%{$flagzx}%'";
+        $pagecs.="&flagzx={$flagzx}";
+        }
 
 
-	
+    
 if($flaglp!=""){
-	$sql.=" and `flaglp` like '%{$flaglp}%'";
-	$pagecs.="&flaglp={$flaglp}";
-	}
+    $sql.=" and `flaglp` like '%{$flaglp}%'";
+    $pagecs.="&flaglp={$flaglp}";
+    }
 if($flaglb!=""){
-	$sql.=" and `flaglb` like '%{$flaglb}%'";
-	$pagecs.="&flaglb={$flaglb}";
-	}
+    $sql.=" and `flaglb` like '%{$flaglb}%'";
+    $pagecs.="&flaglb={$flaglb}";
+    }
 if($flagwq!=""){
-	$sql.=" and `flagwq` like '%{$flagwq}%'";
-	$pagecs.="&flagwq={$flagwq}";
-	}
+    $sql.=" and `flagwq` like '%{$flagwq}%'";
+    $pagecs.="&flagwq={$flagwq}";
+    }
 if($hz_pp!=""){
-	$sql.=" and `hz_pp` like '%{$hz_pp}%'";
-	$pagecs.="&hz_pp={$hz_pp}";
-	}
+    $sql.=" and `hz_pp` like '%{$hz_pp}%'";
+    $pagecs.="&hz_pp={$hz_pp}";
+    }
 
 $px=" `px` desc";
 if($pricesort==1){
-	$px=" `jj_price` asc";
-	$pagecs.="&pricesort={$pricesort}";
-	}
+    $px=" `jj_price` asc";
+    $pagecs.="&pricesort={$pricesort}";
+    }
 if($pricesort==2){
-	$px=" `jj_price` desc";
-	$pagecs.="&pricesort={$pricesort}";
-	}
+    $px=" `jj_price` desc";
+    $pagecs.="&pricesort={$pricesort}";
+    }
 if($renqi==1){
-	$px=" `click` desc";
-	$pagecs.="&renqi={$renqi}";
-	}
+    $px=" `click` desc";
+    $pagecs.="&renqi={$renqi}";
+    }
 //print_r($_GET);
 //echo $page;
 if($page==0){
-	$page=1;
-	}
+    $page=1;
+    }
 
-$page_num =10;
+$page_num =$zimu?50:10;//如果是字母检索，则最大显示50条。
 $offset = ($page-1)*$page_num;
 $rscall = $mysql->query("select count(*) as count from `web_content` WHERE `pid`='{$pid}' and `city_id`='{$city_id}'");
 $resultall["total"] = $rscall[0]['count'];
@@ -196,7 +255,7 @@ $rowlist = $mysql->query("select * from `web_content` {$sql} and `cityall_id`='{
     <script src="/public/static/common/js/jquery.form.js"></script>    
     <script src="/public/static/libs/layer/mobile/layer.js"></script> 
     <style>
-	.Discounts-hqrh {float: right;
+    .Discounts-hqrh {float: right;
 width: 1.8rem;
 height: .6rem;
 line-height: .62rem;
@@ -206,15 +265,12 @@ text-align: center;
 font-size: .35rem;
 color: #ff6d6f;
 border-radius: 4px;}
-	</style>   
+    </style>   
 <?php include("../sq2.php");?>            
 </head>
 <body>
+<?php include("../sqtop.php");?>  
 
-  <?php if($sitecityid==45){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14397&companyId=416&channelid=14397&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==43){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14396&companyId=416&channelid=14396&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==44){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14395&companyId=416&channelid=14395&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
-  <?php if($sitecityid==42){echo '<iframe src="http://eee.gxloushitong.com/g/index.html?id=14394&companyId=416&channelid=14394&webSource=eee.gxloushitong.com" height="0" style="border:none"></iframe>';}?>
 <div class="container">    
     <div class="header" style="z-index: 999;position: fixed;top: 0;width: 100%">
         <div style="position: relative;">
@@ -228,7 +284,57 @@ border-radius: 4px;}
             <li class="link-home"><a href="javascript:;" id="navBtn" style="display: block;"><img src="/public/static/phone/image/nav/nav.png"></a></li>                 
         </ul>
         </div>
-    </div>           
+    </div> 
+    <style type="text/css">
+        .inner-container{background-color: #fff;}
+        .inner-container::-webkit-scrollbar {display: none;}
+        .inner-container ul{padding: 0.15rem 0;overflow: hidden;}
+        .inner-container ul li {padding-bottom: 0.2em;}
+        .inner-container ul li a{display: block;}
+        .on{background-color: #00A0EA;color: #fff;}
+    </style>
+    <div class="inner-container" style="width: 100%;
+    border-bottom: 0.5px solid rgb(229, 229, 229);
+    position: fixed;
+    top: 5EM;
+    RIGHT: 0px;
+    width: 100%;
+    z-index: 23;
+    margin-top: 1.3333rem;
+    text-align: center;
+    overflow-y: scroll;
+    FLOAT: RIGHT;
+    HEIGHT: 180%;
+    WIDTH: 1.2EM;"> 
+       <ul style="display: block;">
+        <li><a <?php echo $_GET['zimu']==A?'class=on':'';?> href="/m/loupan/?zimu=A">A</a></li>
+        <li><a <?php echo $_GET['zimu']==B?'class=on':'';?> href="/m/loupan/?zimu=B">B</a></li>
+        <li><a <?php echo $_GET['zimu']==C?'class=on':'';?> href="/m/loupan/?zimu=C">C</a></li>
+        <li><a <?php echo $_GET['zimu']==D?'class=on':'';?> href="/m/loupan/?zimu=D">D</a></li>
+        <li><a <?php echo $_GET['zimu']==E?'class=on':'';?> href="/m/loupan/?zimu=E">E</a></li>
+        <li><a <?php echo $_GET['zimu']==F?'class=on':'';?> href="/m/loupan/?zimu=F">F</a></li>
+        <li><a <?php echo $_GET['zimu']==G?'class=on':'';?> href="/m/loupan/?zimu=G">G</a></li>
+        <li><a <?php echo $_GET['zimu']==H?'class=on':'';?> href="/m/loupan/?zimu=H">H</a></li>
+        <li><a <?php echo $_GET['zimu']==I?'class=on':'';?> href="/m/loupan/?zimu=I">I</a></li>
+        <li><a <?php echo $_GET['zimu']==J?'class=on':'';?> href="/m/loupan/?zimu=J">J</a></li>
+        <li><a <?php echo $_GET['zimu']==K?'class=on':'';?> href="/m/loupan/?zimu=K">K</a></li>
+        <li><a <?php echo $_GET['zimu']==L?'class=on':'';?> href="/m/loupan/?zimu=L">L</a></li>
+        <li><a <?php echo $_GET['zimu']==M?'class=on':'';?> href="/m/loupan/?zimu=M">M</a></li>
+        <li><a <?php echo $_GET['zimu']==N?'class=on':'';?> href="/m/loupan/?zimu=N">N</a></li>
+        <li><a <?php echo $_GET['zimu']==O?'class=on':'';?> href="/m/loupan/?zimu=O">O</a></li>
+        <li><a <?php echo $_GET['zimu']==P?'class=on':'';?> href="/m/loupan/?zimu=P">P</a></li>
+        <li><a <?php echo $_GET['zimu']==Q?'class=on':'';?> href="/m/loupan/?zimu=Q">Q</a></li>
+        <li><a <?php echo $_GET['zimu']==R?'class=on':'';?> href="/m/loupan/?zimu=R">R</a></li>
+        <li><a <?php echo $_GET['zimu']==S?'class=on':'';?> href="/m/loupan/?zimu=S">S</a></li>
+        <li><a <?php echo $_GET['zimu']==T?'class=on':'';?> href="/m/loupan/?zimu=T">T</a></li>
+        <li><a <?php echo $_GET['zimu']==U?'class=on':'';?> href="/m/loupan/?zimu=U">U</a></li>
+        <li><a <?php echo $_GET['zimu']==V?'class=on':'';?> href="/m/loupan/?zimu=V">V</a></li>
+        <li><a <?php echo $_GET['zimu']==W?'class=on':'';?> href="/m/loupan/?zimu=W">W</a></li>
+        <li><a <?php echo $_GET['zimu']==X?'class=on':'';?> href="/m/loupan/?zimu=X">X</a></li>
+        <li><a <?php echo $_GET['zimu']==Y?'class=on':'';?> href="/m/loupan/?zimu=Y">Y</a></li>
+        <li><a <?php echo $_GET['zimu']==Z?'class=on':'';?> href="/m/loupan/?zimu=Z">Z</a></li>
+      </ul>  
+    </div>  
     <div style="height: 51px"></div>        
 <div class="center">
     <!--搜索-->
@@ -303,7 +409,7 @@ border-radius: 4px;}
                             <ul class="area-type-list">
                                 <li class="selected frem4" data="0">区域</li>
                                 <?php
-								$cityss=$mysql->query("select * from `web_city` where `id`='{$sitecityid}'");
+                                $cityss=$mysql->query("select * from `web_city` where `id`='{$sitecityid}'");
                 $city=$mysql->query("select * from `web_city` where `pid`='{$cityss[0]['pid']}' and `city_st`='1' order by `city_px` asc");
                 foreach($city as $cityall){
                     echo '<li data="'.$cityall['id'].'"><a href="http://'.$cityall['city_pingyin'].'.'.$siteasd.'/m/loupan/" class="frem4">'.$cityall['city_name'].'</a></li>';
@@ -323,11 +429,11 @@ border-radius: 4px;}
                             <li class=""><a href="index_<?php echo $city_id;?>_0_<?php echo $flaghx;?>_<?php echo $flagts;?>_<?php echo $page;?>.html" class="frem4">不限</a></li>
                             <?php
             $flag=$mysql->query("select * from `web_flag` where `flag_fl`='7' and `flag_st`='1' order by `flag_px` asc");
-			foreach($flag as $flagall){
-				echo '<li> <a  href="index_'.$city_id.'_'.$flagall['flag_bm'].'_'.$flaghx.'_'.$flagts.'_'.$page.'.html" title="'.$flagall['flag'].'"  class="frem4">'.$flagall['flag'].'</a></li>';
-				
-			}
-			?>
+            foreach($flag as $flagall){
+                echo '<li> <a  href="index_'.$city_id.'_'.$flagall['flag_bm'].'_'.$flaghx.'_'.$flagts.'_'.$page.'.html" title="'.$flagall['flag'].'"  class="frem4">'.$flagall['flag'].'</a></li>';
+                
+            }
+            ?>
                                                       <!--  <li class=""><a href="/sanya/lp/list0_964_0_0_0_0_0.html" class="frem4">6千以下</a></li>
                                                         <li class=""><a href="/sanya/lp/list0_965_0_0_0_0_0.html" class="frem4">6-7千</a></li>
                                                         <li class=""><a href="/sanya/lp/list0_966_0_0_0_0_0.html" class="frem4">7-8千</a></li>
@@ -348,12 +454,12 @@ border-radius: 4px;}
                         <li class=""><a href="index_<?php echo $city_id;?>_<?php echo $flagjw;?>_0_<?php echo $flagts;?>_<?php echo $page;?>.html" class="frem4">不限</a></li>
                         <?php
             $flag=$mysql->query("select * from `web_flag` where `flag_fl`='4' and `flag_st`='1' order by `flag_px` asc");
-			foreach($flag as $flagall){
-				
-				echo '<li> <a href="index_'.$city_id.'_'.$flagjw.'_'.$flagall['flag_bm'].'_'.$flagts.'_'.$page.'.html" title="'.$flagall['flag'].'"  class="frem4">'.$flagall['flag'].'</a></li>';
-				
-			}
-			?>
+            foreach($flag as $flagall){
+                
+                echo '<li> <a href="index_'.$city_id.'_'.$flagjw.'_'.$flagall['flag_bm'].'_'.$flagts.'_'.$page.'.html" title="'.$flagall['flag'].'"  class="frem4">'.$flagall['flag'].'</a></li>';
+                
+            }
+            ?>
                                             </ul>
                 </div>
                 </li>
@@ -367,11 +473,11 @@ border-radius: 4px;}
                        <li class=""><a href="index_<?php echo $city_id;?>_<?php echo $flagjw;?>_<?php echo $flaghx;?>_0_<?php echo $page;?>.html" class="frem4">不限</a></li>
                         <?php
             $flag=$mysql->query("select * from `web_flag` where `flag_fl`='6' and `flag_st`='1' order by `flag_px` asc");
-			foreach($flag as $flagall){
-				echo '<li> <a href="index_'.$city_id.'_'.$flagjw.'_'.$flaghx.'_'.$flagall['flag_bm'].'_'.$page.'.html" title="'.$flagall['flag'].'" class="frem4" >'.$flagall['flag'].'</a></li>';
-				
-			}
-			?>
+            foreach($flag as $flagall){
+                echo '<li> <a href="index_'.$city_id.'_'.$flagjw.'_'.$flaghx.'_'.$flagall['flag_bm'].'_'.$page.'.html" title="'.$flagall['flag'].'" class="frem4" >'.$flagall['flag'].'</a></li>';
+                
+            }
+            ?>
                                             </ul>
                 </div>
                 </li>
@@ -453,10 +559,10 @@ border-radius: 4px;}
               <?php
 
 if($result["total"]==0){
-	echo "<li align=center style='padding:10px;font-size:15px;border-bottom:dashed #ccc 1px'><h1>很抱歉,没有找到您搜索的结果。</h1></li>";
-	}else{
-		foreach($rowlist as $k=>$list){
-			$url='/m/loupan/'.$list['id'].'.html';
+    echo "<li align=center style='padding:10px;font-size:15px;border-bottom:dashed #ccc 1px'><h1>很抱歉,没有找到您搜索的结果。</h1></li>";
+    }else{
+        foreach($rowlist as $k=>$list){
+            $url='/m/loupan/'.$list['id'].'.html';
 ?>
           
           <li class="news">
@@ -496,18 +602,18 @@ if($result["total"]==0){
                     <div class="i_lp_tag">
                         <i class="time"><?php echo rand(1,24);?>小时前有人咨询</i>
                         
-           				 <?php echo loupanflagtsi2($list['flagts'],6,3);?>
+                         <?php echo loupanflagtsi2($list['flagts'],6,3);?>
                         <div class="clear"></div>
                     </div> <!-- /- 图片底部标签 -->
                     <div class="clear"></div></a>
                     <?php
-					if($list['fkfs']<>''){
-		$fkfs=$list['fkfs'];
-		}else{
-			$fkfs='3天2晚看房免食宿';
-			}
-					?>
-					<div class="i_lp_hui">
+                    if($list['fkfs']<>''){
+        $fkfs=$list['fkfs'];
+        }else{
+            $fkfs='3天2晚看房免食宿';
+            }
+                    ?>
+                    <div class="i_lp_hui">
                         <i>惠</i><span><?php echo $fkfs;?></span><a href="javascript:;" class="Discounts-hqrh" onclick="openwid4('抢好房','<?php echo $fkfs;?>','<?php echo $list['title'];?>移动_列表抢好房',2);">抢好房</a>
                     </div> <!-- /- 底部标签惠 -->
                     <div class="clear"></div>
@@ -519,8 +625,8 @@ if($result["total"]==0){
                 </div>
             </li>
   <?php
-		}
-		}
+        }
+        }
   ?>
   
   </ul>
@@ -563,7 +669,7 @@ if($result["total"]==0){
 </style> 
 <script type="text/javascript">
 $(function() {
-	$("#navBtn").click(function(){
+    $("#navBtn").click(function(){
         toggleFixMenu('.nav');
     });
 });
