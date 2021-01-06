@@ -281,7 +281,7 @@ border-radius: 4px;}
             <span class="text">新房列表</span> 
         </div>
         <ul class="u-link" style="top: .3rem;right: .2rem;">
-            <li class="link-home"><a href="javascript:;" id="navBtn" style="display: block;"><img src="/public/static/phone/image/nav/nav.png"></a></li>                 
+            <li class="link-home"><a href="javascript:;" id="navBtn" style="display: block;"><img alt="列表菜单" src="/public/static/phone/image/nav/nav.png"></a></li>                 
         </ul>
         </div>
     </div> 

@@ -101,7 +101,7 @@
         <input type="hidden" name="ly" value="【<?php echo cityname($infos['city_id']);?>】<?php echo $infos['title'];?>_底部漂浮预约看房" id="make_tit_4">
         <input type="hidden" name="pid" value="33">
         <input type="hidden" name="action" value="bmtj">
-        <div class="w_head"><p id="make_tit_2">专车看房</p><div class="closes"><a onclick="wid_close();"><img src="/public/static/phone/img/icons/close.png"></a></div></div>
+        <div class="w_head"><p id="make_tit_2">专车看房</p><div class="closes"><a onclick="wid_close();"><img  alt="关闭" src="/public/static/phone/img/icons/close.png"></a></div></div>
         <div class="w_body">
             <p class="w_body_t" id="make_tit_3">请正确填写您的信息。免费获取购房优惠折扣政策，不再错失购房良机</p>
             <div class="w_input">
