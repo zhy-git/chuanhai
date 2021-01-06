@@ -207,7 +207,7 @@ body{font-family:'Microsoft YaHei',Verdana,Arial,san-serif;}
 
 </style>
 <div class="w1200" style="overflow: hidden; padding-top:20px;">
-	<div class="w240 fl"><img src="/image/9_03.jpg"></div>
+	<div class="w240 fl"><img alt="本周精选" src="/image/9_03.jpg"></div>
 	<div class="fl" style="width: 960px;">
 		<ul class="ad2-ul">		
          <?php
