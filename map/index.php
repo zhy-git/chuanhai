@@ -237,7 +237,7 @@ require("../functionmpp.php");
 <script src="/biaodan/ditu/RichMarker_min.js"></script>
 <script src="/biaodan/ditu/map_ctrl.js"></script>
 <script type="text/javascript">
-var g_bmapx = 110.101928; var g_bmapy = 19.209454; var g_bmapz = 10;
+var g_bmapx = 109.169618; var g_bmapy = 21.462375; var g_bmapz = 10;
 var g_totalCount = <?php echo countloupanall();?>; var g_pageMapType = 'newhouse'; var g_floorUse = 0; var g_issueId = 0;
 
 var g_areaArray = new Array();
