@@ -1159,7 +1159,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         foreach($row as $k=>$list){
         ?>
         <div class="swiper-slide">
-          <a href="<?php echo $list['link_url'];?>" target="_blank"><img Alt="<?php echo $list['title'];?>" class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img alt="<?php echo $list['title'];?>" class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
         </div>
         <?php
         }
