@@ -9,7 +9,7 @@
         <input type="hidden" name="action" value="bmtj">
 
 
-        <div class="w_head"><p id="make_tit_2">专车看房</p><div class="closes"><a onclick="wid_close();"><img src="/public/static/phone/img/icons/close.png"></a></div></div>
+        <div class="w_head"><p id="make_tit_2">专车看房</p><div class="closes"><a onclick="wid_close();"><img alt="关闭" src="/public/static/phone/img/icons/close.png"></a></div></div>
         <div class="w_body">
             <p class="w_body_t" id="make_tit_3">请正确填写您的信息。免费获取购房优惠折扣政策，不再错失购房良机</p>
             <div class="w_input">
@@ -65,11 +65,11 @@
                 <ins class="icon-1"></ins>优惠
             </a>
         </div>
-        <div class="shou3-list1"><a href="<?php echo $shangqiao;?>" rel="nofollow" data-agl-cvt="1"><img class="lastimg" src="/public/static/phone/img/icons/zixun.png" data-bd-imgshare-binded="1">在线咨询</a></div>
+        <div class="shou3-list1"><a href="<?php echo $shangqiao;?>" rel="nofollow" data-agl-cvt="1"><img alt="在线咨询" class="lastimg" src="/public/static/phone/img/icons/zixun.png" data-bd-imgshare-binded="1">在线咨询</a></div>
         <div class="shou3-list2">
             <a href="javascript:phone('<?php echo $config['company_tel'];?>',2)" rel="nofollow" data-agl-cvt="2">
 
-                <img class="lastimg" src="/public/static/phone/img/icons/tel.png" data-bd-imgshare-binded="1">免费电话</a>
+                <img alt="免费电话" class="lastimg" src="/public/static/phone/img/icons/tel.png" data-bd-imgshare-binded="1">免费电话</a>
         </div>
     </div>
 </div>

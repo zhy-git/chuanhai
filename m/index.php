@@ -229,7 +229,7 @@ echo "</script>";
   <div class="rows">
      <!-- logo city search -->
       <div class="index-header">
-                    <h3><img src="/public/static/phone/image/logo2.png"></h3>
+                    <h3><img alt="川海房产" src="/public/static/phone/image/logo2.png"></h3>
                     <div class="header-top"><div class="city-change">
                       <a href="city.html">
                           <span class="city"><?php if($sitecityname<>''){echo $sitecityname;}else{
@@ -464,7 +464,7 @@ echo "</script>";
              <div class="" style="width: 11rem"> 
                    <div class="priority-l">
                      <a href="/m/loupan/">
-                       <h3><img src="/public/static/phone/image/y1.png" width="50%"></h3>
+                       <h3><img alt="热销新盘" src="/public/static/phone/image/y1.png" width="50%"></h3>
                        <div class="priority-l-p">
                           <p class="typ">热销新盘</p><p>投资自住皆宜</p>
                                                      </p>
@@ -474,7 +474,7 @@ echo "</script>";
                    </div>
                                          <div class="priority-l">
                      <a href="/m/loupan/index_0_0_0_tsa1_1.html">
-                       <h3><img src="/public/static/phone/image/y2.png" width="50%"></h3>
+                       <h3><img alt="海景豪宅" src="/public/static/phone/image/y2.png" width="50%"></h3>
                        <div class="priority-l-p">
                            <p class="typ">海景豪宅</p>
                            <p>度假旅居优选</p>
@@ -484,7 +484,7 @@ echo "</script>";
                                  
                   <div class="priority-l">
                      <a href="/m/loupan/index_0_0_0_ts6_1.html">
-                       <h3><img src="/public/static/phone/image/y3.png" width="50%"></h3>
+                       <h3><img alt="精品别墅" src="/public/static/phone/image/y3.png" width="50%"></h3>
                        <div class="priority-l-p">
                            <p class="typ">精品别墅</p>
                            <p>养生度假优选</p>
@@ -496,7 +496,7 @@ echo "</script>";
              <!-- 列表 end -->
             <div class="priority-j">
             <a href="/m/loupan/ttsa4">
-                 <h3><img src="/public/static/phone/image/y4.png"  width="50%"></h3>
+                 <h3><img alt="品牌地产" src="/public/static/phone/image/y4.png"  width="50%"></h3>
                  <div class="priority-r-j">
                    <p class="typ-j">品牌地产</p>
                    <p>高品质好物业</p>
@@ -504,7 +504,7 @@ echo "</script>";
                </a>
             </div>
             <div class="priority-h">               <a href="/m/loupan/zzx2">
-                 <h3><img src="/public/static/phone/image/y5.png"  width="50%"></h3>
+                 <h3><img alt="精装现房" src="/public/static/phone/image/y5.png"  width="50%"></h3>
                  <div class="priority-r-j">
                    <p class="typ-j">精装现房</p>
                    <p>拎包入住不用等</p>
@@ -622,7 +622,7 @@ echo "</script>";
                            <div class="Discounts-r" style="margin-top: 6px;width: 2.2rem;margin-right: .1rem">  
                                                                    <a href="javascript:phone('<?php echo telsee($list['loupan_tel']);?>',1)">
                                  
-                              <img src="/public/static/phone/image/v2.0/tel_2.gif" style="width: 2.2rem">
+                              <img alt="电话提交" src="/public/static/phone/image/v2.0/tel_2.gif" style="width: 2.2rem">
                               </a>
                            </div>
                         </div>                  
