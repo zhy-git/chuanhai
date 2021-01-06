@@ -620,7 +620,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                 <div>
                     <!-- 取消了广告图片链接 -->
-      <img class="lazy" alt="<?php echo $list['title'];?>"> src="<?php echo $list['img'];?>"  width="210" height="75">
+      <img class="lazy" alt="<?php echo $list['title'];?>" src="<?php echo $list['img'];?>"  width="210" height="75">
       </div>
         <?php
         }
@@ -659,7 +659,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         foreach($row as $k=>$list){
         ?>
         <div class="swiper-slide">
-          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" alt="<?php echo $list['title'];?>" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
         </div>
         <?php
         }
@@ -933,7 +933,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                 <div>
                <!-- 取消广告图片链接-->
-      <img class="lazy" src="<?php echo $list['img'];?>"  width="210" height="75">
+      <img class="lazy" alt="<?php echo $list['title'];?>" src="<?php echo $list['img'];?>"  width="210" height="75">
       </div>
         <?php
         }
@@ -1134,7 +1134,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                 <div>
                     <!-- 取消广告图片链接-->
-      <img class="lazy" src="<?php echo $list['img'];?>" width="210" height="75">
+      <img class="lazy" alt="<?php echo $list['title'];?>" src="<?php echo $list['img'];?>" width="210" height="75">
       </div>
         <?php
         }
@@ -1159,7 +1159,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         foreach($row as $k=>$list){
         ?>
         <div class="swiper-slide">
-          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img Alt="<?php echo $list['title'];?>" class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
         </div>
         <?php
         }
@@ -1334,7 +1334,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                 <div>
                     <!-- 取消广告图片链接-->
-      <img class="lazy" src="<?php echo $list['img'];?>" width="210" height="75">
+      <img class="lazy" alt="<?php echo $list['title'];?>" src="<?php echo $list['img'];?>" width="210" height="75">
       </div>
         <?php
         }
@@ -1359,7 +1359,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         foreach($row as $k=>$list){
         ?>
         <div class="swiper-slide">
-          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img alt="<?php echo $list['title'];?>" class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
         </div>
         <?php
         }

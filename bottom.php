@@ -1,7 +1,7 @@
 <div class="w1200">
   <div class="h20"></div>
   <div class="lp-add">
-    <a ><img src="/public/static/home/image/lp/bbb-1.jpg"></a>
+    <a ><img alt="四大优惠" src="/public/static/home/image/lp/bbb-1.jpg"></a>
   </div>
 </div>
 
@@ -251,7 +251,7 @@
 </div>
 <div class="slider-down-nav">
   <div class="slider-down-main">
-    <a href="javascript:;" class="slider-pic-close"><img src="/public/static/home/image/icons/close2.png"></a>
+    <a href="javascript:;" class="slider-pic-close"><img alt="关闭" src="/public/static/home/image/icons/close2.png"></a>
     <span class="slider-info">广告</span>
     <!-- 报名 -->
       
