@@ -417,7 +417,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         <div class="fj-chart mt15" id="fjChart"></div>
         <!--<p class="lab"><a href="/map/" target="_blank"><span>地图找房</span></a></p>
         <div class="fj-chart mt15" id="fjChart"></div>-->
-        <!--<div class="fj-chart mt15" ><img src="image/mps.png"></div>-->
+        <!--<div class="fj-chart mt15" ><img alt="地图找房" src="image/mps.png"></div>-->
       </div>
       <div class="search-item w2">
         <p class="lab"><a href="/loupan/" target="_blank" >找<span>新房</span></a></p>
@@ -620,7 +620,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                 <div>
                     <!-- 取消了广告图片链接 -->
-      <img class="lazy" src="<?php echo $list['img'];?>"  width="210" height="75">
+      <img class="lazy" alt="<?php echo $list['title'];?>"> src="<?php echo $list['img'];?>"  width="210" height="75">
       </div>
         <?php
         }
@@ -872,7 +872,7 @@ $('.lower .s-erweima .bg-img').click(function(){
   .ind_kfbm input { width:246px;}
   </style>
      <div class="ind_kfbm">
-      <img src="image/tgv1_03.png" width="246" height="79" style="margin-bottom:10px;">
+      <img alt="看房报名" src="image/tgv1_03.png" width="246" height="79" style="margin-bottom:10px;">
         <p>全程免费接机、住宿安排</p>
         <p>报名热线：<font><?php echo $config['company_tel'];?></font></p>
          <form class="submit_area">
@@ -959,7 +959,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         foreach($row as $k=>$list){
         ?>
         <div class="swiper-slide">
-          <a href="<?php echo $list['link_url'];?>" target="_blank"><img class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
+          <a href="<?php echo $list['link_url'];?>" target="_blank"><img alt="<?php echo $list['title'];?>" class="lazy" src="<?php echo $list['img'];?>"  width="430" height="195" ></a>
         </div>
         <?php
         }
@@ -1416,7 +1416,7 @@ $('.lower .s-erweima .bg-img').click(function(){
         ?>
                
                 <a href="<?php echo $list['link_url'];?>" target="_blank">
-      <img class="lazy" src="<?php echo $list['img'];?>"    width="290" height="410" style="margin-left:5px;"></a>
+      <img class="lazy" src="<?php echo $list['img'];?>" alt="<?php echo $list['title'];?>"    width="290" height="410" style="margin-left:5px;"></a>
      
         <?php
         }
@@ -1497,20 +1497,20 @@ height: 28px;">更多»</a></span>
     </style>
         <div style="width:1200px; margin:0 auto; margin-top:20px; height:150px;">
             <ul class="pipais">
-              <li><a target="_blank" href="/loupan/?key=碧桂园"><img src="pinpai/bgy.gif"></a></li>
-              <li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=恒大"><img src="pinpai/hd.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=华润"><img src="pinpai/huarun.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=融创"><img src="pinpai/rongchuang.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=雅居乐"><img src="pinpai/yjl.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=鲁能"><img src="pinpai/ln.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=保利"><img src="pinpai/bl.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=万科"><img src="pinpai/wk.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=远洋"><img src="pinpai/yuanyang.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=中信"><img src="pinpai/zx.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=富力"><img src="pinpai/fl.jpg"></a></li>
-              <li><a target="_blank" href="/loupan/?key=绿地"><img src="pinpai/ld.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=碧桂园"><img alt="碧桂园" src="pinpai/bgy.gif"></a></li>
+              <li><a target="_blank" href="/loupan/?key=富力"><img alt="富力" src="pinpai/fl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=恒大"><img alt="恒大" src="pinpai/hd.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=华润"><img alt="华润" src="pinpai/huarun.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=绿地"><img alt="绿地" src="pinpai/ld.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=融创"><img alt="融创" src="pinpai/rongchuang.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=雅居乐"><img alt="雅居乐" src="pinpai/yjl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=鲁能"><img alt="鲁能" src="pinpai/ln.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=保利"><img alt="保利" src="pinpai/bl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=万科"><img alt="万科" src="pinpai/wk.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=远洋"><img alt="远洋" src="pinpai/yuanyang.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=中信"><img alt="中信" src="pinpai/zx.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=富力"><img alt="富力" src="pinpai/fl.jpg"></a></li>
+              <li><a target="_blank" href="/loupan/?key=绿地"><img alt="绿地" src="pinpai/ld.jpg"></a></li>
             </ul>
         </div>
 </div>

@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="login-register">
-            <img src="/public/static/home/image/icons/msn.png" style="position: absolute;top: 7px;"><a onClick="sq();"  style="cursor:pointer; font-size:14px"  >在线咨询</a>
+            <img alt="在线咨询" src="/public/static/home/image/icons/msn.png" style="position: absolute;top: 7px;"><a onClick="sq();"  style="cursor:pointer; font-size:14px"  >在线咨询</a>
         </div>
       </div>
     </div>
