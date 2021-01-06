@@ -7,7 +7,7 @@ $lm=2;
 $lpid=$_GET['lpid'];
 $flag=$_GET['flag'];
 if($flag==''){
-	$flag='xc4';
+	$flag='0'; //等于0时，除了户型图不显示而已。 
 	}
 if($lpid<>""){
 	$rows=$mysql->query("SELECT * FROM `web_content` WHERE `id`='{$lpid}'");
