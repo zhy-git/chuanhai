@@ -104,7 +104,7 @@ require("../functionmpp.php");
                 <span rel="区域">区域</span> <b></b>
             </div>
             <div class="periods_more" rel_n="areaId" rel_v="" style="width:200px;">
-                <div class="p_m_items" rel="" bmapx="102.798561" bmapy="24.92397" jup="y">全部</div>
+                <div class="p_m_items" rel="" bmapx="109.169618" bmapy="21.462375" jup="y">全部</div>
                    <?php
 					 $city1=$mysql->query("select * from `web_city` where `pid`='0' and `city_st`='1' order by `city_px` asc");
 					foreach($city1 as $cityall1){
