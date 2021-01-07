@@ -7,7 +7,7 @@ $lm=2;
 $lpid=$_GET['lpid'];
 $flag=$_GET['flag'];
 if(!$flag){
-	$flag='xc4';
+	$flag='0';
 	}
 if($lpid<>""){
 	$rows=$mysql->query("SELECT * FROM `web_content` WHERE `id`='{$lpid}'");
