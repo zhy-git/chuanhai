@@ -173,7 +173,33 @@ $(document).ready(function() {
     </div>
     <style type="text/css">.cus_tiem span{width: 35px;float: left;}</style>
     <div class="cus_tiem" style="line-height:40px;">
-      <span style="width:75px;"><a href="loupan_list.php?pid=9&city_id=42&top=news">最新楼盘 </a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=A">A</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=B">B</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=C">C</a></span><SPAN><a href="loupan_list.php?pid=9&city_id=42&zimu=D">D</a></SPAN><span><a href="loupan_list.php?pid=9&city_id=42&zimu=E">E</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=F">F</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=G">G</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=H">H</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=I">I</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=J">J</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=K">K</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=L">L</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=M">M</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=N">N</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=O">O</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=P">P</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Q">Q</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=R">R</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=S">S</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=T">T</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=U">U</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=V">V</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=W">W</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=X">X</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Y">Y</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Z">Z</a></span>
+      <span style="width:75px;"><a <?php echo $top=='news'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&top=news">最新楼盘 </a></span>
+      <span><a <?php echo $zimu=='A'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=A">A</a></span>
+      <span><a <?php echo $zimu=='B'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=B">B</a></span>
+      <span><a <?php echo $zimu=='C'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=C">C</a></span>
+      <SPAN><a <?php echo $zimu=='D'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=D">D</a></SPAN>
+      <span><a <?php echo $zimu=='E'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=E">E</a></span>
+      <span><a <?php echo $zimu=='F'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=F">F</a></span>
+      <span><a <?php echo $zimu=='G'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=G">G</a></span>
+      <span><a <?php echo $zimu=='H'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=H">H</a></span>
+      <span><a <?php echo $zimu=='I'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=I">I</a></span>
+      <span><a <?php echo $zimu=='J'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=J">J</a></span>
+      <span><a <?php echo $zimu=='K'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=K">K</a></span>
+      <span><a <?php echo $zimu=='L'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=L">L</a></span>
+      <span><a <?php echo $zimu=='M'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=M">M</a></span>
+      <span><a <?php echo $zimu=='N'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=N">N</a></span>
+      <span><a <?php echo $zimu=='O'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=O">O</a></span>
+      <span><a <?php echo $zimu=='P'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=P">P</a></span>
+      <span><a <?php echo $zimu=='Q'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=Q">Q</a></span>
+      <span><a <?php echo $zimu=='R'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=R">R</a></span>
+      <span><a <?php echo $zimu=='S'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=S">S</a></span>
+      <span><a <?php echo $zimu=='T'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=T">T</a></span>
+      <span><a <?php echo $zimu=='U'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=U">U</a></span>
+      <span><a <?php echo $zimu=='V'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=V">V</a></span>
+      <span><a <?php echo $zimu=='W'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=W">W</a></span>
+      <span><a <?php echo $zimu=='X'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=X">X</a></span>
+      <span><a <?php echo $zimu=='Y'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=Y">Y</a></span>
+      <span><a <?php echo $zimu=='Z'?'style="color:#F00;"':'';?> href="loupan_list.php?pid=9&city_id=42&zimu=Z">Z</a></span>
     </div>
 
 </div>
