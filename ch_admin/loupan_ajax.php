@@ -148,7 +148,7 @@ if($result["total"]==0){
 						<td style="padding:5px 0px;width:25%;" align="center">'.$rowcity[0][city_name].'</td>
 					  </tr>
 					  <tr>
-						<td style="padding:5px 0px;">状态：'.$flaglp.'</td>
+						<td style="padding:5px 0px;">添加时间：'.$list[addtime].'</td>
 						<td>均价：'.$list[jj_price].'</td>
 						<td style="padding:0px;">开盘时间：'.$list[kptime].'</td>
 					  </tr>
