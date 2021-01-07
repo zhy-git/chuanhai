@@ -90,9 +90,9 @@ $rsc = $mysql->query("select count(*) as count from `web_content` {$sql}");
 $result["total"] = !empty($zimu)?count($sum_data):$rsc[0]['count'];
 $total=ceil($result["total"]/$page_num);
 
-if (!empty($top)) {
+if ($top == 'news') {
 	//最新添加楼盘
-   $mysql->query("select * from `web_content` {$sql} order by addtime desc limit $offset,$page_num");	
+   $row = $mysql->query("select * from `web_content` {$sql} order by addtime desc limit $offset,$page_num");	
 }else{
    $row =!empty($zimu)?$rowg:$mysql->query("select * from `web_content` {$sql} order by px desc,id desc limit $offset,$page_num");
 }
