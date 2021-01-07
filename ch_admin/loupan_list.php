@@ -8,6 +8,7 @@ $keys=$_POST['keys'];
 $pid=$_GET['pid'];
 $city_id=$_GET['city_id'];
 $page=$_GET['page'];
+$zimu=$_GET['zimu'];
 $row=$mysql->query("SELECT * FROM `web_srot` WHERE `id`='{$pid}'");
 //print_r($row);
 $info=$row[0];
@@ -103,13 +104,14 @@ $(document).ready(function() {
 		var page="<?php echo $page;?>";
 		var pid="<?php echo $pid;?>";
 		var city_id="<?php echo $city_id;?>";
-		
+		var zimu="<?php echo $zimu;?>";
+
 		if(keyword==''){
 		var keyword="<?php echo $page;?>";
 		}
 		
 		var hashStr = window.location.hash.replace("#", "");
-		$.get('loupan_ajax.php?page='+keyword+'&keys='+keys+'&pid='+pid+'&city_id='+city_id, function(data) {
+		$.get('loupan_ajax.php?page='+keyword+'&keys='+keys+'&pid='+pid+'&city_id='+city_id+'&zimu='+zimu, function(data) {
 			//alert(data.html);
 			//回调函数
 			//data = eval('('+data+')');
@@ -167,6 +169,11 @@ $(document).ready(function() {
 			}
 			?>
     </div>
+    <style type="text/css">.cus_tiem span{width: 35px;float: left;}</style>
+    <div class="cus_tiem" style="line-height:40px;">
+      <span><a href="loupan_list.php?pid=9&city_id=42&zimu=A">A</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=B">B</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=C">C</a></span><SPAN><a href="loupan_list.php?pid=9&city_id=42&zimu=D">D</a></SPAN><span><a href="loupan_list.php?pid=9&city_id=42&zimu=E">E</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=F">F</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=G">G</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=H">H</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=I">I</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=J">J</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=K">K</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=L">L</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=M">M</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=N">N</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=O">O</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=P">P</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Q">Q</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=R">R</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=S">S</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=T">T</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=U">U</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=V">V</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=W">W</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=X">X</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Y">Y</a></span><span><a href="loupan_list.php?pid=9&city_id=42&zimu=Z">Z</a></span>
+    </div>
+
 </div>
 <div class="content2">
   <div class="customers">
