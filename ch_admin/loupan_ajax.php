@@ -92,7 +92,7 @@ $total=ceil($result["total"]/$page_num);
 
 if ($top == 'news') {
 	//最新添加楼盘
-   $row = $mysql->query("select * from `web_content` {$sql} order by addtime desc limit $offset,$page_num");	
+   $row = $mysql->query("select * from `web_content` {$sql} order by id desc,addtime desc limit $offset,$page_num");	
 }else{
    $row =!empty($zimu)?$rowg:$mysql->query("select * from `web_content` {$sql} order by px desc,id desc limit $offset,$page_num");
 }
