@@ -129,6 +129,20 @@ if($result["total"]==0){
 					$flaglp.='<font color="'.$listflag['color'].'">['.$listflag['flag'].'] </font>';
 				}
 			}
+			if ($list['ztz'] == 'ztz1') {
+				$ztz = '在售';
+			}elseif ($list['ztz'] == 'ztz2') {
+				$ztz = '待售';
+			}
+			elseif ($list['ztz'] == 'ztz3') {
+				$ztz = '惠购';
+			}
+			elseif ($list['ztz'] == 'ztz4') {
+				$ztz = '尾盘';
+			}
+			elseif ($list['ztz'] == 'ztz5') {
+				$ztz = '售罄';
+			}
 			$rowcity = $mysql->query("select * from `web_city` where `id`='{$list['city_id']}'");
 			$rscount = $mysql->query("select count(*) as count from `web_pic` where `luopan_id`='{$list[id]}'");
 			$newscount = $mysql->query("select count(*) as count from `web_content` where `lpid`='{$list[id]}' and `pid`='28'");
@@ -148,7 +162,7 @@ if($result["total"]==0){
 						<td style="padding:5px 0px;width:25%;" align="center">'.$rowcity[0][city_name].'</td>
 					  </tr>
 					  <tr>
-						<td style="padding:5px 0px;">状态：'.$flaglp.'</td>
+						<td style="padding:5px 0px;">状态：'.$ztz.'</td>
 						<td>均价：'.$list[jj_price].'</td>
 						<td style="padding:0px;">开盘时间：'.$list[kptime].'</td>
 					  </tr>
