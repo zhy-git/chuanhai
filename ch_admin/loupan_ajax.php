@@ -2,12 +2,15 @@
 session_start();
 include("../conn/conn.php");
 $action = $_POST["action"];
-header('Content-type:text/json'); 
+header('Content-type:text/json;charset=utf-8'); 
 $data=array();
 $keys=$_GET['keys'];
 $pid=$_GET['pid'];
 $city_idbb=$_GET['city_id'];
 $page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+$zimu = $_GET['zimu'];
+$top  = $_GET['top'];
+
 
 $sql="WHERE `pid`='{$pid}' ";
 
@@ -25,12 +28,78 @@ if($page==0){
 
 $page_num =12;
 $offset = ($page-1)*$page_num;
-$rsc = $mysql->query("select count(*) as count from `web_content` {$sql}");// WHERE `adminid`='{$_SESSION['admin_id']}'
+// 按字母来搜索 楼盘
+if (!empty($zimu)) {
+	//php获取中文字符拼音首字母
+	function getFirstCharter($str){
+	if(empty($str)){return '';}
+	$fchar=ord($str{0});
+	if($fchar>=ord('A')&&$fchar<=ord('z')) return strtoupper($str{0});
+	$s1=iconv('UTF-8','gb2312',$str);
+	$s2=iconv('gb2312','UTF-8',$s1);
+	$s=$s2==$str?$s1:$str;
+	$asc=ord($s{0})*256+ord($s{1})-65536;
+	if($asc>=-20319&&$asc<=-20284) return 'A';
+	if($asc>=-20283&&$asc<=-19776) return 'B';
+	if($asc>=-19775&&$asc<=-19219) return 'C';
+	if($asc>=-19218&&$asc<=-18711) return 'D';
+	if($asc>=-18710&&$asc<=-18527) return 'E';
+	if($asc>=-18526&&$asc<=-18240) return 'F';
+	if($asc>=-18239&&$asc<=-17923) return 'G';
+	if($asc>=-17922&&$asc<=-17418) return 'H';
+	if($asc>=-17417&&$asc<=-16475) return 'J';
+	if($asc>=-16474&&$asc<=-16213) return 'K';
+	if($asc>=-16212&&$asc<=-15641) return 'L';
+	if($asc>=-15640&&$asc<=-15166) return 'M';
+	if($asc>=-15165&&$asc<=-14923) return 'N';
+	if($asc>=-14922&&$asc<=-14915) return 'O';
+	if($asc>=-14914&&$asc<=-14631) return 'P';
+	if($asc>=-14630&&$asc<=-14150) return 'Q';
+	if($asc>=-14149&&$asc<=-14091) return 'R';
+	if($asc>=-14090&&$asc<=-13319) return 'S';
+	if($asc>=-13318&&$asc<=-12839) return 'T';
+	if($asc>=-12838&&$asc<=-12557) return 'W';
+	if($asc>=-12556&&$asc<=-11848) return 'X';
+	if($asc>=-11847&&$asc<=-11056) return 'Y';
+	if($asc>=-11055&&$asc<=-10247) return 'Z';
+	return 'Z';
+	}
+	$rowlist = $mysql->query("select title,id from `web_content` where `pid`='9' and `city_id`='42'");
+	foreach ($rowlist as $key => $value) {
+	   $arr[$value['id']] = trim(mb_substr($value['title'],0,1,"utf-8"));
+	}
+	foreach ($arr as $key => $value) {
+	  $aa[$key] =  getFirstCharter($value);
+	};
+	foreach ($aa as $k => $v) {
+	      if($v==$zimu){
+	         $rowf = $mysql->query("select id,title from `web_content` where `id`=$k order by id asc");
+	         foreach ($rowf as $ke => $value) {
+	           $sum_data[] = $ke;
+	           $sum_id[] =(int)$value['id'];
+	         }
+	      }
+	  }
+	$fenge = implode(',',$sum_id);  
+	$rowg = $mysql->query("select * from `web_content` where id in($fenge) order by px desc,id desc limit $offset,$page_num");
+}// 按字母来搜索 楼盘 end
+
+$rsc = $mysql->query("select count(*) as count from `web_content` {$sql}");
+// WHERE `adminid`='{$_SESSION['admin_id']}'
 //echo "select count(*) as count from `oa_client` {$sql}";
-$result["total"] = $rsc[0]['count'];
+$result["total"] = !empty($zimu)?count($sum_data):$rsc[0]['count'];
 $total=ceil($result["total"]/$page_num);
-$row = $mysql->query("select * from `web_content` {$sql} order by px desc,id desc limit $offset,$page_num");// WHERE `adminid`='{$_SESSION['admin_id']}'
+
+if (!empty($top)) {
+	//最新添加楼盘
+   $mysql->query("select * from `web_content` {$sql} order by addtime desc limit $offset,$page_num");	
+}else{
+   $row =!empty($zimu)?$rowg:$mysql->query("select * from `web_content` {$sql} order by px desc,id desc limit $offset,$page_num");
+}
+// var_dump($row);die();
+// WHERE `adminid`='{$_SESSION['admin_id']}'
 //echo "select * from `oa_client` {$sql} order by id desc limit $offset,$page_num";
+
 if($result["total"]==0){
 	
 	}else{
@@ -73,7 +142,7 @@ if($result["total"]==0){
 					<td style="text-align:left;">
 					<table width="100%" border="0" style="background:#FFF;">
 					  <tr>
-						<td rowspan="3" style="width:130px;padding:0px;text-align:center;"><img src="/'.$list[img].'" width="120" height="89"></td>
+						<td rowspan="3" style="width:130px;padding:0px;text-align:center;"><a target="_blank" href="/loupan/'.$list[id].'.html"><img src="/'.$list[img].'" width="120" height="89"></a></td>
 						<td style="padding:5px 0px;"><a style="color:#0CF; font-size:18px; " href="loupan_add.php?id='.$list[id].'&pid='.$list[pid].'&page='.$page.'&city_idbb='.$city_idbb.'">'.$list[title].'</a>'.$flag.' '.$flagztz.'</td>
 						<td style="width:15%;">起价：'.$list[qj_price].'</td>
 						<td style="padding:5px 0px;width:25%;" align="center">'.$rowcity[0][city_name].'</td>
