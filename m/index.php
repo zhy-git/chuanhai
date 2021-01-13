@@ -6,7 +6,8 @@ if($sitecityid==""){
   //header("location:city.html");
   echo "<script language='javascript'
 type='text/javascript'>"; 
-echo "window.location.href='http://beihai.".$siteasd."/m/'"; 
+// echo "window.location.href='http://beihai.".$siteasd."/m/'"; 
+ echo "window.location.href='http://m.".$siteasd."/beihai/'"; 
 echo "</script>";  
   }
 ?>
