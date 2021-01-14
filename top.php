@@ -15,7 +15,7 @@
 <div class="navigator-bar mapnav">
   <div class="wrap-v5">
     <div class="top-bar clearfix">
-      <a href="/" class="logo" title=""><img src="/image/logo.png" alt=""></a>
+      <a href="/" class="logo" title=""><img alt="川海房产" src="/image/logo.png" alt=""></a>
       <div class="city-choose">
         <a href="/city.html" class="city-loc">
           <h1 class="txt"><?php echo $sitecityname;?></h1>

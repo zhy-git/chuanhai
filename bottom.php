@@ -263,7 +263,7 @@
       
       <div class="slider-bm-box">
             <span class="slider-txt">
-              <img class="imd" src="/public/static/home/image/icons/ico_phone.png" alt="">
+              <img class="imd" alt="您的手机号码" src="/public/static/home/image/icons/ico_phone.png" alt="">
               <input class="sl-moblie" type="text" name="mobile" id="lp-wd-mobile" placeholder="您的手机号码" maxlength="11">
             </span>
             <input type="button" value="预约看房" class="slider-submit apply_submit">
