@@ -52,47 +52,6 @@ if($yescity[0]==''){
 
 </head>
 <body style="font-size: 14px;">
-
-
-<!-- 右侧边栏 -->  
-<style type="text/css">
-.sidebar .s-item .bg-img{float:left;width:38px;height:34px;cursor:pointer;text-indent:-9999px;background:url(/img/bg-icon-s.png) no-repeat 10px 7px}
-.sidebar .s-footprint .bg-img{background-position:8px -22px}
-.sidebar .s-login .bg-img{background-position:8px -240px}
-.sidebar .s-look .bg-img{background-position:8px -52px}
-.sidebar .s-customer .bg-img{background-position:8px -82px}
-.sidebar .s-erweima .bg-img{background-position:10px -112px}
-.sidebar .s-top .bg-img{background-position:8px -148px}
-.sidebar .s-survey .bg-img{background-position:10px -184px}
-.sidebar .s-feedback .bg-img{background-position:10px -213px}
-.sidebar .s-item .hover{background-color:#666}
-.sidebar .s-item .checked{background-color:#666}
-.sidebar .des{display:none;position:absolute;right:45px;width:80px;height:34px;line-height:34px;text-align:center;font-size:12px;color:#fffefe;padding:0 10px;background-color:#62ab00;cursor:pointer}
-.sidebar .des:after{position:absolute;left:100%;top:14px;width:0;height:0;border-top:4px solid transparent;border-left:5px solid #62ab00;border-bottom:4px solid transparent;content:""}
-.sidebar .s-erweima .des{width:85px;height:auto;line-height:26px;padding:10px 10px 0 10px}
-.sidebar .s-erweima .erweima{display:block;width:66px;height:66px;background:url(/img/bg-code.png)}
-.sidebar .s-line{width:26px;margin:10px 0 10px 6px;border:0;border-bottom:solid 1px #666}
-.s-look-house{position:absolute;width:250px;height:100%;background-color:#434343;padding:0 20px;float:left;overflow:hidden}
-.s-look-house1{display:block}
-.s-look-house .hd{padding:24px 0}
-.s-look-house .img-area{text-align:center;margin-bottom:24px}
-.s-look-house .img-area img{width:76px;height:76px}
-.s-look-house .ipt-area{text-align:center;margin-bottom:20px}
-.s-look-house .ipt-area .ipt-btn,.s-look-house .ipt-area .phone{width:160px;text-align:center;color:#fff;border:none;border-radius:2px;height:30px;line-height:30px;cursor:pointer}
-.s-look-house .ipt-area .phone{font-size:12px;margin-bottom:20px;background-color:#888}
-.s-look-house .ipt-area .ipt-btn{font-size:16px;font-weight:700;background-color:#e85045}
-.s-look-house .hot-line{font-size:14px;color:#fff}
-.s-look-house .bd{width:184px;text-align:center;padding:24px 0;margin:auto;border-top:dashed 1px #888}
-.s-look-house .bd .service-list{height:360px}
-.s-look-house .bd .title{font-size:16px;color:#fff}
-.s-look-house .bd .item:first-child .icon-down{display:none}
-.s-look-house .bd .item{margin-bottom:38px}
-.s-look-house .bd .item .img-area{position:relative;margin:15px auto;width:96px;height:60px;border:solid 1px #888}
-.s-look-house .bd .item .icon-down{height:12px;width:12px;margin:-15px auto;background:url(/img/bg-down.png) no-repeat}
-.s-look-house .bd .item .name{position:absolute;bottom:-8px;width:60px;left:18px;color:#fff;font-size:14px;background-color:#434343}
-.s-look-house .bd .item .item-des{font-size:12px;color:#fff;max-width:190px;overflow:hidden}
-.s-look-house .bd .item .img-area img{width:36px;height:36px;margin-top:10px}
-</style>
 <div class="right-flow" style="right: -240px;">
     <div class="sidebar">
         <div class="upper">
@@ -1824,44 +1783,6 @@ $('#newSlier').hover(function() {
 });
 // 顶部随屏
 </script>
-<style>
-.new_remets {
-    background: #fff;
-    width: 1200px;
-    margin: 0 auto 10px;
-    border:1px solid #f2f2f2;
-}
-.new_remetstop {
-    border-bottom: 1px solid #f2f2f2;
-}
-.new_remetstop ul li {
-    float: left;
-    padding: 16px 0;
-}
-.new_remetstop ul li a {
-    font-size: 20px;
-    padding: 0 32px;
-    color: #333333;
-    border-right: 1px solid #ececec;
-}
-.new_remetstop ul .dianj {
-    border-bottom: 2px solid #ff4637;
-}
-.new_remetstop ul .dianj a {
-    font-weight: 600;
-    color: #ff4637;
-}
-.new_remetsbt ul li {
-    padding: 16px 0px 16px 32px;
-    float: left;
-    font-size: 16px;
-}
-.new_remetsbt ul li a{
-   color: #999;
-}
-</style>
-
-
 
 <!-- 报名看房 -->
 <div class="black-bg" style="display: none;" id="black_bg"></div>
