@@ -126,7 +126,7 @@ if($flag<>"0")
 else
  $sql="WHERE `pid_flag`<>'xc1' and `luopan_id`='{$lpid}' ";
 
-$row = $mysql->query("select * from `web_pic` {$sql} order by pic_px desc");// WHERE `adminid`='{$_SESSION['admin_id']}'
+$row = $mysql->query("select * from `web_pic` {$sql} order by pic_px desc,pid_flag ASC");// WHERE `adminid`='{$_SESSION['admin_id']}'
 foreach($row as $k=>$list){
 ?>
 <a href="/<?php echo $list['pic_img'];?>" data-size="1600x1067" data-med="/<?php echo $list['pic_img'];?>" data-med-size="1024x683" data-author="Michael Hull"><li><p class="hu_img"><img src="/<?php echo $list['pic_img'];?>"></p><span class="hu_font"><?php echo loupanflag($list['pid_flag'],9);?></span><figure><?php echo loupanflag($list['pid_flag'],9);?></figure></li></a>
