@@ -124,7 +124,7 @@ overflow: hidden;}
 if($flag<>"0")
  $sql="WHERE `pid_flag`='{$flag}' and `luopan_id`='{$lpid}' ";
 else
- $sql="WHERE `pid_flag`<>'cx1' and `luopan_id`='{$lpid}' ";
+ $sql="WHERE `pid_flag`<>'xc1' and `luopan_id`='{$lpid}' ";
 
 $row = $mysql->query("select * from `web_pic` {$sql} order by pic_px desc");// WHERE `adminid`='{$_SESSION['admin_id']}'
 foreach($row as $k=>$list){
