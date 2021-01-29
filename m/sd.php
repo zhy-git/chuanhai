@@ -43,10 +43,10 @@ require_once "Smtp.class.php";
         <meta name=description content="<?php echo $config['site_desc'];?>">
   
    
-    	<script src="//www.lou86.com/public/static/phone/js/v2.1/flexible.js?v=2.0.1"></script>       	
+    	<script src="http://www.lou86.com/public/static/phone/js/v2.1/flexible.js?v=2.0.1"></script>       	
 		<script src="/public/static/libs/jquery/1.x/jquery.min.js" type="text/javascript"></script>
-		<script src="//www.lou86.com/public/static/common/js/jquery.form.js"></script>    
-	    <script src="//www.lou86.com/public/static/libs/layer/mobile/layer.js"></script> 	
+		<script src="http://www.lou86.com/public/static/common/js/jquery.form.js"></script>    
+	    <script src="http://www.lou86.com/public/static/libs/layer/mobile/layer.js"></script> 	
 <?php include("sq2.php");?> 
 	</head>
 <style type="text/css">
@@ -89,7 +89,7 @@ require_once "Smtp.class.php";
 	.w_box8 .w_btn input{width:100%;height:1.2rem;line-height:1.2rem;text-align:center;color:#fff;background:#48bf01;display:block;border-radius:4px;border:0;font-size:.5rem}
 	.down2{position: relative;}
 	.down2 .time{left: 3.1rem;bottom: .46rem;position: absolute;}
-	.bm-box {width: 95%;margin: 10px auto 0;height: 6.45rem;border-radius: 7px;position: relative;background: url(//www.lou86.com/public/theme/s11/m_08.jpg) no-repeat;background-size: 100% 100%;}
+	.bm-box {width: 95%;margin: 10px auto 0;height: 6.45rem;border-radius: 7px;position: relative;background: url(http://www.lou86.com/public/theme/s11/m_08.jpg) no-repeat;background-size: 100% 100%;}
 	.bm-box .tit {width: 6rem;position: absolute;left: 1.64rem;top: -.35rem;}
 	.bm-box .tit img{width: 100%}
 	.bm-box .c{padding: .20rem 1rem .2rem 1rem}
@@ -104,8 +104,8 @@ require_once "Smtp.class.php";
 	.scrolltext ol li a:hover{color:#000;text-decoration:none;}
 	#breakNews{padding:0 0 0px 2px;}
 	#breakNews .list6{height:330px;overflow:hidden;width:100%;}
-	.backicon {position: absolute;left: 10px;top: 10px;width: 40px;height: 40px;border-radius: 100%;background: rgba(0,0,0,.3) url(//www.lou86.com/public/static/phone/image/v2.0/w-back.png) center no-repeat;background-size: 10px;z-index: 10;}
-	.backi {position: absolute;right: 10px;top: 10px;width: 40px;height: 40px;border-radius: 100%;background: rgba(0,0,0,.3) url(//www.lou86.com/public/static/phone/image/nav/nav-11.png) 9px 7px no-repeat;background-size: 60%;z-index: 10;}
+	.backicon {position: absolute;left: 10px;top: 10px;width: 40px;height: 40px;border-radius: 100%;background: rgba(0,0,0,.3) url(http://www.lou86.com/public/static/phone/image/v2.0/w-back.png) center no-repeat;background-size: 10px;z-index: 10;}
+	.backi {position: absolute;right: 10px;top: 10px;width: 40px;height: 40px;border-radius: 100%;background: rgba(0,0,0,.3) url(http://www.lou86.com/public/static/phone/image/nav/nav-11.png) 9px 7px no-repeat;background-size: 60%;z-index: 10;}
 	.hui {width: 92%;margin: 0 auto;}
 	.hui li{float: left;width: 50%;}
 	.hui li img{width: 100%}
@@ -133,13 +133,13 @@ require_once "Smtp.class.php";
 	<div class="w100b top-thumb" style="position: relative;">
 		<a href="javascript:history.go(-1)" id="navBtn" class="backicon"></a>
 		<a href="javascript:;" id="navBtn" class="backi"></a>		
-		<img src="//www.lou86.com/public/theme/20201222/m_01.jpg" alt="" />						
-		<img src="http://www.lou86.com/public/theme/20201222/m_02.jpg" alt="" />													
-		<img src="//www.lou86.com/public/theme/20201222/m_03.jpg" alt="" />															
-		<img src="//www.lou86.com/public/theme/20201222/m_04.jpg" alt="" />	
-		<img src="//www.lou86.com/public/theme/20201222/m_05.jpg" alt="" />	
-		<img src="//www.lou86.com/public/theme/20201222/m_06.jpg" alt="" />	
-		<img src="//www.lou86.com/public/theme/20201222/m_07.jpg" alt="" />	
+		<img src="http://www.lou86.com/public/theme/20201222/m_01.jpg" alt="" />						
+		<img src="http:http://www.lou86.com/public/theme/20201222/m_02.jpg" alt="" />													
+		<img src="http://www.lou86.com/public/theme/20201222/m_03.jpg" alt="" />															
+		<img src="http://www.lou86.com/public/theme/20201222/m_04.jpg" alt="" />	
+		<img src="http://www.lou86.com/public/theme/20201222/m_05.jpg" alt="" />	
+		<img src="http://www.lou86.com/public/theme/20201222/m_06.jpg" alt="" />	
+		<img src="http://www.lou86.com/public/theme/20201222/m_07.jpg" alt="" />	
 
 	</div>	
 	<div class="bm-box">		
@@ -213,12 +213,12 @@ require_once "Smtp.class.php";
               foreach($rowlistrm as $k=>$listrm){
                 $url='/loupan/'.$listrm['id'].'.html';
             ?>
-	<div style="background: url(http://www.lou86.com/public/theme/s11/m_10.jpg) no-repeat;background-size: 100%;height: 13rem;">
+	<div style="background: url(http:http://www.lou86.com/public/theme/s11/m_10.jpg) no-repeat;background-size: 100%;height: 13rem;">
 				<div style="width: 85%;height: 12rem;margin: 0 auto;">
 			<div style="height: 2.1rem"></div>
 			<div class="pic" style="border: 2px solid #fffdb9;position: relative;">
 				<a href="<?php echo $url;?>" style="display: block;"><img src="../<?php echo $listrm['img'];?>" style="width: 8.40rem;display: block;height: 5rem">
-				<div style="position: absolute;left: 15px;top: -10px;"><img src="http://www.lou86.com/public/theme/nz/hui2.png" style="width: 58px;"></div>
+				<div style="position: absolute;left: 15px;top: -10px;"><img src="http:http://www.lou86.com/public/theme/nz/hui2.png" style="width: 58px;"></div>
 				</a>
 			</div>
 			<div class="txt">
@@ -230,7 +230,7 @@ require_once "Smtp.class.php";
 					<?php echo loupanflagtsi2($listrm['flagts'],6,4);?>
 					<!-- <span>海景房</span><span>特价优惠</span><span>免费接机</span><span>养老</span> -->				
 				</div>
-				<div style="background:#ffe5d2 url('//www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 27px;background-size: 38px;">
+				<div style="background:#ffe5d2 url('http://www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 27px;background-size: 38px;">
 					<span style="line-height: 27px;font-size: .355rem;padding-left: 42px;color: #f00;"><?php echo $listrm['fkfs'];?></span>
 				</div>
 				<p style="color: #fff;line-height: 25px;">主力户型：<?php echo $listrm['zlhx']?></p>
@@ -252,7 +252,7 @@ require_once "Smtp.class.php";
 <!-- 品质优盘 -->
 	<div class="h10"></div>	
 
-	<div style="background: url(//www.lou86.com/public/theme/s11/m_11.jpg) no-repeat;background-size: 100%;height: 11.5rem;">
+	<div style="background: url(http://www.lou86.com/public/theme/s11/m_11.jpg) no-repeat;background-size: 100%;height: 11.5rem;">
 		<div style="height: 2.10rem"></div>
 		<div style="width: 93%;margin: 0 auto">
 		   <?
@@ -274,7 +274,7 @@ require_once "Smtp.class.php";
 						<!-- <span>精装修</span><span>专车看房</span><span>特价优惠</span> -->
 					</div>
 					<p  class="i1"><?php echo $hotlist['zlhx']?></p>
-					<div style="background:#ffe5d2 url('//www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 30px;background-size: 38px;">
+					<div style="background:#ffe5d2 url('http://www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 30px;background-size: 38px;">
  						<span style="line-height: 30px;font-size: .355rem;padding-left: 42px;color: #f00;"><?php echo $hotlist['fkfs'];?></span>
  					</div>
 					</a>
@@ -302,7 +302,7 @@ require_once "Smtp.class.php";
 .ul3 li{float: left;width: 49.35%;border: 1px solid #fff;}
 </style>
 	<div class="h10"></div>	
-	<div style="background: url(//www.lou86.com/public/theme/s11/m_12.jpg) no-repeat;background-size: 100%;height: 18.2rem;position: relative;">
+	<div style="background: url(http://www.lou86.com/public/theme/s11/m_12.jpg) no-repeat;background-size: 100%;height: 18.2rem;position: relative;">
 		<div style="height: 2.60rem"></div>
 		<div style="width: 93%;margin: 0 auto;overflow-y: scroll;height: 14.5rem;">
 
@@ -324,7 +324,7 @@ require_once "Smtp.class.php";
 
 					<div class="tag"><?php echo loupanflagtsi2($youlist['flagts'],6,4);?></div>
 					<p  class="i1"><?php echo $youlist['zlhx']?></p>
-					<div style="background:#ffe5d2 url('//www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 30px;background-size: 38px;">
+					<div style="background:#ffe5d2 url('http://www.lou86.com/public/theme/nz/hui.png') left no-repeat;height: 30px;background-size: 38px;">
  						<span style="line-height: 30px;font-size: .355rem;padding-left: 42px;color: #f00;"><?php echo $youlist['fkfs'];?></span>
  					</div>
 					</a>
@@ -350,7 +350,7 @@ require_once "Smtp.class.php";
 
 	<div class="top-thumb" style="position: relative;width: 95%;margin: 0 auto;">
 		<img src="../imgs11/m_14.jpg" alt="" />		
-		<img src="//www.lou86.com/public/theme/s11/m_15.jpg" alt="" />		
+		<img src="http://www.lou86.com/public/theme/s11/m_15.jpg" alt="" />		
 		<p  style="text-align: center;line-height: 1.1rem;position: absolute;bottom: 0px;width: 100%;">
 		<span style="color: #f7562c;">活动时间：2020.12.23-2021.1.3</span></p>
 	</div>					
@@ -360,12 +360,12 @@ require_once "Smtp.class.php";
 <div class="a-footer-layer">
     <div class="shou3-box c">
 	  <div class="shou3-list3">
-		<a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608787061031" rel="nofollow"><img class="lastimg" src="//www.lou86.com/public/theme/year/time.png">预约看房
+		<a href="https://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT35574945&cid=a1062762b2c444b3a4a51af0d15beb0a&lng=cn&sid=6b08d724350e4473a55764d93a8ab433&p=http%3A//beihai.chuanhai.jtr168.cn/&rf1=&rf2=&msg=&d=1608787061031" rel="nofollow"><img class="lastimg" src="http://www.lou86.com/public/theme/year/time.png">预约看房
 		</a>
 	  </div>
       <div class="shou3-list2">                  
           <a href="tel:<?php echo $config['company_tel'];?>" rel="nofollow">
-          <img class="lastimg" src="//www.lou86.com/public/static/phone/img/icons/tel.png">电话咨询</a>
+          <img class="lastimg" src="http://www.lou86.com/public/static/phone/img/icons/tel.png">电话咨询</a>
        </div>  	     	  
     </div>
 </div>
