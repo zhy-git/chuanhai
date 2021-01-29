@@ -134,7 +134,7 @@ require_once "Smtp.class.php";
 		<a href="javascript:history.go(-1)" id="navBtn" class="backicon"></a>
 		<a href="javascript:;" id="navBtn" class="backi"></a>		
 		<img src="http://www.lou86.com/public/theme/20201222/m_01.jpg" alt="" />						
-		<img src="http:http://www.lou86.com/public/theme/20201222/m_02.jpg" alt="" />													
+		<img src="http://www.lou86.com/public/theme/20201222/m_02.jpg" alt="" />													
 		<img src="http://www.lou86.com/public/theme/20201222/m_03.jpg" alt="" />															
 		<img src="http://www.lou86.com/public/theme/20201222/m_04.jpg" alt="" />	
 		<img src="http://www.lou86.com/public/theme/20201222/m_05.jpg" alt="" />	
@@ -213,12 +213,12 @@ require_once "Smtp.class.php";
               foreach($rowlistrm as $k=>$listrm){
                 $url='/loupan/'.$listrm['id'].'.html';
             ?>
-	<div style="background: url(http:http://www.lou86.com/public/theme/s11/m_10.jpg) no-repeat;background-size: 100%;height: 13rem;">
+	<div style="background: url(http://www.lou86.com/public/theme/s11/m_10.jpg) no-repeat;background-size: 100%;height: 13rem;">
 				<div style="width: 85%;height: 12rem;margin: 0 auto;">
 			<div style="height: 2.1rem"></div>
 			<div class="pic" style="border: 2px solid #fffdb9;position: relative;">
 				<a href="<?php echo $url;?>" style="display: block;"><img src="../<?php echo $listrm['img'];?>" style="width: 8.40rem;display: block;height: 5rem">
-				<div style="position: absolute;left: 15px;top: -10px;"><img src="http:http://www.lou86.com/public/theme/nz/hui2.png" style="width: 58px;"></div>
+				<div style="position: absolute;left: 15px;top: -10px;"><img src="http://www.lou86.com/public/theme/nz/hui2.png" style="width: 58px;"></div>
 				</a>
 			</div>
 			<div class="txt">
