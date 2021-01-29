@@ -344,7 +344,7 @@ require_once "Smtp.class.php";
 			
 					
 		</div>
-		<div style="position: absolute;bottom: 30px;text-align: center;width: 100%;"><img src="//www.lou86.com//public/image/icons/up.png" style="width: 40px;"></div>
+		<div style="position: absolute;bottom: 30px;text-align: center;width: 100%;"><img src="http://www.lou86.com/public/image/icons/up.png" style="width: 40px;"></div>
 	</div>	
 	<!-- 买房优选 end -->
 
