@@ -370,7 +370,7 @@ require_once "Smtp.class.php";
     </div>
 </div>
 </body>
-<script type="text/javascript" src="//cdn.lou86.com/public/static/phone/js/ScrollText.js" ></script>
+<script type="text/javascript" src="http://cdn.lou86.com/public/static/phone/js/ScrollText.js" ></script>
 <script>
 var scroll2 = new ScrollText("breakNewsList","pre2","next2",true,50,true);
 scroll2.LineHeight = 63;
